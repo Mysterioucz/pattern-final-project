@@ -4,3 +4,6 @@
 [submodule "reference/GCN_Elliptic_dataset"]
 	path = reference/GCN_Elliptic_dataset
 	url = git@github.com:JungWoo-Chae/GCN_Elliptic_dataset.git
+[submodule "projects"]
+	path = projects
+	url = git@github.com:Teewccg/Pattern_Project.git

@@ -1,0 +1,22 @@
+[project]
+name = "final-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11.9"
+dependencies = [
+    "ipykernel>=7.2.0",
+    "matplotlib>=3.10.9",
+    "networkx>=3.6.1",
+    "numpy>=2.4.2",
+    "pandas>=3.0.1",
+    "scikit-learn>=1.8.0",
+    "torch>=2.10.0",
+    "torch-geometric>=2.7.0",
+    "torch-scatter>=2.1.2",
+    "torch-sparse>=0.6.18",
+]
+
+[tool.uv.extra-build-dependencies]
+torch-scatter = ["torch", "setuptools"]
+torch-sparse = ["torch", "setuptools"]
