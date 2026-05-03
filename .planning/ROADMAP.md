@@ -30,7 +30,7 @@ Plans:
 - [x] 01-01: Set up folder structure and implement data downloader.
 - [x] 01-02: Implement data preprocessing and graph construction modules.
 - [x] 01-03: Implement PyTorch Geometric data loaders and split logic.
-- [ ] 01-04-PLAN.md — Fix broken --download CLI path (CR-01/CR-02) and add missing deps to pyproject.toml
+- [x] 01-04-PLAN.md — Fix broken --download CLI path (CR-01/CR-02) and add missing deps to pyproject.toml
 - [ ] 01-05-PLAN.md — Fix data leakage in load_snapshots() (CR-03) and update deprecated DataLoader import (WR-04)
 
 ### Phase 2: Model Implementation
@@ -88,7 +88,7 @@ Plans:
 
 | Phase                      | Plans Complete | Status      | Completed |
 | -------------------------- | -------------- | ----------- | --------- |
-| 1. Infrastructure          | 3/5            | Gap Closure | 2026-05-03 |
+| 1. Infrastructure          | 4/5            | Gap Closure | 2026-05-03 |
 | 2. Model Implementation    | 0/2            | Not started | -         |
 | 3. Training & Distillation | 0/3            | Not started | -         |
 | 4. Evaluation              | 0/1            | Not started | -         |
