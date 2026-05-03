@@ -10,30 +10,30 @@ See: .planning/PROJECT.md (updated 2026-05-03)
 ## Current Position
 
 Phase: 1 of 4 (Infrastructure & Modularization)
-Plan: 2 of 3 in current phase
-Status: In Progress
-Last activity: 2026-05-03 — Plan 01-02 complete: preprocessing pipeline and EllipticDataset (InMemoryDataset) implemented.
+Plan: 3 of 3 in current phase
+Status: Phase Complete
+Last activity: 2026-05-03 — Plan 01-03 complete: data loaders, main.py entry point, and GCN/EvolveGCN stubs implemented.
 
-Progress: [██░░░░░░░░] 17%
+Progress: [███░░░░░░░] 25%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 2
-- Average duration: 2.5 min
-- Total execution time: 0.08 hours
+- Total plans completed: 3
+- Average duration: 3 min
+- Total execution time: 0.15 hours
 
 **By Phase:**
 
 | Phase | Plans | Total | Avg/Plan |
 |-------|-------|-------|----------|
-| 1 | 2 | 5 min | 2.5 min |
+| 1 | 3 | 9 min | 3 min |
 | 2 | 0 | 0 | 0 |
 | 3 | 0 | 0 | 0 |
 | 4 | 0 | 0 | 0 |
 
 **Recent Trend:**
-- Last 5 plans: [01-01: 2min, 01-02: 3min]
+- Last 5 plans: [01-01: 2min, 01-02: 3min, 01-03: 4min]
 - Trend: Stable
 
 ## Accumulated Context
@@ -47,6 +47,9 @@ Recent decisions affecting current work:
 - [01-02]: StandardScaler fitted on training nodes only (timesteps 1-34) to prevent temporal leakage.
 - [01-02]: EllipticDataset.download() raises FileNotFoundError with instructions instead of auto-downloading.
 - [01-02]: load_snapshots() exposed as public API for EvolveGCN/windowed access (D-07).
+- [01-03]: get_snapshot_loaders() applies to_undirected() to match notebook cell 23 exactly.
+- [01-03]: Data.train_mask / Data.test_mask used on snapshot Data objects for uniform training loop access.
+- [01-03]: Model stubs (GCN, EvolveGCN) raise NotImplementedError with explicit Phase 2 plan references.
 
 ### Pending Todos
 None yet.
@@ -56,6 +59,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-05-03 08:59
-Stopped at: Completed 01-02-PLAN.md (Preprocessing & Dataset). Ready for 01-03-PLAN.md.
+Last session: 2026-05-03 09:07
+Stopped at: Completed 01-03-PLAN.md (Data Loaders & Split). Phase 1 complete. Ready for Phase 2.
 Resume file: None

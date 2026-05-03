@@ -9,7 +9,7 @@
 - [x] **INFRA-01**: Extract notebook logic into lean `.py` files in `projects/src/`
 - [x] **INFRA-02**: Implement Kaggle dataset download and extraction script
 - [x] **INFRA-03**: Create data preprocessing pipeline for the Elliptic dataset
-- [ ] **INFRA-04**: Implement GNN data loaders for training and testing splits
+- [x] **INFRA-04**: Implement GNN data loaders for training and testing splits
 
 ### Model Development
 - [ ] **MODEL-01**: Implement Teacher GCN model (baseline architecture)
@@ -43,7 +43,7 @@
 | INFRA-01 | Phase 1 | Complete (01-01) |
 | INFRA-02 | Phase 1 | Complete (01-01) |
 | INFRA-03 | Phase 1 | Complete (01-02) |
-| INFRA-04 | Phase 1 | Pending |
+| INFRA-04 | Phase 1 | Complete (01-03) |
 | MODEL-01 | Phase 2 | Pending |
 | MODEL-02 | Phase 2 | Pending |
 | MODEL-03 | Phase 2 | Pending |
