@@ -10,31 +10,31 @@ See: .planning/PROJECT.md (updated 2026-05-03)
 ## Current Position
 
 Phase: 1 of 4 (Infrastructure & Modularization)
-Plan: 1 of 3 in current phase
+Plan: 2 of 3 in current phase
 Status: In Progress
-Last activity: 2026-05-03 — Plan 01-01 complete: directory structure, .env.example, and Kaggle downloader implemented.
+Last activity: 2026-05-03 — Plan 01-02 complete: preprocessing pipeline and EllipticDataset (InMemoryDataset) implemented.
 
-Progress: [█░░░░░░░░░] 8%
+Progress: [██░░░░░░░░] 17%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 1
-- Average duration: 2 min
-- Total execution time: 0.03 hours
+- Total plans completed: 2
+- Average duration: 2.5 min
+- Total execution time: 0.08 hours
 
 **By Phase:**
 
 | Phase | Plans | Total | Avg/Plan |
 |-------|-------|-------|----------|
-| 1 | 1 | 2 min | 2 min |
+| 1 | 2 | 5 min | 2.5 min |
 | 2 | 0 | 0 | 0 |
 | 3 | 0 | 0 | 0 |
 | 4 | 0 | 0 | 0 |
 
 **Recent Trend:**
-- Last 5 plans: [01-01: 2min]
-- Trend: N/A
+- Last 5 plans: [01-01: 2min, 01-02: 3min]
+- Trend: Stable
 
 ## Accumulated Context
 
@@ -44,6 +44,9 @@ Recent decisions affecting current work:
 - [Phase 1]: Implement lean modular structure in `projects/src/` as requested.
 - [01-01]: Credentials isolated to projects/.env (not global ~/.kaggle/kaggle.json) per D-03/D-04.
 - [01-01]: Downloader checks for existing files and exits gracefully to avoid redundant API calls.
+- [01-02]: StandardScaler fitted on training nodes only (timesteps 1-34) to prevent temporal leakage.
+- [01-02]: EllipticDataset.download() raises FileNotFoundError with instructions instead of auto-downloading.
+- [01-02]: load_snapshots() exposed as public API for EvolveGCN/windowed access (D-07).
 
 ### Pending Todos
 None yet.
@@ -53,6 +56,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-05-03 08:52
-Stopped at: Completed 01-01-PLAN.md (Structure & Downloader). Ready for 01-02-PLAN.md.
+Last session: 2026-05-03 08:59
+Stopped at: Completed 01-02-PLAN.md (Preprocessing & Dataset). Ready for 01-03-PLAN.md.
 Resume file: None
