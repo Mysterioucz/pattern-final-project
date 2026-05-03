@@ -10,30 +10,30 @@ See: .planning/PROJECT.md (updated 2026-05-03)
 ## Current Position
 
 Phase: 1 of 4 (Infrastructure & Modularization)
-Plan: 4 of 5 in current phase
-Status: In Progress (gap closure)
-Last activity: 2026-05-03 — Plan 01-04 complete: fixed _download() import name (CR-01) and kwarg (CR-02) in main.py; added python-dotenv and kaggle to pyproject.toml.
+Plan: 5 of 5 in current phase
+Status: Complete
+Last activity: 2026-05-03 — Plan 01-05 complete: fixed data leakage in load_snapshots() (CR-03), updated DataLoader import (WR-04), corrected docstring feature count (IN-03). Phase 1 fully complete.
 
-Progress: [███░░░░░░░] 27%
+Progress: [████░░░░░░] 30%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 4
+- Total plans completed: 5
 - Average duration: 2 min
-- Total execution time: 0.16 hours
+- Total execution time: 0.19 hours
 
 **By Phase:**
 
 | Phase | Plans | Total | Avg/Plan |
 |-------|-------|-------|----------|
-| 1 | 4 | 10 min | 2.5 min |
+| 1 | 5 | 12 min | 2.4 min |
 | 2 | 0 | 0 | 0 |
 | 3 | 0 | 0 | 0 |
 | 4 | 0 | 0 | 0 |
 
 **Recent Trend:**
-- Last 5 plans: [01-01: 2min, 01-02: 3min, 01-03: 4min, 01-04: 1min]
+- Last 5 plans: [01-01: 2min, 01-02: 3min, 01-03: 4min, 01-04: 1min, 01-05: 2min]
 - Trend: Stable
 
 ## Accumulated Context
@@ -51,6 +51,8 @@ Recent decisions affecting current work:
 - [01-03]: Data.train_mask / Data.test_mask used on snapshot Data objects for uniform training loop access.
 - [01-03]: Model stubs (GCN, EvolveGCN) raise NotImplementedError with explicit Phase 2 plan references.
 - [01-04]: python-dotenv 1.0.0 and kaggle 1.6.0 lower bounds chosen — stable APIs matching existing downloader.py usage.
+- [01-05]: StandardScaler in load_snapshots() fitted once on pooled training rows (t < 35), transform() applied per snapshot (train and test) — mirrors load_static_graph() pattern.
+- [01-05]: DataLoader imported from torch_geometric.loader (non-deprecated canonical path for PyG 2.x).
 
 ### Pending Todos
 None yet.
@@ -60,6 +62,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-05-03 09:39
-Stopped at: Completed 01-04-PLAN.md (Fix _download() CLI path + deps). 1 gap-closure plan remaining (01-05).
+Last session: 2026-05-03 09:44
+Stopped at: Completed 01-05-PLAN.md (Fix data leakage CR-03, deprecated import WR-04, docstring IN-03). Phase 1 complete.
 Resume file: None
