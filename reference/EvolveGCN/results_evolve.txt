@@ -1,0 +1,1547 @@
+2026-04-13 08:41:03.401472: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2026-04-13 08:42:48.882461: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2026-04-13 08:42:48.884352: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcuda.so.1
+2026-04-13 08:42:48.936800: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:941] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2026-04-13 08:42:48.938316: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:01:00.0 name: NVIDIA GeForce RTX 4070 Ti computeCapability: 8.9
+coreClock: 2.625GHz coreCount: 60 deviceMemorySize: 11.59GiB deviceMemoryBandwidth: 469.43GiB/s
+2026-04-13 08:42:48.938361: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2026-04-13 08:42:48.952530: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+2026-04-13 08:42:48.952652: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.11
+2026-04-13 08:42:48.960880: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2026-04-13 08:42:48.963606: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2026-04-13 08:42:48.978155: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2026-04-13 08:42:48.981254: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.11
+2026-04-13 08:42:48.982363: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
+2026-04-13 08:42:48.982516: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:941] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2026-04-13 08:42:48.983764: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:941] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2026-04-13 08:42:48.985109: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0
+2026-04-13 08:42:48.986572: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-04-13 08:42:48.988373: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2026-04-13 08:42:48.988625: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:941] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2026-04-13 08:42:48.989678: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:01:00.0 name: NVIDIA GeForce RTX 4070 Ti computeCapability: 8.9
+coreClock: 2.625GHz coreCount: 60 deviceMemorySize: 11.59GiB deviceMemoryBandwidth: 469.43GiB/s
+2026-04-13 08:42:48.989725: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2026-04-13 08:42:48.989764: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+2026-04-13 08:42:48.989783: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.11
+2026-04-13 08:42:48.989795: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2026-04-13 08:42:48.989809: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2026-04-13 08:42:48.989825: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2026-04-13 08:42:48.989842: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.11
+2026-04-13 08:42:48.989860: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
+2026-04-13 08:42:48.989996: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:941] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2026-04-13 08:42:48.991506: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:941] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2026-04-13 08:42:48.993109: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0
+2026-04-13 08:42:48.994035: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2026-04-13 08:42:49.816841: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1261] Device interconnect StreamExecutor with strength 1 edge matrix:
+2026-04-13 08:42:49.816872: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1267]      0 
+2026-04-13 08:42:49.816882: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1280] 0:   N 
+2026-04-13 08:42:49.817192: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:941] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2026-04-13 08:42:49.818426: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:941] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2026-04-13 08:42:49.819833: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:941] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2026-04-13 08:42:49.820841: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1406] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 7282 MB memory) -> physical GPU (device: 0, name: NVIDIA GeForce RTX 4070 Ti, pci bus id: 0000:01:00.0, compute capability: 8.9)
+2026-04-13 08:42:56.479550: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+2026-04-13 08:42:57.095720: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.11
+2026-04-13 08:42:57.123660: I tensorflow/stream_executor/cuda/cuda_blas.cc:1838] TensorFloat-32 will be used for the matrix multiplication. This will only be logged once.
+Epoch: 0
+TRAIN Loss: 163.77| Accuracy: 0.5351| Precision: 0.04231| Recall: 0.331
+TEST Loss: 103.3| Accuracy: 0.6463| Precision: 0.03383| Recall: 0.422
+Epoch: 1
+TRAIN Loss: 125.73| Accuracy: 0.5172| Precision: 0.04113| Recall: 0.3021
+TEST Loss: 81.59| Accuracy: 0.6248| Precision: 0.03214| Recall: 0.4238
+Epoch: 2
+TRAIN Loss: 103.41| Accuracy: 0.5437| Precision: 0.04147| Recall: 0.3004
+TEST Loss: 90.09| Accuracy: 0.5953| Precision: 0.03228| Recall: 0.4331
+Epoch: 3
+TRAIN Loss: 115.52| Accuracy: 0.5272| Precision: 0.03883| Recall: 0.3151
+TEST Loss: 76.7| Accuracy: 0.5984| Precision: 0.03283| Recall: 0.4321
+Epoch: 4
+TRAIN Loss: 76.591| Accuracy: 0.529| Precision: 0.04136| Recall: 0.3021
+TEST Loss: 69.61| Accuracy: 0.5676| Precision: 0.02796| Recall: 0.4238
+Epoch: 5
+TRAIN Loss: 246.46| Accuracy: 0.5261| Precision: 0.03687| Recall: 0.3226
+TEST Loss: 48.76| Accuracy: 0.6002| Precision: 0.02799| Recall: 0.4423
+Epoch: 6
+TRAIN Loss: 72.586| Accuracy: 0.5088| Precision: 0.0324| Recall: 0.3683
+TEST Loss: 45.6| Accuracy: 0.6123| Precision: 0.03137| Recall: 0.4275
+Epoch: 7
+TRAIN Loss: 75.707| Accuracy: 0.5103| Precision: 0.03684| Recall: 0.3492
+TEST Loss: 60.67| Accuracy: 0.6044| Precision: 0.02977| Recall: 0.482
+Epoch: 8
+TRAIN Loss: 67.583| Accuracy: 0.5336| Precision: 0.04109| Recall: 0.3122
+TEST Loss: 60.15| Accuracy: 0.5932| Precision: 0.03192| Recall: 0.4386
+Epoch: 9
+TRAIN Loss: 83.909| Accuracy: 0.5109| Precision: 0.03337| Recall: 0.3027
+TEST Loss: 45.56| Accuracy: 0.5968| Precision: 0.03046| Recall: 0.4367
+Epoch: 10
+TRAIN Loss: 93.058| Accuracy: 0.51| Precision: 0.03379| Recall: 0.3177
+TEST Loss: 61.37| Accuracy: 0.6025| Precision: 0.03198| Recall: 0.4331
+Epoch: 11
+TRAIN Loss: 100.22| Accuracy: 0.5258| Precision: 0.03488| Recall: 0.3174
+TEST Loss: 85.98| Accuracy: 0.5817| Precision: 0.03097| Recall: 0.4414
+Epoch: 12
+TRAIN Loss: 73.593| Accuracy: 0.5291| Precision: 0.03587| Recall: 0.307
+TEST Loss: 59.43| Accuracy: 0.6142| Precision: 0.03184| Recall: 0.4266
+Epoch: 13
+TRAIN Loss: 62.118| Accuracy: 0.4956| Precision: 0.03261| Recall: 0.3726
+TEST Loss: 61.04| Accuracy: 0.5961| Precision: 0.02738| Recall: 0.4885
+Epoch: 14
+TRAIN Loss: 107.04| Accuracy: 0.5309| Precision: 0.03877| Recall: 0.3486
+TEST Loss: 59.28| Accuracy: 0.6273| Precision: 0.03148| Recall: 0.482
+Epoch: 15
+TRAIN Loss: 113.19| Accuracy: 0.5383| Precision: 0.04| Recall: 0.3111
+TEST Loss: 82.26| Accuracy: 0.6315| Precision: 0.03001| Recall: 0.4358
+Epoch: 16
+TRAIN Loss: 77.381| Accuracy: 0.5198| Precision: 0.04111| Recall: 0.3073
+TEST Loss: 68.06| Accuracy: 0.5727| Precision: 0.02987| Recall: 0.4469
+Epoch: 17
+TRAIN Loss: 68.87| Accuracy: 0.5435| Precision: 0.03881| Recall: 0.3209
+TEST Loss: 63.16| Accuracy: 0.5971| Precision: 0.03056| Recall: 0.4229
+Epoch: 18
+TRAIN Loss: 272.52| Accuracy: 0.5439| Precision: 0.04103| Recall: 0.305
+TEST Loss: 39.05| Accuracy: 0.6255| Precision: 0.03178| Recall: 0.4247
+Epoch: 19
+TRAIN Loss: 86.925| Accuracy: 0.5474| Precision: 0.04008| Recall: 0.2969
+TEST Loss: 53.75| Accuracy: 0.6464| Precision: 0.03281| Recall: 0.4247
+Epoch: 20
+TRAIN Loss: 260.0| Accuracy: 0.5118| Precision: 0.03697| Recall: 0.3085
+TEST Loss: 62.7| Accuracy: 0.6203| Precision: 0.02986| Recall: 0.4506
+Epoch: 21
+TRAIN Loss: 155.07| Accuracy: 0.5295| Precision: 0.0432| Recall: 0.3868
+TEST Loss: 67.7| Accuracy: 0.6428| Precision: 0.03174| Recall: 0.4377
+Epoch: 22
+TRAIN Loss: 103.69| Accuracy: 0.5343| Precision: 0.03239| Recall: 0.3443
+TEST Loss: 107.4| Accuracy: 0.6447| Precision: 0.02953| Recall: 0.4395
+Epoch: 23
+TRAIN Loss: 112.31| Accuracy: 0.5467| Precision: 0.04096| Recall: 0.3215
+TEST Loss: 75.62| Accuracy: 0.6153| Precision: 0.02912| Recall: 0.4894
+Epoch: 24
+TRAIN Loss: 138.71| Accuracy: 0.5325| Precision: 0.0367| Recall: 0.3434
+TEST Loss: 61.36| Accuracy: 0.6127| Precision: 0.03096| Recall: 0.434
+Epoch: 25
+TRAIN Loss: 101.15| Accuracy: 0.5509| Precision: 0.03922| Recall: 0.3218
+TEST Loss: 46.74| Accuracy: 0.6415| Precision: 0.03376| Recall: 0.422
+Epoch: 26
+TRAIN Loss: 109.08| Accuracy: 0.5508| Precision: 0.04093| Recall: 0.305
+TEST Loss: 70.97| Accuracy: 0.6516| Precision: 0.03169| Recall: 0.4266
+Epoch: 27
+TRAIN Loss: 123.07| Accuracy: 0.5534| Precision: 0.04006| Recall: 0.3004
+TEST Loss: 68.76| Accuracy: 0.645| Precision: 0.03333| Recall: 0.422
+Epoch: 28
+TRAIN Loss: 72.937| Accuracy: 0.547| Precision: 0.04334| Recall: 0.316
+TEST Loss: 117.2| Accuracy: 0.6364| Precision: 0.03195| Recall: 0.4478
+Epoch: 29
+TRAIN Loss: 119.72| Accuracy: 0.5521| Precision: 0.04401| Recall: 0.3206
+TEST Loss: 82.5| Accuracy: 0.5954| Precision: 0.02796| Recall: 0.4718
+Epoch: 30
+TRAIN Loss: 327.02| Accuracy: 0.5229| Precision: 0.04195| Recall: 0.2972
+TEST Loss: 86.73| Accuracy: 0.6395| Precision: 0.03047| Recall: 0.4414
+Epoch: 31
+TRAIN Loss: 102.26| Accuracy: 0.5394| Precision: 0.04075| Recall: 0.2995
+TEST Loss: 101.9| Accuracy: 0.6355| Precision: 0.03247| Recall: 0.4349
+Epoch: 32
+TRAIN Loss: 178.09| Accuracy: 0.5544| Precision: 0.04145| Recall: 0.3085
+TEST Loss: 99.52| Accuracy: 0.6273| Precision: 0.03291| Recall: 0.422
+Epoch: 33
+TRAIN Loss: 130.36| Accuracy: 0.5577| Precision: 0.04316| Recall: 0.3221
+TEST Loss: 101.6| Accuracy: 0.6353| Precision: 0.03028| Recall: 0.4321
+Epoch: 34
+TRAIN Loss: 115.39| Accuracy: 0.5504| Precision: 0.04098| Recall: 0.2981
+TEST Loss: 80.76| Accuracy: 0.6526| Precision: 0.03326| Recall: 0.4275
+Epoch: 35
+TRAIN Loss: 97.848| Accuracy: 0.5456| Precision: 0.04068| Recall: 0.2992
+TEST Loss: 94.43| Accuracy: 0.6288| Precision: 0.03341| Recall: 0.422
+Epoch: 36
+TRAIN Loss: 182.14| Accuracy: 0.5535| Precision: 0.04381| Recall: 0.3192
+TEST Loss: 85.45| Accuracy: 0.6058| Precision: 0.02923| Recall: 0.4404
+Epoch: 37
+TRAIN Loss: 125.08| Accuracy: 0.5532| Precision: 0.03833| Recall: 0.2972
+TEST Loss: 84.31| Accuracy: 0.6417| Precision: 0.03402| Recall: 0.4229
+Epoch: 38
+TRAIN Loss: 95.362| Accuracy: 0.562| Precision: 0.04057| Recall: 0.301
+TEST Loss: 95.65| Accuracy: 0.6406| Precision: 0.03379| Recall: 0.422
+Epoch: 39
+TRAIN Loss: 101.27| Accuracy: 0.5551| Precision: 0.04091| Recall: 0.2984
+TEST Loss: 73.57| Accuracy: 0.6223| Precision: 0.03196| Recall: 0.4312
+Epoch: 40
+TRAIN Loss: 125.42| Accuracy: 0.5556| Precision: 0.0417| Recall: 0.2955
+TEST Loss: 52.3| Accuracy: 0.6462| Precision: 0.03389| Recall: 0.422
+Epoch: 41
+TRAIN Loss: 81.295| Accuracy: 0.5516| Precision: 0.03891| Recall: 0.2978
+TEST Loss: 72.16| Accuracy: 0.6572| Precision: 0.03283| Recall: 0.422
+Epoch: 42
+TRAIN Loss: 126.24| Accuracy: 0.5525| Precision: 0.04081| Recall: 0.2958
+TEST Loss: 89.27| Accuracy: 0.6592| Precision: 0.03384| Recall: 0.4238
+Epoch: 43
+TRAIN Loss: 112.53| Accuracy: 0.5607| Precision: 0.0392| Recall: 0.3033
+TEST Loss: 70.99| Accuracy: 0.6347| Precision: 0.03393| Recall: 0.4681
+Epoch: 44
+TRAIN Loss: 93.787| Accuracy: 0.5661| Precision: 0.04135| Recall: 0.3094
+TEST Loss: 59.02| Accuracy: 0.6493| Precision: 0.03299| Recall: 0.4238
+Epoch: 45
+TRAIN Loss: 85.069| Accuracy: 0.5628| Precision: 0.04019| Recall: 0.307
+TEST Loss: 74.82| Accuracy: 0.6299| Precision: 0.03046| Recall: 0.4257
+Epoch: 46
+TRAIN Loss: 109.08| Accuracy: 0.5463| Precision: 0.04115| Recall: 0.2978
+TEST Loss: 66.82| Accuracy: 0.5941| Precision: 0.02755| Recall: 0.4506
+Epoch: 47
+TRAIN Loss: 82.979| Accuracy: 0.5564| Precision: 0.03882| Recall: 0.2992
+TEST Loss: 72.75| Accuracy: 0.66| Precision: 0.03404| Recall: 0.422
+Epoch: 48
+TRAIN Loss: 63.592| Accuracy: 0.5463| Precision: 0.03892| Recall: 0.3099
+TEST Loss: 51.69| Accuracy: 0.649| Precision: 0.03335| Recall: 0.4414
+Epoch: 49
+TRAIN Loss: 98.263| Accuracy: 0.5447| Precision: 0.03864| Recall: 0.3059
+TEST Loss: 64.31| Accuracy: 0.6207| Precision: 0.0315| Recall: 0.4266
+Epoch: 50
+TRAIN Loss: 77.224| Accuracy: 0.546| Precision: 0.04181| Recall: 0.2984
+TEST Loss: 70.61| Accuracy: 0.598| Precision: 0.02624| Recall: 0.4645
+Epoch: 51
+TRAIN Loss: 77.969| Accuracy: 0.571| Precision: 0.04822| Recall: 0.3761
+TEST Loss: 54.65| Accuracy: 0.6293| Precision: 0.03012| Recall: 0.4229
+Epoch: 52
+TRAIN Loss: 240.19| Accuracy: 0.5387| Precision: 0.03801| Recall: 0.3232
+TEST Loss: 75.79| Accuracy: 0.6402| Precision: 0.03105| Recall: 0.4229
+Epoch: 53
+TRAIN Loss: 91.702| Accuracy: 0.5627| Precision: 0.03987| Recall: 0.2975
+TEST Loss: 59.05| Accuracy: 0.6498| Precision: 0.03201| Recall: 0.4247
+Epoch: 54
+TRAIN Loss: 68.059| Accuracy: 0.53| Precision: 0.03587| Recall: 0.3203
+TEST Loss: 71.78| Accuracy: 0.6241| Precision: 0.03084| Recall: 0.4284
+Epoch: 55
+TRAIN Loss: 80.105| Accuracy: 0.5531| Precision: 0.04062| Recall: 0.3151
+TEST Loss: 56.61| Accuracy: 0.6166| Precision: 0.03089| Recall: 0.4303
+Epoch: 56
+TRAIN Loss: 89.255| Accuracy: 0.549| Precision: 0.03514| Recall: 0.3094
+TEST Loss: 55.81| Accuracy: 0.6364| Precision: 0.03172| Recall: 0.4238
+Epoch: 57
+TRAIN Loss: 76.996| Accuracy: 0.5493| Precision: 0.03793| Recall: 0.3082
+TEST Loss: 57.14| Accuracy: 0.6203| Precision: 0.03199| Recall: 0.518
+Epoch: 58
+TRAIN Loss: 65.128| Accuracy: 0.5559| Precision: 0.03727| Recall: 0.3021
+TEST Loss: 57.2| Accuracy: 0.6147| Precision: 0.03132| Recall: 0.4312
+Epoch: 59
+TRAIN Loss: 73.996| Accuracy: 0.5457| Precision: 0.03797| Recall: 0.3186
+TEST Loss: 51.23| Accuracy: 0.6278| Precision: 0.03009| Recall: 0.4229
+Epoch: 60
+TRAIN Loss: 67.99| Accuracy: 0.5429| Precision: 0.03789| Recall: 0.3443
+TEST Loss: 55.98| Accuracy: 0.6301| Precision: 0.0301| Recall: 0.4257
+Epoch: 61
+TRAIN Loss: 152.14| Accuracy: 0.5433| Precision: 0.03585| Recall: 0.331
+TEST Loss: 65.22| Accuracy: 0.6018| Precision: 0.03243| Recall: 0.4229
+Epoch: 62
+TRAIN Loss: 94.583| Accuracy: 0.5641| Precision: 0.03971| Recall: 0.325
+TEST Loss: 53.17| Accuracy: 0.5875| Precision: 0.02815| Recall: 0.4377
+Epoch: 63
+TRAIN Loss: 147.22| Accuracy: 0.543| Precision: 0.03901| Recall: 0.3195
+TEST Loss: 41.48| Accuracy: 0.614| Precision: 0.03041| Recall: 0.4275
+Epoch: 64
+TRAIN Loss: 68.314| Accuracy: 0.5537| Precision: 0.03642| Recall: 0.3258
+TEST Loss: 66.36| Accuracy: 0.5943| Precision: 0.02734| Recall: 0.4626
+Epoch: 65
+TRAIN Loss: 73.572| Accuracy: 0.5428| Precision: 0.03617| Recall: 0.3218
+TEST Loss: 46.46| Accuracy: 0.6439| Precision: 0.03656| Recall: 0.5503
+Epoch: 66
+TRAIN Loss: 63.724| Accuracy: 0.535| Precision: 0.03427| Recall: 0.3163
+TEST Loss: 54.83| Accuracy: 0.6351| Precision: 0.03066| Recall: 0.4229
+Epoch: 67
+TRAIN Loss: 62.974| Accuracy: 0.5498| Precision: 0.03676| Recall: 0.3027
+TEST Loss: 68.61| Accuracy: 0.6364| Precision: 0.02974| Recall: 0.4358
+Epoch: 68
+TRAIN Loss: 62.442| Accuracy: 0.5415| Precision: 0.03895| Recall: 0.3923
+TEST Loss: 63.53| Accuracy: 0.6045| Precision: 0.02771| Recall: 0.4728
+Epoch: 69
+TRAIN Loss: 61.907| Accuracy: 0.5422| Precision: 0.03274| Recall: 0.3111
+TEST Loss: 53.23| Accuracy: 0.6004| Precision: 0.03315| Recall: 0.5725
+Epoch: 70
+TRAIN Loss: 260.36| Accuracy: 0.5218| Precision: 0.03224| Recall: 0.3021
+TEST Loss: 58.21| Accuracy: 0.5993| Precision: 0.03048| Recall: 0.4377
+Epoch: 71
+TRAIN Loss: 140.99| Accuracy: 0.5313| Precision: 0.04016| Recall: 0.3486
+TEST Loss: 65.96| Accuracy: 0.5865| Precision: 0.02814| Recall: 0.4931
+Epoch: 72
+TRAIN Loss: 943.64| Accuracy: 0.5436| Precision: 0.03975| Recall: 0.331
+TEST Loss: 94.41| Accuracy: 0.554| Precision: 0.02386| Recall: 0.5023
+Epoch: 73
+TRAIN Loss: 383.54| Accuracy: 0.5298| Precision: 0.04575| Recall: 0.3807
+TEST Loss: 82.58| Accuracy: 0.6516| Precision: 0.03308| Recall: 0.4266
+Epoch: 74
+TRAIN Loss: 130.76| Accuracy: 0.5487| Precision: 0.03811| Recall: 0.3007
+TEST Loss: 84.52| Accuracy: 0.6242| Precision: 0.03042| Recall: 0.4266
+Epoch: 75
+TRAIN Loss: 99.808| Accuracy: 0.5562| Precision: 0.03764| Recall: 0.3042
+TEST Loss: 84.66| Accuracy: 0.6507| Precision: 0.0336| Recall: 0.4229
+Epoch: 76
+TRAIN Loss: 113.36| Accuracy: 0.5465| Precision: 0.04071| Recall: 0.318
+TEST Loss: 60.13| Accuracy: 0.6258| Precision: 0.03173| Recall: 0.4358
+Epoch: 77
+TRAIN Loss: 98.16| Accuracy: 0.5479| Precision: 0.04101| Recall: 0.3276
+TEST Loss: 69.32| Accuracy: 0.6279| Precision: 0.03426| Recall: 0.4331
+Epoch: 78
+TRAIN Loss: 84.8| Accuracy: 0.5565| Precision: 0.03749| Recall: 0.3021
+TEST Loss: 66.64| Accuracy: 0.6309| Precision: 0.03184| Recall: 0.4561
+Epoch: 79
+TRAIN Loss: 358.71| Accuracy: 0.5472| Precision: 0.04162| Recall: 0.2966
+TEST Loss: 55.1| Accuracy: 0.6453| Precision: 0.03292| Recall: 0.422
+Epoch: 80
+TRAIN Loss: 300.42| Accuracy: 0.5648| Precision: 0.04449| Recall: 0.3518
+TEST Loss: 57.89| Accuracy: 0.6635| Precision: 0.03366| Recall: 0.4229
+Epoch: 81
+TRAIN Loss: 115.39| Accuracy: 0.5669| Precision: 0.04063| Recall: 0.3096
+TEST Loss: 92.54| Accuracy: 0.6604| Precision: 0.03389| Recall: 0.422
+Epoch: 82
+TRAIN Loss: 120.33| Accuracy: 0.5644| Precision: 0.04397| Recall: 0.3258
+TEST Loss: 46.06| Accuracy: 0.6058| Precision: 0.03219| Recall: 0.4331
+Epoch: 83
+TRAIN Loss: 142.08| Accuracy: 0.56| Precision: 0.03791| Recall: 0.3215
+TEST Loss: 65.92| Accuracy: 0.654| Precision: 0.03268| Recall: 0.422
+Epoch: 84
+TRAIN Loss: 108.25| Accuracy: 0.559| Precision: 0.04152| Recall: 0.299
+TEST Loss: 73.53| Accuracy: 0.6468| Precision: 0.03308| Recall: 0.4229
+Epoch: 85
+TRAIN Loss: 110.8| Accuracy: 0.5627| Precision: 0.04207| Recall: 0.3007
+TEST Loss: 87.81| Accuracy: 0.6547| Precision: 0.03332| Recall: 0.4229
+Epoch: 86
+TRAIN Loss: 109.54| Accuracy: 0.5509| Precision: 0.03907| Recall: 0.3143
+TEST Loss: 101.0| Accuracy: 0.6315| Precision: 0.03151| Recall: 0.4247
+Epoch: 87
+TRAIN Loss: 81.357| Accuracy: 0.553| Precision: 0.04129| Recall: 0.3151
+TEST Loss: 90.55| Accuracy: 0.6507| Precision: 0.03248| Recall: 0.4358
+Epoch: 88
+TRAIN Loss: 104.52| Accuracy: 0.5693| Precision: 0.0431| Recall: 0.3088
+TEST Loss: 58.54| Accuracy: 0.6405| Precision: 0.03175| Recall: 0.4275
+Epoch: 89
+TRAIN Loss: 127.16| Accuracy: 0.5636| Precision: 0.04265| Recall: 0.3007
+TEST Loss: 90.08| Accuracy: 0.6418| Precision: 0.03186| Recall: 0.4321
+Epoch: 90
+TRAIN Loss: 110.12| Accuracy: 0.5575| Precision: 0.03885| Recall: 0.3154
+TEST Loss: 62.57| Accuracy: 0.6476| Precision: 0.0323| Recall: 0.4238
+Epoch: 91
+TRAIN Loss: 124.93| Accuracy: 0.5632| Precision: 0.04261| Recall: 0.3492
+TEST Loss: 58.61| Accuracy: 0.6493| Precision: 0.03135| Recall: 0.4451
+Epoch: 92
+TRAIN Loss: 98.252| Accuracy: 0.559| Precision: 0.04139| Recall: 0.3053
+TEST Loss: 71.6| Accuracy: 0.6338| Precision: 0.02987| Recall: 0.4792
+Epoch: 93
+TRAIN Loss: 88.299| Accuracy: 0.5565| Precision: 0.0375| Recall: 0.3073
+TEST Loss: 56.73| Accuracy: 0.6184| Precision: 0.0289| Recall: 0.458
+Epoch: 94
+TRAIN Loss: 81.64| Accuracy: 0.548| Precision: 0.04314| Recall: 0.3489
+TEST Loss: 69.42| Accuracy: 0.614| Precision: 0.02983| Recall: 0.4321
+Epoch: 95
+TRAIN Loss: 91.463| Accuracy: 0.5258| Precision: 0.03881| Recall: 0.2995
+TEST Loss: 52.44| Accuracy: 0.5411| Precision: 0.02567| Recall: 0.4755
+Epoch: 96
+TRAIN Loss: 95.847| Accuracy: 0.5689| Precision: 0.04474| Recall: 0.3671
+TEST Loss: 64.0| Accuracy: 0.6372| Precision: 0.03053| Recall: 0.4229
+Epoch: 97
+TRAIN Loss: 94.112| Accuracy: 0.5456| Precision: 0.03736| Recall: 0.3186
+TEST Loss: 64.96| Accuracy: 0.6236| Precision: 0.02735| Recall: 0.4441
+Epoch: 98
+TRAIN Loss: 103.65| Accuracy: 0.57| Precision: 0.04403| Recall: 0.3645
+TEST Loss: 71.43| Accuracy: 0.6604| Precision: 0.03305| Recall: 0.4257
+Epoch: 99
+TRAIN Loss: 87.776| Accuracy: 0.5606| Precision: 0.04427| Recall: 0.4229
+TEST Loss: 72.06| Accuracy: 0.6349| Precision: 0.03074| Recall: 0.4247
+Epoch: 100
+TRAIN Loss: 132.72| Accuracy: 0.5536| Precision: 0.0411| Recall: 0.3891
+TEST Loss: 68.16| Accuracy: 0.6457| Precision: 0.03088| Recall: 0.4238
+Epoch: 101
+TRAIN Loss: 91.673| Accuracy: 0.5624| Precision: 0.04128| Recall: 0.3715
+TEST Loss: 73.54| Accuracy: 0.634| Precision: 0.03161| Recall: 0.4257
+Epoch: 102
+TRAIN Loss: 84.526| Accuracy: 0.5545| Precision: 0.04128| Recall: 0.3198
+TEST Loss: 50.86| Accuracy: 0.6428| Precision: 0.03226| Recall: 0.4303
+Epoch: 103
+TRAIN Loss: 83.276| Accuracy: 0.5494| Precision: 0.03778| Recall: 0.3356
+TEST Loss: 45.09| Accuracy: 0.5925| Precision: 0.02663| Recall: 0.4367
+Epoch: 104
+TRAIN Loss: 92.111| Accuracy: 0.5671| Precision: 0.04287| Recall: 0.3602
+TEST Loss: 55.36| Accuracy: 0.63| Precision: 0.02983| Recall: 0.4404
+Epoch: 105
+TRAIN Loss: 80.177| Accuracy: 0.5573| Precision: 0.03792| Recall: 0.303
+TEST Loss: 50.34| Accuracy: 0.6215| Precision: 0.0298| Recall: 0.4367
+Epoch: 106
+TRAIN Loss: 82.853| Accuracy: 0.5374| Precision: 0.03696| Recall: 0.3195
+TEST Loss: 42.27| Accuracy: 0.6275| Precision: 0.03219| Recall: 0.4257
+Epoch: 107
+TRAIN Loss: 94.196| Accuracy: 0.5519| Precision: 0.04058| Recall: 0.3351
+TEST Loss: 44.45| Accuracy: 0.592| Precision: 0.02898| Recall: 0.4404
+Epoch: 108
+TRAIN Loss: 83.06| Accuracy: 0.5483| Precision: 0.03856| Recall: 0.3354
+TEST Loss: 60.37| Accuracy: 0.6158| Precision: 0.03068| Recall: 0.4626
+Epoch: 109
+TRAIN Loss: 74.205| Accuracy: 0.5445| Precision: 0.03477| Recall: 0.3203
+TEST Loss: 76.23| Accuracy: 0.6526| Precision: 0.03226| Recall: 0.4266
+Epoch: 110
+TRAIN Loss: 77.557| Accuracy: 0.5553| Precision: 0.03959| Recall: 0.3608
+TEST Loss: 40.52| Accuracy: 0.6247| Precision: 0.03243| Recall: 0.4312
+Epoch: 111
+TRAIN Loss: 130.9| Accuracy: 0.5195| Precision: 0.03323| Recall: 0.3322
+TEST Loss: 47.6| Accuracy: 0.6246| Precision: 0.03184| Recall: 0.4229
+Epoch: 112
+TRAIN Loss: 70.571| Accuracy: 0.5456| Precision: 0.0382| Recall: 0.3096
+TEST Loss: 54.29| Accuracy: 0.5895| Precision: 0.0315| Recall: 0.422
+Epoch: 113
+TRAIN Loss: 59.416| Accuracy: 0.5565| Precision: 0.04051| Recall: 0.3778
+TEST Loss: 42.12| Accuracy: 0.6275| Precision: 0.02667| Recall: 0.4377
+Epoch: 114
+TRAIN Loss: 77.81| Accuracy: 0.5524| Precision: 0.03935| Recall: 0.3426
+TEST Loss: 67.92| Accuracy: 0.6448| Precision: 0.03243| Recall: 0.4617
+Epoch: 115
+TRAIN Loss: 89.471| Accuracy: 0.557| Precision: 0.03785| Recall: 0.3134
+TEST Loss: 68.09| Accuracy: 0.6553| Precision: 0.03368| Recall: 0.4755
+Epoch: 116
+TRAIN Loss: 82.353| Accuracy: 0.5626| Precision: 0.04343| Recall: 0.3348
+TEST Loss: 49.69| Accuracy: 0.6199| Precision: 0.02902| Recall: 0.4885
+Epoch: 117
+TRAIN Loss: 100.22| Accuracy: 0.5507| Precision: 0.03847| Recall: 0.3018
+TEST Loss: 53.3| Accuracy: 0.6372| Precision: 0.02955| Recall: 0.4247
+Epoch: 118
+TRAIN Loss: 88.373| Accuracy: 0.5631| Precision: 0.04275| Recall: 0.3368
+TEST Loss: 40.9| Accuracy: 0.647| Precision: 0.031| Recall: 0.4266
+Epoch: 119
+TRAIN Loss: 80.975| Accuracy: 0.5647| Precision: 0.04309| Recall: 0.3068
+TEST Loss: 52.83| Accuracy: 0.643| Precision: 0.03076| Recall: 0.4312
+Epoch: 120
+TRAIN Loss: 80.894| Accuracy: 0.5639| Precision: 0.03892| Recall: 0.3068
+TEST Loss: 56.74| Accuracy: 0.6186| Precision: 0.02949| Recall: 0.4608
+Epoch: 121
+TRAIN Loss: 83.182| Accuracy: 0.5499| Precision: 0.04533| Recall: 0.3833
+TEST Loss: 50.93| Accuracy: 0.618| Precision: 0.03005| Recall: 0.4247
+Epoch: 122
+TRAIN Loss: 62.684| Accuracy: 0.4964| Precision: 0.0326| Recall: 0.3264
+TEST Loss: 52.03| Accuracy: 0.6136| Precision: 0.03394| Recall: 0.4728
+Epoch: 123
+TRAIN Loss: 102.14| Accuracy: 0.5666| Precision: 0.04046| Recall: 0.3001
+TEST Loss: 47.16| Accuracy: 0.6379| Precision: 0.03127| Recall: 0.4257
+Epoch: 124
+TRAIN Loss: 96.357| Accuracy: 0.5621| Precision: 0.03835| Recall: 0.2987
+TEST Loss: 51.85| Accuracy: 0.6494| Precision: 0.03243| Recall: 0.4247
+Epoch: 125
+TRAIN Loss: 72.291| Accuracy: 0.5409| Precision: 0.04282| Recall: 0.3622
+TEST Loss: 55.79| Accuracy: 0.6543| Precision: 0.03227| Recall: 0.422
+Epoch: 126
+TRAIN Loss: 64.269| Accuracy: 0.5614| Precision: 0.04114| Recall: 0.3388
+TEST Loss: 61.07| Accuracy: 0.6214| Precision: 0.03275| Recall: 0.4774
+Epoch: 127
+TRAIN Loss: 97.953| Accuracy: 0.5373| Precision: 0.03564| Recall: 0.3068
+TEST Loss: 62.93| Accuracy: 0.6487| Precision: 0.03117| Recall: 0.4229
+Epoch: 128
+TRAIN Loss: 71.241| Accuracy: 0.5425| Precision: 0.03543| Recall: 0.3278
+TEST Loss: 51.23| Accuracy: 0.6448| Precision: 0.03293| Recall: 0.4386
+Epoch: 129
+TRAIN Loss: 97.465| Accuracy: 0.5474| Precision: 0.0365| Recall: 0.2981
+TEST Loss: 41.38| Accuracy: 0.6161| Precision: 0.02954| Recall: 0.4977
+Epoch: 130
+TRAIN Loss: 86.637| Accuracy: 0.5653| Precision: 0.04193| Recall: 0.3007
+TEST Loss: 55.1| Accuracy: 0.6587| Precision: 0.03285| Recall: 0.422
+Epoch: 131
+TRAIN Loss: 63.971| Accuracy: 0.5637| Precision: 0.0389| Recall: 0.2978
+TEST Loss: 46.5| Accuracy: 0.6363| Precision: 0.03131| Recall: 0.4395
+Epoch: 132
+TRAIN Loss: 56.976| Accuracy: 0.5567| Precision: 0.03994| Recall: 0.3042
+TEST Loss: 43.88| Accuracy: 0.5938| Precision: 0.02831| Recall: 0.4949
+Epoch: 133
+TRAIN Loss: 74.208| Accuracy: 0.5616| Precision: 0.03721| Recall: 0.2987
+TEST Loss: 42.51| Accuracy: 0.6501| Precision: 0.03323| Recall: 0.4303
+Epoch: 134
+TRAIN Loss: 67.289| Accuracy: 0.5675| Precision: 0.04178| Recall: 0.3007
+TEST Loss: 79.09| Accuracy: 0.6306| Precision: 0.03091| Recall: 0.4774
+Epoch: 135
+TRAIN Loss: 54.751| Accuracy: 0.5691| Precision: 0.04054| Recall: 0.3388
+TEST Loss: 46.32| Accuracy: 0.5977| Precision: 0.02776| Recall: 0.4598
+Epoch: 136
+TRAIN Loss: 51.177| Accuracy: 0.564| Precision: 0.03714| Recall: 0.2987
+TEST Loss: 51.48| Accuracy: 0.6371| Precision: 0.03016| Recall: 0.4303
+Epoch: 137
+TRAIN Loss: 56.877| Accuracy: 0.5634| Precision: 0.03879| Recall: 0.3076
+TEST Loss: 46.83| Accuracy: 0.6302| Precision: 0.03111| Recall: 0.4617
+Epoch: 138
+TRAIN Loss: 72.057| Accuracy: 0.5321| Precision: 0.03392| Recall: 0.3195
+TEST Loss: 54.98| Accuracy: 0.6359| Precision: 0.03014| Recall: 0.4312
+Epoch: 139
+TRAIN Loss: 111.62| Accuracy: 0.5156| Precision: 0.03365| Recall: 0.2975
+TEST Loss: 56.21| Accuracy: 0.5959| Precision: 0.02889| Recall: 0.4663
+Epoch: 140
+TRAIN Loss: 57.169| Accuracy: 0.5686| Precision: 0.03954| Recall: 0.3044
+TEST Loss: 47.49| Accuracy: 0.656| Precision: 0.03253| Recall: 0.4238
+Epoch: 141
+TRAIN Loss: 51.886| Accuracy: 0.5535| Precision: 0.03777| Recall: 0.3073
+TEST Loss: 39.94| Accuracy: 0.6344| Precision: 0.03073| Recall: 0.458
+Epoch: 142
+TRAIN Loss: 52.222| Accuracy: 0.5341| Precision: 0.03497| Recall: 0.3408
+TEST Loss: 25.14| Accuracy: 0.6442| Precision: 0.03166| Recall: 0.4331
+Epoch: 143
+TRAIN Loss: 44.077| Accuracy: 0.5535| Precision: 0.03726| Recall: 0.318
+TEST Loss: 60.84| Accuracy: 0.6459| Precision: 0.03093| Recall: 0.4229
+Epoch: 144
+TRAIN Loss: 45.954| Accuracy: 0.5561| Precision: 0.03911| Recall: 0.3117
+TEST Loss: 36.44| Accuracy: 0.6448| Precision: 0.0296| Recall: 0.4284
+Epoch: 145
+TRAIN Loss: 34.915| Accuracy: 0.5562| Precision: 0.03872| Recall: 0.3062
+TEST Loss: 33.01| Accuracy: 0.6199| Precision: 0.02762| Recall: 0.4395
+Epoch: 146
+TRAIN Loss: 40.136| Accuracy: 0.554| Precision: 0.03886| Recall: 0.3224
+TEST Loss: 30.49| Accuracy: 0.6442| Precision: 0.03042| Recall: 0.4275
+Epoch: 147
+TRAIN Loss: 50.398| Accuracy: 0.538| Precision: 0.03399| Recall: 0.3247
+TEST Loss: 42.95| Accuracy: 0.6238| Precision: 0.02828| Recall: 0.4534
+Epoch: 148
+TRAIN Loss: 48.218| Accuracy: 0.5395| Precision: 0.04082| Recall: 0.3784
+TEST Loss: 33.77| Accuracy: 0.5748| Precision: 0.03183| Recall: 0.4441
+Epoch: 149
+TRAIN Loss: 100.9| Accuracy: 0.5065| Precision: 0.03483| Recall: 0.3567
+TEST Loss: 28.45| Accuracy: 0.5841| Precision: 0.03199| Recall: 0.4552
+Epoch: 150
+TRAIN Loss: 59.367| Accuracy: 0.5445| Precision: 0.03923| Recall: 0.4555
+TEST Loss: 32.05| Accuracy: 0.6014| Precision: 0.0278| Recall: 0.4386
+Epoch: 151
+TRAIN Loss: 51.886| Accuracy: 0.5267| Precision: 0.03455| Recall: 0.4159
+TEST Loss: 53.68| Accuracy: 0.5897| Precision: 0.02706| Recall: 0.4395
+Epoch: 152
+TRAIN Loss: 114.44| Accuracy: 0.5276| Precision: 0.03584| Recall: 0.3108
+TEST Loss: 59.55| Accuracy: 0.6326| Precision: 0.03355| Recall: 0.4238
+Epoch: 153
+TRAIN Loss: 50.708| Accuracy: 0.5466| Precision: 0.04078| Recall: 0.34
+TEST Loss: 41.73| Accuracy: 0.6516| Precision: 0.03392| Recall: 0.4257
+Epoch: 154
+TRAIN Loss: 146.39| Accuracy: 0.564| Precision: 0.04122| Recall: 0.3322
+TEST Loss: 54.75| Accuracy: 0.6517| Precision: 0.03228| Recall: 0.4331
+Epoch: 155
+TRAIN Loss: 44.423| Accuracy: 0.5432| Precision: 0.03659| Recall: 0.305
+TEST Loss: 59.07| Accuracy: 0.658| Precision: 0.03313| Recall: 0.4229
+Epoch: 156
+TRAIN Loss: 46.525| Accuracy: 0.5585| Precision: 0.04188| Recall: 0.2964
+TEST Loss: 64.3| Accuracy: 0.6331| Precision: 0.03361| Recall: 0.4266
+Epoch: 157
+TRAIN Loss: 54.16| Accuracy: 0.5294| Precision: 0.03618| Recall: 0.3241
+TEST Loss: 32.89| Accuracy: 0.6342| Precision: 0.03134| Recall: 0.4266
+Epoch: 158
+TRAIN Loss: 50.955| Accuracy: 0.5401| Precision: 0.04235| Recall: 0.3614
+TEST Loss: 53.86| Accuracy: 0.6115| Precision: 0.03342| Recall: 0.422
+Epoch: 159
+TRAIN Loss: 52.328| Accuracy: 0.5615| Precision: 0.03963| Recall: 0.2955
+TEST Loss: 43.4| Accuracy: 0.6498| Precision: 0.03349| Recall: 0.4266
+Epoch: 160
+TRAIN Loss: 46.619| Accuracy: 0.563| Precision: 0.04029| Recall: 0.3278
+TEST Loss: 33.0| Accuracy: 0.6651| Precision: 0.0339| Recall: 0.422
+Epoch: 161
+TRAIN Loss: 50.147| Accuracy: 0.5454| Precision: 0.03616| Recall: 0.3414
+TEST Loss: 37.29| Accuracy: 0.6616| Precision: 0.03408| Recall: 0.422
+Epoch: 162
+TRAIN Loss: 52.759| Accuracy: 0.56| Precision: 0.03497| Recall: 0.2992
+TEST Loss: 29.97| Accuracy: 0.6479| Precision: 0.0316| Recall: 0.4441
+Epoch: 163
+TRAIN Loss: 46.808| Accuracy: 0.5622| Precision: 0.04027| Recall: 0.3238
+TEST Loss: 48.63| Accuracy: 0.6612| Precision: 0.03415| Recall: 0.4229
+Epoch: 164
+TRAIN Loss: 44.683| Accuracy: 0.5665| Precision: 0.04192| Recall: 0.3264
+TEST Loss: 33.71| Accuracy: 0.6548| Precision: 0.03418| Recall: 0.4321
+Epoch: 165
+TRAIN Loss: 43.531| Accuracy: 0.553| Precision: 0.04129| Recall: 0.3316
+TEST Loss: 23.95| Accuracy: 0.6477| Precision: 0.03317| Recall: 0.446
+Epoch: 166
+TRAIN Loss: 40.428| Accuracy: 0.5617| Precision: 0.04025| Recall: 0.3299
+TEST Loss: 36.08| Accuracy: 0.643| Precision: 0.03383| Recall: 0.4331
+Epoch: 167
+TRAIN Loss: 33.608| Accuracy: 0.5456| Precision: 0.03883| Recall: 0.2961
+TEST Loss: 44.96| Accuracy: 0.6333| Precision: 0.03122| Recall: 0.4247
+Epoch: 168
+TRAIN Loss: 48.109| Accuracy: 0.5559| Precision: 0.03879| Recall: 0.3177
+TEST Loss: 39.46| Accuracy: 0.6344| Precision: 0.03347| Recall: 0.4266
+Epoch: 169
+TRAIN Loss: 38.004| Accuracy: 0.5555| Precision: 0.04245| Recall: 0.3937
+TEST Loss: 27.25| Accuracy: 0.6298| Precision: 0.03366| Recall: 0.4247
+Epoch: 170
+TRAIN Loss: 31.9| Accuracy: 0.5355| Precision: 0.03917| Recall: 0.3091
+TEST Loss: 31.97| Accuracy: 0.6358| Precision: 0.03428| Recall: 0.4691
+Epoch: 171
+TRAIN Loss: 42.388| Accuracy: 0.5448| Precision: 0.03791| Recall: 0.3264
+TEST Loss: 55.88| Accuracy: 0.6171| Precision: 0.03376| Recall: 0.422
+Epoch: 172
+TRAIN Loss: 40.556| Accuracy: 0.5575| Precision: 0.03983| Recall: 0.3027
+TEST Loss: 30.84| Accuracy: 0.6419| Precision: 0.03363| Recall: 0.4238
+Epoch: 173
+TRAIN Loss: 41.639| Accuracy: 0.5386| Precision: 0.03242| Recall: 0.3033
+TEST Loss: 51.03| Accuracy: 0.6514| Precision: 0.03297| Recall: 0.422
+Epoch: 174
+TRAIN Loss: 47.103| Accuracy: 0.5563| Precision: 0.04066| Recall: 0.3094
+TEST Loss: 33.11| Accuracy: 0.6275| Precision: 0.03044| Recall: 0.4275
+Epoch: 175
+TRAIN Loss: 35.145| Accuracy: 0.5597| Precision: 0.04083| Recall: 0.2984
+TEST Loss: 22.63| Accuracy: 0.6445| Precision: 0.03384| Recall: 0.4229
+Epoch: 176
+TRAIN Loss: 40.637| Accuracy: 0.5447| Precision: 0.03602| Recall: 0.2992
+TEST Loss: 28.05| Accuracy: 0.5943| Precision: 0.02868| Recall: 0.4266
+Epoch: 177
+TRAIN Loss: 56.334| Accuracy: 0.5537| Precision: 0.03815| Recall: 0.3313
+TEST Loss: 30.31| Accuracy: 0.6165| Precision: 0.03292| Recall: 0.4247
+Epoch: 178
+TRAIN Loss: 53.928| Accuracy: 0.5394| Precision: 0.03694| Recall: 0.3099
+TEST Loss: 39.18| Accuracy: 0.5868| Precision: 0.03367| Recall: 0.4229
+Epoch: 179
+TRAIN Loss: 39.879| Accuracy: 0.5541| Precision: 0.0385| Recall: 0.3397
+TEST Loss: 34.75| Accuracy: 0.6602| Precision: 0.03329| Recall: 0.4229
+Epoch: 180
+TRAIN Loss: 41.2| Accuracy: 0.5625| Precision: 0.04239| Recall: 0.3619
+TEST Loss: 29.28| Accuracy: 0.651| Precision: 0.0334| Recall: 0.4229
+Epoch: 181
+TRAIN Loss: 29.74| Accuracy: 0.5538| Precision: 0.0404| Recall: 0.2992
+TEST Loss: 48.75| Accuracy: 0.6607| Precision: 0.03385| Recall: 0.4478
+Epoch: 182
+TRAIN Loss: 41.954| Accuracy: 0.5624| Precision: 0.04099| Recall: 0.3056
+TEST Loss: 35.77| Accuracy: 0.6324| Precision: 0.03108| Recall: 0.4589
+Epoch: 183
+TRAIN Loss: 36.132| Accuracy: 0.5648| Precision: 0.04157| Recall: 0.2992
+TEST Loss: 40.43| Accuracy: 0.6498| Precision: 0.0323| Recall: 0.4321
+Epoch: 184
+TRAIN Loss: 33.304| Accuracy: 0.5677| Precision: 0.04721| Recall: 0.4411
+TEST Loss: 39.09| Accuracy: 0.6298| Precision: 0.03203| Recall: 0.4524
+Epoch: 185
+TRAIN Loss: 38.405| Accuracy: 0.5395| Precision: 0.03238| Recall: 0.3235
+TEST Loss: 33.89| Accuracy: 0.641| Precision: 0.03229| Recall: 0.4247
+Epoch: 186
+TRAIN Loss: 33.584| Accuracy: 0.5478| Precision: 0.0383| Recall: 0.3304
+TEST Loss: 40.38| Accuracy: 0.6112| Precision: 0.02994| Recall: 0.4543
+Epoch: 187
+TRAIN Loss: 39.287| Accuracy: 0.5581| Precision: 0.03991| Recall: 0.318
+TEST Loss: 47.81| Accuracy: 0.6523| Precision: 0.03386| Recall: 0.422
+Epoch: 188
+TRAIN Loss: 362.05| Accuracy: 0.5627| Precision: 0.04078| Recall: 0.3746
+TEST Loss: 28.23| Accuracy: 0.6532| Precision: 0.0338| Recall: 0.422
+Epoch: 189
+TRAIN Loss: 50.792| Accuracy: 0.5541| Precision: 0.039| Recall: 0.3244
+TEST Loss: 49.13| Accuracy: 0.6376| Precision: 0.03367| Recall: 0.4247
+Epoch: 190
+TRAIN Loss: 55.207| Accuracy: 0.5516| Precision: 0.03916| Recall: 0.3276
+TEST Loss: 51.07| Accuracy: 0.6381| Precision: 0.03419| Recall: 0.4441
+Epoch: 191
+TRAIN Loss: 52.48| Accuracy: 0.5655| Precision: 0.04152| Recall: 0.2972
+TEST Loss: 42.19| Accuracy: 0.6531| Precision: 0.03427| Recall: 0.434
+Epoch: 192
+TRAIN Loss: 49.874| Accuracy: 0.5601| Precision: 0.04105| Recall: 0.3036
+TEST Loss: 25.59| Accuracy: 0.6589| Precision: 0.03332| Recall: 0.4238
+Epoch: 193
+TRAIN Loss: 46.352| Accuracy: 0.5521| Precision: 0.03921| Recall: 0.2998
+TEST Loss: 41.18| Accuracy: 0.6424| Precision: 0.0329| Recall: 0.4275
+Epoch: 194
+TRAIN Loss: 46.061| Accuracy: 0.5705| Precision: 0.04615| Recall: 0.3463
+TEST Loss: 41.48| Accuracy: 0.6519| Precision: 0.03343| Recall: 0.4377
+Epoch: 195
+TRAIN Loss: 49.284| Accuracy: 0.5583| Precision: 0.03852| Recall: 0.301
+TEST Loss: 29.86| Accuracy: 0.6466| Precision: 0.0336| Recall: 0.4284
+Epoch: 196
+TRAIN Loss: 41.176| Accuracy: 0.56| Precision: 0.04051| Recall: 0.2955
+TEST Loss: 37.3| Accuracy: 0.6175| Precision: 0.03325| Recall: 0.4229
+Epoch: 197
+TRAIN Loss: 83.483| Accuracy: 0.5456| Precision: 0.03898| Recall: 0.2972
+TEST Loss: 36.25| Accuracy: 0.6587| Precision: 0.03345| Recall: 0.4229
+Epoch: 198
+TRAIN Loss: 59.275| Accuracy: 0.5726| Precision: 0.04377| Recall: 0.3085
+TEST Loss: 44.45| Accuracy: 0.6563| Precision: 0.03305| Recall: 0.4321
+Epoch: 199
+TRAIN Loss: 47.589| Accuracy: 0.5707| Precision: 0.04249| Recall: 0.2955
+TEST Loss: 38.58| Accuracy: 0.6473| Precision: 0.03219| Recall: 0.4266
+Epoch: 200
+TRAIN Loss: 47.387| Accuracy: 0.5681| Precision: 0.04157| Recall: 0.2969
+TEST Loss: 39.45| Accuracy: 0.6589| Precision: 0.03342| Recall: 0.434
+Epoch: 201
+TRAIN Loss: 48.416| Accuracy: 0.5672| Precision: 0.04103| Recall: 0.2955
+TEST Loss: 42.54| Accuracy: 0.645| Precision: 0.03244| Recall: 0.4247
+Epoch: 202
+TRAIN Loss: 57.303| Accuracy: 0.5618| Precision: 0.04198| Recall: 0.2972
+TEST Loss: 33.03| Accuracy: 0.6529| Precision: 0.0327| Recall: 0.4331
+Epoch: 203
+TRAIN Loss: 45.583| Accuracy: 0.5661| Precision: 0.04196| Recall: 0.2966
+TEST Loss: 32.96| Accuracy: 0.6476| Precision: 0.03365| Recall: 0.4451
+Epoch: 204
+TRAIN Loss: 51.242| Accuracy: 0.5714| Precision: 0.04278| Recall: 0.2972
+TEST Loss: 19.61| Accuracy: 0.6531| Precision: 0.03406| Recall: 0.422
+Epoch: 205
+TRAIN Loss: 36.549| Accuracy: 0.5692| Precision: 0.0424| Recall: 0.2955
+TEST Loss: 11.49| Accuracy: 0.6595| Precision: 0.03409| Recall: 0.422
+Epoch: 206
+TRAIN Loss: 22.023| Accuracy: 0.5694| Precision: 0.04258| Recall: 0.2955
+TEST Loss: 16.33| Accuracy: 0.6669| Precision: 0.03409| Recall: 0.422
+Epoch: 207
+TRAIN Loss: 27.996| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 16.09| Accuracy: 0.6669| Precision: 0.03406| Recall: 0.422
+Epoch: 208
+TRAIN Loss: 19.203| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 13.75| Accuracy: 0.6664| Precision: 0.03409| Recall: 0.422
+Epoch: 209
+TRAIN Loss: 11.349| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 6.158| Accuracy: 0.6669| Precision: 0.03408| Recall: 0.422
+Epoch: 210
+TRAIN Loss: 7.8015| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 3.199| Accuracy: 0.6457| Precision: 0.03409| Recall: 0.422
+Epoch: 211
+TRAIN Loss: 6.952| Accuracy: 0.5202| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 3.166| Accuracy: 0.6668| Precision: 0.03408| Recall: 0.422
+Epoch: 212
+TRAIN Loss: 8.8939| Accuracy: 0.509| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 8.498| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 213
+TRAIN Loss: 11.316| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 6.842| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 214
+TRAIN Loss: 8.208| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 5.323| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 215
+TRAIN Loss: 5.6212| Accuracy: 0.533| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 9.385| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 216
+TRAIN Loss: 10.946| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 18.79| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 217
+TRAIN Loss: 9.2745| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 11.77| Accuracy: 0.6642| Precision: 0.03409| Recall: 0.422
+Epoch: 218
+TRAIN Loss: 5.9414| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 5.898| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 219
+TRAIN Loss: 8.9384| Accuracy: 0.5288| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 8.858| Accuracy: 0.6669| Precision: 0.03407| Recall: 0.422
+Epoch: 220
+TRAIN Loss: 11.029| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 7.101| Accuracy: 0.6668| Precision: 0.03408| Recall: 0.422
+Epoch: 221
+TRAIN Loss: 7.5272| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 4.051| Accuracy: 0.6667| Precision: 0.03402| Recall: 0.422
+Epoch: 222
+TRAIN Loss: 4.2729| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 2.783| Accuracy: 0.6661| Precision: 0.03401| Recall: 0.422
+Epoch: 223
+TRAIN Loss: 2.2415| Accuracy: 0.4898| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 3.575| Accuracy: 0.6658| Precision: 0.03398| Recall: 0.422
+Epoch: 224
+TRAIN Loss: 8.1345| Accuracy: 0.5271| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 9.935| Accuracy: 0.6668| Precision: 0.03402| Recall: 0.422
+Epoch: 225
+TRAIN Loss: 11.129| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 8.853| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 226
+TRAIN Loss: 9.6015| Accuracy: 0.5711| Precision: 0.04256| Recall: 0.2955
+TEST Loss: 5.006| Accuracy: 0.6659| Precision: 0.03416| Recall: 0.4266
+Epoch: 227
+TRAIN Loss: 6.2904| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 2.56| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 228
+TRAIN Loss: 2.2154| Accuracy: 0.4985| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 1.077| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 229
+TRAIN Loss: 2.7614| Accuracy: 0.4965| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 5.385| Accuracy: 0.6669| Precision: 0.03409| Recall: 0.422
+Epoch: 230
+TRAIN Loss: 9.9592| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 8.438| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 231
+TRAIN Loss: 9.8197| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 6.556| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 232
+TRAIN Loss: 7.0192| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 4.922| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 233
+TRAIN Loss: 4.5306| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 5.698| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 234
+TRAIN Loss: 1.7882| Accuracy: 0.5404| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 1.154| Accuracy: 0.1701| Precision: 0.03409| Recall: 0.422
+Epoch: 235
+TRAIN Loss: 1.7255| Accuracy: 0.4916| Precision: 0.03321| Recall: 0.2987
+TEST Loss: 1.136| Accuracy: 0.6582| Precision: 0.03247| Recall: 0.4229
+Epoch: 236
+TRAIN Loss: 0.76682| Accuracy: 0.4705| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 1.322| Accuracy: 0.1638| Precision: 0.03409| Recall: 0.422
+Epoch: 237
+TRAIN Loss: 0.66492| Accuracy: 0.442| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 1.061| Accuracy: 0.6487| Precision: 0.03668| Recall: 0.5494
+Epoch: 238
+TRAIN Loss: 0.61836| Accuracy: 0.4094| Precision: 0.03621| Recall: 0.3016
+TEST Loss: 0.9477| Accuracy: 0.6417| Precision: 0.03561| Recall: 0.5559
+Epoch: 239
+TRAIN Loss: 8.2577| Accuracy: 0.4926| Precision: 0.03188| Recall: 0.318
+TEST Loss: 13.77| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 240
+TRAIN Loss: 18.208| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 13.87| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 241
+TRAIN Loss: 16.893| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 12.88| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 242
+TRAIN Loss: 16.683| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 11.47| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 243
+TRAIN Loss: 13.088| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 10.14| Accuracy: 0.6617| Precision: 0.03345| Recall: 0.4229
+Epoch: 244
+TRAIN Loss: 11.164| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 8.214| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 245
+TRAIN Loss: 9.2415| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 7.069| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 246
+TRAIN Loss: 7.3659| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 5.616| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 247
+TRAIN Loss: 5.5197| Accuracy: 0.5258| Precision: 0.03466| Recall: 0.3469
+TEST Loss: 4.097| Accuracy: 0.1658| Precision: 0.01671| Recall: 0.9935
+Epoch: 248
+TRAIN Loss: 4.3135| Accuracy: 0.5064| Precision: 0.03049| Recall: 0.4775
+TEST Loss: 3.24| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 249
+TRAIN Loss: 3.2581| Accuracy: 0.4953| Precision: 0.02809| Recall: 0.3512
+TEST Loss: 2.47| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 250
+TRAIN Loss: 4.8157| Accuracy: 0.5295| Precision: 0.03385| Recall: 0.3001
+TEST Loss: 4.423| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 251
+TRAIN Loss: 5.2023| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 3.204| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 252
+TRAIN Loss: 3.4481| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 1.796| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 253
+TRAIN Loss: 1.6848| Accuracy: 0.5224| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.8336| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 254
+TRAIN Loss: 3.808| Accuracy: 0.5143| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 4.537| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 255
+TRAIN Loss: 5.5243| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 3.586| Accuracy: 0.6669| Precision: 0.03408| Recall: 0.422
+Epoch: 256
+TRAIN Loss: 3.7608| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 2.213| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 257
+TRAIN Loss: 1.9067| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.84| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 258
+TRAIN Loss: 4.1234| Accuracy: 0.5306| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 4.72| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 259
+TRAIN Loss: 5.2281| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 3.643| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 260
+TRAIN Loss: 3.4272| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 2.133| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 261
+TRAIN Loss: 1.5496| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 1.574| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 262
+TRAIN Loss: 8.7107| Accuracy: 0.4974| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 10.47| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 263
+TRAIN Loss: 13.322| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 10.78| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 264
+TRAIN Loss: 11.857| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 9.026| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 265
+TRAIN Loss: 10.929| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 8.812| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 266
+TRAIN Loss: 9.3747| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 7.079| Accuracy: 0.6664| Precision: 0.03387| Recall: 0.422
+Epoch: 267
+TRAIN Loss: 7.6299| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 5.727| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 268
+TRAIN Loss: 6.2772| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 4.433| Accuracy: 0.6535| Precision: 0.03406| Recall: 0.4663
+Epoch: 269
+TRAIN Loss: 4.5774| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 3.098| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 270
+TRAIN Loss: 5.0075| Accuracy: 0.4822| Precision: 0.0312| Recall: 0.4292
+TEST Loss: 4.931| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 271
+TRAIN Loss: 5.6178| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 3.666| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 272
+TRAIN Loss: 4.2333| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 2.635| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 273
+TRAIN Loss: 2.6759| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 1.646| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 274
+TRAIN Loss: 1.4059| Accuracy: 0.5268| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.8652| Accuracy: 0.1503| Precision: 0.03409| Recall: 0.422
+Epoch: 275
+TRAIN Loss: 0.86877| Accuracy: 0.4358| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 4.111| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 276
+TRAIN Loss: 0.72334| Accuracy: 0.5133| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 1.165| Accuracy: 0.1768| Precision: 0.03409| Recall: 0.422
+Epoch: 277
+TRAIN Loss: 0.85688| Accuracy: 0.4962| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.9721| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 278
+TRAIN Loss: 2.1151| Accuracy: 0.4591| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 6.359| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 279
+TRAIN Loss: 11.408| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 10.72| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 280
+TRAIN Loss: 11.733| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 8.713| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 281
+TRAIN Loss: 10.39| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 8.169| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 282
+TRAIN Loss: 8.7948| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 7.778| Accuracy: 0.6659| Precision: 0.03397| Recall: 0.4229
+Epoch: 283
+TRAIN Loss: 7.3723| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 5.739| Accuracy: 0.6614| Precision: 0.033| Recall: 0.4229
+Epoch: 284
+TRAIN Loss: 6.2046| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 4.675| Accuracy: 0.6635| Precision: 0.03345| Recall: 0.422
+Epoch: 285
+TRAIN Loss: 4.6077| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 3.694| Accuracy: 0.6484| Precision: 0.03588| Recall: 0.5697
+Epoch: 286
+TRAIN Loss: 3.6176| Accuracy: 0.5295| Precision: 0.03385| Recall: 0.3001
+TEST Loss: 4.341| Accuracy: 0.659| Precision: 0.03341| Recall: 0.4238
+Epoch: 287
+TRAIN Loss: 4.5889| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 3.61| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 288
+TRAIN Loss: 3.7706| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 2.643| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 289
+TRAIN Loss: 2.4466| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 2.686| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 290
+TRAIN Loss: 1.1246| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 1.955| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 291
+TRAIN Loss: 0.52483| Accuracy: 0.5001| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 1.922| Accuracy: 0.6625| Precision: 0.03402| Recall: 0.422
+Epoch: 292
+TRAIN Loss: 4.6273| Accuracy: 0.5221| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 11.29| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 293
+TRAIN Loss: 12.422| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 11.27| Accuracy: 0.6668| Precision: 0.03408| Recall: 0.422
+Epoch: 294
+TRAIN Loss: 11.176| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 9.72| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 295
+TRAIN Loss: 10.131| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 9.069| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 296
+TRAIN Loss: 8.6568| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 8.111| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 297
+TRAIN Loss: 7.7516| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 6.412| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 298
+TRAIN Loss: 6.9981| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 5.918| Accuracy: 0.6664| Precision: 0.03405| Recall: 0.422
+Epoch: 299
+TRAIN Loss: 6.2915| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 6.522| Accuracy: 0.6573| Precision: 0.03286| Recall: 0.4229
+Epoch: 300
+TRAIN Loss: 5.2249| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 5.353| Accuracy: 0.6651| Precision: 0.03379| Recall: 0.422
+Epoch: 301
+TRAIN Loss: 3.7126| Accuracy: 0.5654| Precision: 0.04107| Recall: 0.3053
+TEST Loss: 4.445| Accuracy: 0.1723| Precision: 0.01482| Recall: 0.8513
+Epoch: 302
+TRAIN Loss: 3.201| Accuracy: 0.4678| Precision: 0.02546| Recall: 0.3544
+TEST Loss: 3.841| Accuracy: 0.6502| Precision: 0.03471| Recall: 0.5439
+Epoch: 303
+TRAIN Loss: 2.5885| Accuracy: 0.5302| Precision: 0.03445| Recall: 0.3414
+TEST Loss: 2.851| Accuracy: 0.6394| Precision: 0.02884| Recall: 0.4238
+Epoch: 304
+TRAIN Loss: 2.1457| Accuracy: 0.5416| Precision: 0.03807| Recall: 0.4321
+TEST Loss: 4.004| Accuracy: 0.6594| Precision: 0.03291| Recall: 0.422
+Epoch: 305
+TRAIN Loss: 2.7434| Accuracy: 0.5153| Precision: 0.0329| Recall: 0.3755
+TEST Loss: 4.096| Accuracy: 0.6667| Precision: 0.03405| Recall: 0.422
+Epoch: 306
+TRAIN Loss: 4.1063| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 4.075| Accuracy: 0.6669| Precision: 0.03408| Recall: 0.422
+Epoch: 307
+TRAIN Loss: 3.2651| Accuracy: 0.5714| Precision: 0.04258| Recall: 0.2955
+TEST Loss: 2.575| Accuracy: 0.6642| Precision: 0.03402| Recall: 0.422
+Epoch: 308
+TRAIN Loss: 2.5396| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 1.872| Accuracy: 0.6563| Precision: 0.03394| Recall: 0.422
+Epoch: 309
+TRAIN Loss: 1.7064| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 1.103| Accuracy: 0.666| Precision: 0.03396| Recall: 0.422
+Epoch: 310
+TRAIN Loss: 1.076| Accuracy: 0.523| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 1.046| Accuracy: 0.6659| Precision: 0.03393| Recall: 0.422
+Epoch: 311
+TRAIN Loss: 1.0344| Accuracy: 0.4983| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.7341| Accuracy: 0.6669| Precision: 0.03409| Recall: 0.422
+Epoch: 312
+TRAIN Loss: 1.3409| Accuracy: 0.5094| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 3.654| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 313
+TRAIN Loss: 3.7781| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 3.545| Accuracy: 0.6653| Precision: 0.03396| Recall: 0.4229
+Epoch: 314
+TRAIN Loss: 3.1368| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 3.226| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 315
+TRAIN Loss: 2.1996| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 1.973| Accuracy: 0.6668| Precision: 0.03405| Recall: 0.422
+Epoch: 316
+TRAIN Loss: 1.3203| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 1.01| Accuracy: 0.6428| Precision: 0.03276| Recall: 0.4432
+Epoch: 317
+TRAIN Loss: 0.64901| Accuracy: 0.4301| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.4634| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 318
+TRAIN Loss: 0.48986| Accuracy: 0.4967| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 1.843| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 319
+TRAIN Loss: 4.0178| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 5.285| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 320
+TRAIN Loss: 4.3117| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 4.693| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 321
+TRAIN Loss: 3.3181| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 3.598| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 322
+TRAIN Loss: 2.5526| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 2.671| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 323
+TRAIN Loss: 1.8793| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 1.98| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 324
+TRAIN Loss: 1.8718| Accuracy: 0.5295| Precision: 0.03385| Recall: 0.3001
+TEST Loss: 2.663| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 325
+TRAIN Loss: 1.8977| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 1.825| Accuracy: 0.663| Precision: 0.0342| Recall: 0.4377
+Epoch: 326
+TRAIN Loss: 1.3734| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 1.203| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 327
+TRAIN Loss: 0.65299| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.6309| Accuracy: 0.6669| Precision: 0.03409| Recall: 0.422
+Epoch: 328
+TRAIN Loss: 0.37476| Accuracy: 0.506| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.5177| Accuracy: 0.663| Precision: 0.03409| Recall: 0.422
+Epoch: 329
+TRAIN Loss: 0.37326| Accuracy: 0.5541| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.5503| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 330
+TRAIN Loss: 0.36297| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.5452| Accuracy: 0.1717| Precision: 0.03409| Recall: 0.422
+Epoch: 331
+TRAIN Loss: 0.36935| Accuracy: 0.5557| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.6583| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 332
+TRAIN Loss: 0.39363| Accuracy: 0.498| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.6572| Accuracy: 0.6389| Precision: 0.03027| Recall: 0.4266
+Epoch: 333
+TRAIN Loss: 0.36582| Accuracy: 0.5389| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.4039| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 334
+TRAIN Loss: 0.35954| Accuracy: 0.4943| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.8563| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 335
+TRAIN Loss: 0.35985| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.4047| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 336
+TRAIN Loss: 0.36428| Accuracy: 0.5251| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.4154| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 337
+TRAIN Loss: 0.3629| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.3966| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 338
+TRAIN Loss: 0.36115| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.4274| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 339
+TRAIN Loss: 0.36712| Accuracy: 0.5567| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.8675| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 340
+TRAIN Loss: 0.41708| Accuracy: 0.5356| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 1.058| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 341
+TRAIN Loss: 0.35729| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.4052| Accuracy: 0.1266| Precision: 0.03409| Recall: 0.422
+Epoch: 342
+TRAIN Loss: 4.943| Accuracy: 0.5574| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 8.611| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 343
+TRAIN Loss: 6.4838| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 7.514| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 344
+TRAIN Loss: 5.5393| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 7.476| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 345
+TRAIN Loss: 4.7432| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 6.598| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 346
+TRAIN Loss: 4.0253| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 5.834| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 347
+TRAIN Loss: 3.5864| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 5.106| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 348
+TRAIN Loss: 2.9771| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 4.485| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 349
+TRAIN Loss: 2.4799| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 3.97| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 350
+TRAIN Loss: 2.0748| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 3.829| Accuracy: 0.1685| Precision: 0.01659| Recall: 0.9705
+Epoch: 351
+TRAIN Loss: 1.9002| Accuracy: 0.5194| Precision: 0.02968| Recall: 0.3316
+TEST Loss: 3.29| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 352
+TRAIN Loss: 1.6378| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 2.673| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 353
+TRAIN Loss: 1.4356| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 2.559| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 354
+TRAIN Loss: 1.2827| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 2.685| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 355
+TRAIN Loss: 1.1074| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 2.058| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 356
+TRAIN Loss: 0.91809| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 1.434| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 357
+TRAIN Loss: 0.75162| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 1.081| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 358
+TRAIN Loss: 0.59221| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.7472| Accuracy: 0.6669| Precision: 0.03409| Recall: 0.422
+Epoch: 359
+TRAIN Loss: 0.44029| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.4403| Accuracy: 0.6669| Precision: 0.03408| Recall: 0.422
+Epoch: 360
+TRAIN Loss: 0.34616| Accuracy: 0.5545| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.5968| Accuracy: 0.6669| Precision: 0.03408| Recall: 0.422
+Epoch: 361
+TRAIN Loss: 0.33877| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 1.014| Accuracy: 0.6661| Precision: 0.03408| Recall: 0.422
+Epoch: 362
+TRAIN Loss: 0.33824| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.6026| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 363
+TRAIN Loss: 0.33677| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.5839| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 364
+TRAIN Loss: 0.33962| Accuracy: 0.5445| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.6555| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 365
+TRAIN Loss: 0.33824| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.3618| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 366
+TRAIN Loss: 0.33777| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.3671| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 367
+TRAIN Loss: 0.33832| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.3589| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 368
+TRAIN Loss: 0.33722| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.3644| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 369
+TRAIN Loss: 0.33716| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.3654| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 370
+TRAIN Loss: 0.33663| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.3582| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 371
+TRAIN Loss: 0.33615| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.4785| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 372
+TRAIN Loss: 0.33614| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.3581| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 373
+TRAIN Loss: 0.33666| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.3546| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 374
+TRAIN Loss: 0.3376| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 1.118| Accuracy: 0.6667| Precision: 0.03404| Recall: 0.422
+Epoch: 375
+TRAIN Loss: 0.33544| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.3575| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 376
+TRAIN Loss: 0.33533| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.4497| Accuracy: 0.6622| Precision: 0.03346| Recall: 0.4229
+Epoch: 377
+TRAIN Loss: 0.33603| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.446| Accuracy: 0.6571| Precision: 0.03494| Recall: 0.4469
+Epoch: 378
+TRAIN Loss: 0.33506| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 1.021| Accuracy: 0.6434| Precision: 0.03278| Recall: 0.4857
+Epoch: 379
+TRAIN Loss: 1.5617| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 3.279| Accuracy: 0.6669| Precision: 0.03409| Recall: 0.422
+Epoch: 380
+TRAIN Loss: 1.6786| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 2.474| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 381
+TRAIN Loss: 1.1887| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 1.711| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 382
+TRAIN Loss: 0.84802| Accuracy: 0.5518| Precision: 0.03833| Recall: 0.316
+TEST Loss: 1.202| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 383
+TRAIN Loss: 0.61232| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.7193| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 384
+TRAIN Loss: 0.40207| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.5626| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 385
+TRAIN Loss: 0.33664| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.4356| Accuracy: 0.6467| Precision: 0.03611| Recall: 0.5633
+Epoch: 386
+TRAIN Loss: 0.33439| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.5338| Accuracy: 0.6398| Precision: 0.03409| Recall: 0.422
+Epoch: 387
+TRAIN Loss: 0.33694| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.3408| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 388
+TRAIN Loss: 0.40334| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.3662| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 389
+TRAIN Loss: 0.33409| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.3525| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 390
+TRAIN Loss: 0.39659| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 2.754| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 391
+TRAIN Loss: 2.4215| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 4.235| Accuracy: 0.6639| Precision: 0.03379| Recall: 0.422
+Epoch: 392
+TRAIN Loss: 2.291| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 3.625| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 393
+TRAIN Loss: 1.6136| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 2.246| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 394
+TRAIN Loss: 1.1823| Accuracy: 0.5446| Precision: 0.03621| Recall: 0.3016
+TEST Loss: 1.86| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 395
+TRAIN Loss: 0.94028| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 1.468| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 396
+TRAIN Loss: 0.69854| Accuracy: 0.555| Precision: 0.04067| Recall: 0.3709
+TEST Loss: 0.8774| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 397
+TRAIN Loss: 0.47028| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.4636| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 398
+TRAIN Loss: 0.33819| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.3377| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 399
+TRAIN Loss: 0.33347| Accuracy: 0.5582| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.4533| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 400
+TRAIN Loss: 0.33171| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.4788| Accuracy: 0.6495| Precision: 0.03289| Recall: 0.4294
+Epoch: 401
+TRAIN Loss: 0.33178| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.3419| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 402
+TRAIN Loss: 0.33476| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.4413| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 403
+TRAIN Loss: 0.36893| Accuracy: 0.5531| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.8246| Accuracy: 0.6615| Precision: 0.03375| Recall: 0.4534
+Epoch: 404
+TRAIN Loss: 0.58062| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.6242| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 405
+TRAIN Loss: 0.51223| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 3.056| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 406
+TRAIN Loss: 2.3143| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 4.229| Accuracy: 0.6669| Precision: 0.03409| Recall: 0.422
+Epoch: 407
+TRAIN Loss: 2.0831| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 3.618| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 408
+TRAIN Loss: 1.8816| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 2.192| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 409
+TRAIN Loss: 1.1318| Accuracy: 0.5542| Precision: 0.03838| Recall: 0.325
+TEST Loss: 1.884| Accuracy: 0.6567| Precision: 0.03547| Recall: 0.53
+Epoch: 410
+TRAIN Loss: 0.79411| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 1.17| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 411
+TRAIN Loss: 0.55518| Accuracy: 0.564| Precision: 0.03811| Recall: 0.3148
+TEST Loss: 0.6052| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 412
+TRAIN Loss: 0.37035| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.7284| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 413
+TRAIN Loss: 0.33846| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.7488| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 414
+TRAIN Loss: 0.33412| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.3378| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 415
+TRAIN Loss: 0.33421| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.3405| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 416
+TRAIN Loss: 0.33422| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.3358| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 417
+TRAIN Loss: 0.33495| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.3491| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 418
+TRAIN Loss: 0.34477| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.5943| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 419
+TRAIN Loss: 0.40186| Accuracy: 0.5683| Precision: 0.04393| Recall: 0.4691
+TEST Loss: 0.3475| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 420
+TRAIN Loss: 0.33718| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.337| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 421
+TRAIN Loss: 0.33418| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.4537| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 422
+TRAIN Loss: 0.33567| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.3341| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 423
+TRAIN Loss: 0.33538| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.4699| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 424
+TRAIN Loss: 0.33339| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.3356| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 425
+TRAIN Loss: 0.33323| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.3498| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 426
+TRAIN Loss: 0.3339| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.3391| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 427
+TRAIN Loss: 0.33305| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.3401| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 428
+TRAIN Loss: 0.33477| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.4702| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 429
+TRAIN Loss: 0.33315| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.342| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 430
+TRAIN Loss: 0.33682| Accuracy: 0.517| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.4042| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 431
+TRAIN Loss: 0.34854| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.3489| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 432
+TRAIN Loss: 0.33612| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.3357| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 433
+TRAIN Loss: 2.6562| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 6.294| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 434
+TRAIN Loss: 2.9461| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 4.878| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 435
+TRAIN Loss: 2.1295| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 3.502| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 436
+TRAIN Loss: 1.4595| Accuracy: 0.5235| Precision: 0.03744| Recall: 0.4018
+TEST Loss: 3.174| Accuracy: 0.6669| Precision: 0.03409| Recall: 0.422
+Epoch: 437
+TRAIN Loss: 1.119| Accuracy: 0.5707| Precision: 0.04326| Recall: 0.3221
+TEST Loss: 1.985| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 438
+TRAIN Loss: 0.94919| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 1.613| Accuracy: 0.6555| Precision: 0.03122| Recall: 0.4423
+Epoch: 439
+TRAIN Loss: 0.58945| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.7858| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 440
+TRAIN Loss: 0.41644| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.3861| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 441
+TRAIN Loss: 0.35965| Accuracy: 0.5301| Precision: 0.03395| Recall: 0.3382
+TEST Loss: 0.3444| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 442
+TRAIN Loss: 1.3689| Accuracy: 0.5342| Precision: 0.03727| Recall: 0.3718
+TEST Loss: 4.932| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 443
+TRAIN Loss: 3.6592| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 4.804| Accuracy: 0.6666| Precision: 0.03407| Recall: 0.422
+Epoch: 444
+TRAIN Loss: 2.5264| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 3.507| Accuracy: 0.6669| Precision: 0.03409| Recall: 0.422
+Epoch: 445
+TRAIN Loss: 2.1| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 2.714| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 446
+TRAIN Loss: 1.5482| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 1.923| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 447
+TRAIN Loss: 1.3394| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 1.465| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 448
+TRAIN Loss: 1.7529| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 5.043| Accuracy: 0.6669| Precision: 0.03409| Recall: 0.422
+Epoch: 449
+TRAIN Loss: 3.1119| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 5.252| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 450
+TRAIN Loss: 3.1355| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 4.547| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 451
+TRAIN Loss: 3.3765| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 3.433| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 452
+TRAIN Loss: 2.4105| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 2.568| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 453
+TRAIN Loss: 1.5714| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 1.936| Accuracy: 0.6669| Precision: 0.03408| Recall: 0.422
+Epoch: 454
+TRAIN Loss: 1.2352| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 1.659| Accuracy: 0.6669| Precision: 0.03409| Recall: 0.422
+Epoch: 455
+TRAIN Loss: 1.0109| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 1.015| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 456
+TRAIN Loss: 0.94152| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.878| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 457
+TRAIN Loss: 0.92825| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.8327| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 458
+TRAIN Loss: 0.77466| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.8068| Accuracy: 0.6669| Precision: 0.03408| Recall: 0.422
+Epoch: 459
+TRAIN Loss: 1.2606| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 3.63| Accuracy: 0.6669| Precision: 0.03409| Recall: 0.422
+Epoch: 460
+TRAIN Loss: 1.8488| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 3.181| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 461
+TRAIN Loss: 1.547| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 2.569| Accuracy: 0.6669| Precision: 0.03409| Recall: 0.422
+Epoch: 462
+TRAIN Loss: 1.2625| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 2.141| Accuracy: 0.6669| Precision: 0.03409| Recall: 0.422
+Epoch: 463
+TRAIN Loss: 1.0297| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 1.654| Accuracy: 0.667| Precision: 0.03408| Recall: 0.422
+Epoch: 464
+TRAIN Loss: 0.94954| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 1.185| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 465
+TRAIN Loss: 0.69031| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 0.8125| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 466
+TRAIN Loss: 0.56866| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 3.047| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 467
+TRAIN Loss: 3.8091| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 9.093| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 468
+TRAIN Loss: 5.0979| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 10.13| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 469
+TRAIN Loss: 9.7826| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 10.36| Accuracy: 0.6668| Precision: 0.03408| Recall: 0.422
+Epoch: 470
+TRAIN Loss: 6.2602| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 10.03| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 471
+TRAIN Loss: 3.8851| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 8.738| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 472
+TRAIN Loss: 3.0943| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 8.505| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 473
+TRAIN Loss: 2.7426| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 6.936| Accuracy: 0.6669| Precision: 0.03408| Recall: 0.422
+Epoch: 474
+TRAIN Loss: 2.7749| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 6.609| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 475
+TRAIN Loss: 2.7202| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 5.703| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 476
+TRAIN Loss: 2.4772| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 6.434| Accuracy: 0.6669| Precision: 0.03409| Recall: 0.422
+Epoch: 477
+TRAIN Loss: 2.2877| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 5.21| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 478
+TRAIN Loss: 2.5818| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 5.422| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 479
+TRAIN Loss: 2.1824| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 4.684| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 480
+TRAIN Loss: 2.171| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 4.459| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 481
+TRAIN Loss: 1.9792| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 5.702| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 482
+TRAIN Loss: 1.82| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 4.859| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 483
+TRAIN Loss: 1.7422| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 5.514| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 484
+TRAIN Loss: 1.7664| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 5.564| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 485
+TRAIN Loss: 1.658| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 4.799| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 486
+TRAIN Loss: 1.6242| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 4.978| Accuracy: 0.6666| Precision: 0.03406| Recall: 0.422
+Epoch: 487
+TRAIN Loss: 1.5618| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 5.018| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 488
+TRAIN Loss: 1.8003| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 4.616| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 489
+TRAIN Loss: 1.3788| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 3.567| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 490
+TRAIN Loss: 1.6693| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 4.057| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 491
+TRAIN Loss: 1.3605| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 3.756| Accuracy: 0.6668| Precision: 0.03408| Recall: 0.422
+Epoch: 492
+TRAIN Loss: 1.3392| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 4.051| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 493
+TRAIN Loss: 1.0418| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 3.438| Accuracy: 0.6669| Precision: 0.03409| Recall: 0.422
+Epoch: 494
+TRAIN Loss: 1.2237| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 3.4| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 495
+TRAIN Loss: 1.1325| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 3.452| Accuracy: 0.6668| Precision: 0.03408| Recall: 0.422
+Epoch: 496
+TRAIN Loss: 1.2398| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 3.514| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 497
+TRAIN Loss: 1.0468| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 3.269| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422
+Epoch: 498
+TRAIN Loss: 1.1| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 3.471| Accuracy: 0.6669| Precision: 0.03408| Recall: 0.422
+Epoch: 499
+TRAIN Loss: 1.0255| Accuracy: 0.5715| Precision: 0.04259| Recall: 0.2955
+TEST Loss: 3.281| Accuracy: 0.667| Precision: 0.03409| Recall: 0.422

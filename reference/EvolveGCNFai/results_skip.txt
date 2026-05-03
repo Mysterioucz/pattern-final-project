@@ -1,0 +1,1520 @@
+2026-04-13 14:17:42.943874: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-04-13 14:18:58.758278: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:995] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2026-04-13 14:18:58.762949: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:995] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2026-04-13 14:18:58.763916: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:995] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2026-04-13 14:18:58.765696: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:995] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2026-04-13 14:18:58.766462: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:995] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2026-04-13 14:18:58.767999: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:995] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2026-04-13 14:18:58.868877: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:995] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2026-04-13 14:18:58.869967: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:995] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2026-04-13 14:18:58.870989: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:995] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2026-04-13 14:18:58.871956: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1639] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 6977 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 4070 Ti, pci bus id: 0000:01:00.0, compute capability: 8.9
+2026-04-13 14:19:04.690797: I tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:606] TensorFloat-32 will be used for the matrix multiplication. This will only be logged once.
+/usr/local/lib/python3.8/dist-packages/keras/src/initializers/initializers.py:120: UserWarning: The initializer GlorotUniform is unseeded and being called multiple times, which will return identical values each time (even if the initializer is unseeded). Please update your code to provide a seed to the initializer, or avoid using the same initializer instance more than once.
+  warnings.warn(
+2026-04-13 14:19:04.864052: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x61419930 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2026-04-13 14:19:04.864090: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): NVIDIA GeForce RTX 4070 Ti, Compute Capability 8.9
+2026-04-13 14:19:04.867550: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:255] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+2026-04-13 14:19:04.879563: I tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:432] Loaded cuDNN version 8600
+2026-04-13 14:19:04.960253: I ./tensorflow/compiler/jit/device_compiler.h:186] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+Epoch: 0
+TRAIN Loss: 0.08568 | Accuracy: 0.5746 | Precision: 0.05496 | Recall: 0.29289 | Micro F1: 0.3262 | Illicit F1: 0.0926
+TEST Loss: 0.08156 | Accuracy: 0.6479 | Precision: 0.02422 | Recall: 0.64543 | Micro F1: 0.2199 | Illicit F1: 0.0467
+Epoch: 1
+TRAIN Loss: 0.05309 | Accuracy: 0.7691 | Precision: 0.08900 | Recall: 0.70191 | Micro F1: 0.3076 | Illicit F1: 0.1580
+TEST Loss: 0.06931 | Accuracy: 0.7059 | Precision: 0.02638 | Recall: 0.64266 | Micro F1: 0.2312 | Illicit F1: 0.0507
+Epoch: 2
+TRAIN Loss: 0.04667 | Accuracy: 0.8070 | Precision: 0.11127 | Recall: 0.75852 | Micro F1: 0.3475 | Illicit F1: 0.1941
+TEST Loss: 0.06452 | Accuracy: 0.7333 | Precision: 0.02960 | Recall: 0.69252 | Micro F1: 0.2349 | Illicit F1: 0.0568
+Epoch: 3
+TRAIN Loss: 0.04298 | Accuracy: 0.8187 | Precision: 0.11042 | Recall: 0.80474 | Micro F1: 0.3719 | Illicit F1: 0.1942
+TEST Loss: 0.06026 | Accuracy: 0.7554 | Precision: 0.03286 | Recall: 0.71376 | Micro F1: 0.2467 | Illicit F1: 0.0628
+Epoch: 4
+TRAIN Loss: 0.04061 | Accuracy: 0.8312 | Precision: 0.11781 | Recall: 0.83016 | Micro F1: 0.3811 | Illicit F1: 0.2063
+TEST Loss: 0.05707 | Accuracy: 0.7691 | Precision: 0.03629 | Recall: 0.71837 | Micro F1: 0.2624 | Illicit F1: 0.0691
+Epoch: 5
+TRAIN Loss: 0.03835 | Accuracy: 0.8412 | Precision: 0.12881 | Recall: 0.83391 | Micro F1: 0.3965 | Illicit F1: 0.2232
+TEST Loss: 0.05549 | Accuracy: 0.7732 | Precision: 0.03651 | Recall: 0.74238 | Micro F1: 0.2664 | Illicit F1: 0.0696
+Epoch: 6
+TRAIN Loss: 0.03676 | Accuracy: 0.8475 | Precision: 0.12654 | Recall: 0.85586 | Micro F1: 0.4006 | Illicit F1: 0.2205
+TEST Loss: 0.05490 | Accuracy: 0.7842 | Precision: 0.04050 | Recall: 0.71930 | Micro F1: 0.2761 | Illicit F1: 0.0767
+Epoch: 7
+TRAIN Loss: 0.03597 | Accuracy: 0.8489 | Precision: 0.12819 | Recall: 0.85644 | Micro F1: 0.4142 | Illicit F1: 0.2230
+TEST Loss: 0.05339 | Accuracy: 0.7974 | Precision: 0.04513 | Recall: 0.71376 | Micro F1: 0.2803 | Illicit F1: 0.0849
+Epoch: 8
+TRAIN Loss: 0.03476 | Accuracy: 0.8538 | Precision: 0.13653 | Recall: 0.85673 | Micro F1: 0.4216 | Illicit F1: 0.2355
+TEST Loss: 0.05304 | Accuracy: 0.8018 | Precision: 0.04636 | Recall: 0.73038 | Micro F1: 0.2886 | Illicit F1: 0.0872
+Epoch: 9
+TRAIN Loss: 0.03366 | Accuracy: 0.8577 | Precision: 0.13918 | Recall: 0.85875 | Micro F1: 0.4271 | Illicit F1: 0.2395
+TEST Loss: 0.05271 | Accuracy: 0.7983 | Precision: 0.04627 | Recall: 0.73961 | Micro F1: 0.2832 | Illicit F1: 0.0871
+Epoch: 10
+TRAIN Loss: 0.03271 | Accuracy: 0.8587 | Precision: 0.13455 | Recall: 0.87522 | Micro F1: 0.4294 | Illicit F1: 0.2332
+TEST Loss: 0.05213 | Accuracy: 0.8117 | Precision: 0.05416 | Recall: 0.72761 | Micro F1: 0.2905 | Illicit F1: 0.1008
+Epoch: 11
+TRAIN Loss: 0.03204 | Accuracy: 0.8639 | Precision: 0.14558 | Recall: 0.87233 | Micro F1: 0.4332 | Illicit F1: 0.2495
+TEST Loss: 0.05164 | Accuracy: 0.8122 | Precision: 0.05435 | Recall: 0.72853 | Micro F1: 0.2938 | Illicit F1: 0.1012
+Epoch: 12
+TRAIN Loss: 0.03134 | Accuracy: 0.8644 | Precision: 0.14359 | Recall: 0.87984 | Micro F1: 0.4423 | Illicit F1: 0.2469
+TEST Loss: 0.05162 | Accuracy: 0.8158 | Precision: 0.05847 | Recall: 0.72114 | Micro F1: 0.3033 | Illicit F1: 0.1082
+Epoch: 13
+TRAIN Loss: 0.03092 | Accuracy: 0.8667 | Precision: 0.14537 | Recall: 0.87984 | Micro F1: 0.4425 | Illicit F1: 0.2495
+TEST Loss: 0.05136 | Accuracy: 0.8209 | Precision: 0.05813 | Recall: 0.73869 | Micro F1: 0.2969 | Illicit F1: 0.1078
+Epoch: 14
+TRAIN Loss: 0.03056 | Accuracy: 0.8688 | Precision: 0.15180 | Recall: 0.88042 | Micro F1: 0.4444 | Illicit F1: 0.2590
+TEST Loss: 0.05173 | Accuracy: 0.8182 | Precision: 0.05959 | Recall: 0.72484 | Micro F1: 0.2990 | Illicit F1: 0.1101
+Epoch: 15
+TRAIN Loss: 0.03032 | Accuracy: 0.8683 | Precision: 0.14867 | Recall: 0.88533 | Micro F1: 0.4607 | Illicit F1: 0.2546
+TEST Loss: 0.05150 | Accuracy: 0.8166 | Precision: 0.06044 | Recall: 0.72576 | Micro F1: 0.3196 | Illicit F1: 0.1116
+Epoch: 16
+TRAIN Loss: 0.02967 | Accuracy: 0.8714 | Precision: 0.15228 | Recall: 0.89139 | Micro F1: 0.4569 | Illicit F1: 0.2601
+TEST Loss: 0.05091 | Accuracy: 0.8241 | Precision: 0.06603 | Recall: 0.71376 | Micro F1: 0.3132 | Illicit F1: 0.1209
+Epoch: 17
+TRAIN Loss: 0.02936 | Accuracy: 0.8718 | Precision: 0.15405 | Recall: 0.88793 | Micro F1: 0.4604 | Illicit F1: 0.2626
+TEST Loss: 0.05164 | Accuracy: 0.8310 | Precision: 0.07393 | Recall: 0.69898 | Micro F1: 0.3090 | Illicit F1: 0.1337
+Epoch: 18
+TRAIN Loss: 0.02907 | Accuracy: 0.8738 | Precision: 0.15263 | Recall: 0.89284 | Micro F1: 0.4542 | Illicit F1: 0.2607
+TEST Loss: 0.05106 | Accuracy: 0.8300 | Precision: 0.07307 | Recall: 0.70175 | Micro F1: 0.3194 | Illicit F1: 0.1324
+Epoch: 19
+TRAIN Loss: 0.02844 | Accuracy: 0.8761 | Precision: 0.16092 | Recall: 0.89457 | Micro F1: 0.4833 | Illicit F1: 0.2728
+TEST Loss: 0.05161 | Accuracy: 0.8293 | Precision: 0.07408 | Recall: 0.70268 | Micro F1: 0.3208 | Illicit F1: 0.1340
+Epoch: 20
+TRAIN Loss: 0.02869 | Accuracy: 0.8754 | Precision: 0.16110 | Recall: 0.88821 | Micro F1: 0.4546 | Illicit F1: 0.2727
+TEST Loss: 0.05111 | Accuracy: 0.8286 | Precision: 0.07441 | Recall: 0.70083 | Micro F1: 0.3216 | Illicit F1: 0.1345
+Epoch: 21
+TRAIN Loss: 0.02796 | Accuracy: 0.8763 | Precision: 0.15581 | Recall: 0.89659 | Micro F1: 0.4675 | Illicit F1: 0.2655
+TEST Loss: 0.05161 | Accuracy: 0.8278 | Precision: 0.06979 | Recall: 0.70914 | Micro F1: 0.3175 | Illicit F1: 0.1271
+Epoch: 22
+TRAIN Loss: 0.02774 | Accuracy: 0.8789 | Precision: 0.16330 | Recall: 0.90179 | Micro F1: 0.4796 | Illicit F1: 0.2765
+TEST Loss: 0.05111 | Accuracy: 0.8366 | Precision: 0.08082 | Recall: 0.68513 | Micro F1: 0.3227 | Illicit F1: 0.1446
+Epoch: 23
+TRAIN Loss: 0.02756 | Accuracy: 0.8782 | Precision: 0.16116 | Recall: 0.90121 | Micro F1: 0.4672 | Illicit F1: 0.2734
+TEST Loss: 0.05084 | Accuracy: 0.8353 | Precision: 0.08586 | Recall: 0.67775 | Micro F1: 0.3344 | Illicit F1: 0.1524
+Epoch: 24
+TRAIN Loss: 0.02743 | Accuracy: 0.8814 | Precision: 0.17783 | Recall: 0.89573 | Micro F1: 0.4716 | Illicit F1: 0.2967
+TEST Loss: 0.05009 | Accuracy: 0.8339 | Precision: 0.07300 | Recall: 0.70637 | Micro F1: 0.3224 | Illicit F1: 0.1323
+Epoch: 25
+TRAIN Loss: 0.02722 | Accuracy: 0.8786 | Precision: 0.16109 | Recall: 0.90872 | Micro F1: 0.4803 | Illicit F1: 0.2737
+TEST Loss: 0.05135 | Accuracy: 0.8350 | Precision: 0.08435 | Recall: 0.68513 | Micro F1: 0.3406 | Illicit F1: 0.1502
+Epoch: 26
+TRAIN Loss: 0.02709 | Accuracy: 0.8818 | Precision: 0.17270 | Recall: 0.89370 | Micro F1: 0.4775 | Illicit F1: 0.2895
+TEST Loss: 0.05106 | Accuracy: 0.8363 | Precision: 0.08515 | Recall: 0.68513 | Micro F1: 0.3241 | Illicit F1: 0.1515
+Epoch: 27
+TRAIN Loss: 0.02670 | Accuracy: 0.8829 | Precision: 0.16292 | Recall: 0.90641 | Micro F1: 0.4832 | Illicit F1: 0.2762
+TEST Loss: 0.05140 | Accuracy: 0.8386 | Precision: 0.08735 | Recall: 0.68236 | Micro F1: 0.3330 | Illicit F1: 0.1549
+Epoch: 28
+TRAIN Loss: 0.02661 | Accuracy: 0.8816 | Precision: 0.17141 | Recall: 0.90208 | Micro F1: 0.4872 | Illicit F1: 0.2881
+TEST Loss: 0.05164 | Accuracy: 0.8372 | Precision: 0.08590 | Recall: 0.68329 | Micro F1: 0.3393 | Illicit F1: 0.1526
+Epoch: 29
+TRAIN Loss: 0.02652 | Accuracy: 0.8835 | Precision: 0.16962 | Recall: 0.91103 | Micro F1: 0.4787 | Illicit F1: 0.2860
+TEST Loss: 0.05234 | Accuracy: 0.8365 | Precision: 0.09522 | Recall: 0.66759 | Micro F1: 0.3346 | Illicit F1: 0.1667
+Epoch: 30
+TRAIN Loss: 0.02642 | Accuracy: 0.8832 | Precision: 0.17207 | Recall: 0.90901 | Micro F1: 0.4806 | Illicit F1: 0.2894
+TEST Loss: 0.05147 | Accuracy: 0.8469 | Precision: 0.10060 | Recall: 0.66759 | Micro F1: 0.3369 | Illicit F1: 0.1748
+Epoch: 31
+TRAIN Loss: 0.02600 | Accuracy: 0.8865 | Precision: 0.17793 | Recall: 0.91075 | Micro F1: 0.4873 | Illicit F1: 0.2977
+TEST Loss: 0.05170 | Accuracy: 0.8446 | Precision: 0.10199 | Recall: 0.67128 | Micro F1: 0.3450 | Illicit F1: 0.1771
+Epoch: 32
+TRAIN Loss: 0.02613 | Accuracy: 0.8841 | Precision: 0.17637 | Recall: 0.90728 | Micro F1: 0.4947 | Illicit F1: 0.2953
+TEST Loss: 0.05246 | Accuracy: 0.8388 | Precision: 0.09554 | Recall: 0.68052 | Micro F1: 0.3456 | Illicit F1: 0.1676
+Epoch: 33
+TRAIN Loss: 0.02589 | Accuracy: 0.8861 | Precision: 0.17922 | Recall: 0.91508 | Micro F1: 0.4837 | Illicit F1: 0.2997
+TEST Loss: 0.05184 | Accuracy: 0.8447 | Precision: 0.10377 | Recall: 0.66759 | Micro F1: 0.3393 | Illicit F1: 0.1796
+Epoch: 34
+TRAIN Loss: 0.02562 | Accuracy: 0.8876 | Precision: 0.18095 | Recall: 0.91739 | Micro F1: 0.5044 | Illicit F1: 0.3023
+TEST Loss: 0.05216 | Accuracy: 0.8425 | Precision: 0.10385 | Recall: 0.66205 | Micro F1: 0.3496 | Illicit F1: 0.1795
+Epoch: 35
+TRAIN Loss: 0.02557 | Accuracy: 0.8865 | Precision: 0.17533 | Recall: 0.91306 | Micro F1: 0.4843 | Illicit F1: 0.2942
+TEST Loss: 0.05241 | Accuracy: 0.8456 | Precision: 0.10620 | Recall: 0.66944 | Micro F1: 0.3563 | Illicit F1: 0.1833
+Epoch: 36
+TRAIN Loss: 0.02518 | Accuracy: 0.8886 | Precision: 0.18346 | Recall: 0.91103 | Micro F1: 0.4959 | Illicit F1: 0.3054
+TEST Loss: 0.05291 | Accuracy: 0.8436 | Precision: 0.11113 | Recall: 0.66759 | Micro F1: 0.3546 | Illicit F1: 0.1905
+Epoch: 37
+TRAIN Loss: 0.02527 | Accuracy: 0.8879 | Precision: 0.18272 | Recall: 0.91826 | Micro F1: 0.5043 | Illicit F1: 0.3048
+TEST Loss: 0.05185 | Accuracy: 0.8458 | Precision: 0.10825 | Recall: 0.67221 | Micro F1: 0.3574 | Illicit F1: 0.1865
+Epoch: 38
+TRAIN Loss: 0.02537 | Accuracy: 0.8889 | Precision: 0.18518 | Recall: 0.91450 | Micro F1: 0.4926 | Illicit F1: 0.3080
+TEST Loss: 0.05200 | Accuracy: 0.8427 | Precision: 0.10957 | Recall: 0.66574 | Micro F1: 0.3624 | Illicit F1: 0.1882
+Epoch: 39
+TRAIN Loss: 0.02490 | Accuracy: 0.8888 | Precision: 0.18465 | Recall: 0.91508 | Micro F1: 0.5112 | Illicit F1: 0.3073
+TEST Loss: 0.05379 | Accuracy: 0.8465 | Precision: 0.12652 | Recall: 0.64543 | Micro F1: 0.3558 | Illicit F1: 0.2116
+Epoch: 40
+TRAIN Loss: 0.02470 | Accuracy: 0.8909 | Precision: 0.18388 | Recall: 0.92230 | Micro F1: 0.4945 | Illicit F1: 0.3066
+TEST Loss: 0.05395 | Accuracy: 0.8441 | Precision: 0.11873 | Recall: 0.65559 | Micro F1: 0.3511 | Illicit F1: 0.2010
+Epoch: 41
+TRAIN Loss: 0.02489 | Accuracy: 0.8903 | Precision: 0.18724 | Recall: 0.91363 | Micro F1: 0.4999 | Illicit F1: 0.3108
+TEST Loss: 0.05268 | Accuracy: 0.8479 | Precision: 0.12244 | Recall: 0.66113 | Micro F1: 0.3554 | Illicit F1: 0.2066
+Epoch: 42
+TRAIN Loss: 0.02466 | Accuracy: 0.8910 | Precision: 0.18894 | Recall: 0.91768 | Micro F1: 0.5077 | Illicit F1: 0.3134
+TEST Loss: 0.05330 | Accuracy: 0.8486 | Precision: 0.12583 | Recall: 0.65097 | Micro F1: 0.3482 | Illicit F1: 0.2109
+Epoch: 43
+TRAIN Loss: 0.02446 | Accuracy: 0.8903 | Precision: 0.18715 | Recall: 0.92057 | Micro F1: 0.5094 | Illicit F1: 0.3111
+TEST Loss: 0.05290 | Accuracy: 0.8452 | Precision: 0.12312 | Recall: 0.65097 | Micro F1: 0.3577 | Illicit F1: 0.2071
+Epoch: 44
+TRAIN Loss: 0.02424 | Accuracy: 0.8936 | Precision: 0.19183 | Recall: 0.92201 | Micro F1: 0.5081 | Illicit F1: 0.3176
+TEST Loss: 0.05395 | Accuracy: 0.8482 | Precision: 0.12828 | Recall: 0.65097 | Micro F1: 0.3433 | Illicit F1: 0.2143
+Epoch: 45
+TRAIN Loss: 0.02447 | Accuracy: 0.8921 | Precision: 0.18888 | Recall: 0.92548 | Micro F1: 0.4994 | Illicit F1: 0.3137
+TEST Loss: 0.05473 | Accuracy: 0.8437 | Precision: 0.12932 | Recall: 0.65005 | Micro F1: 0.3665 | Illicit F1: 0.2157
+Epoch: 46
+TRAIN Loss: 0.02434 | Accuracy: 0.8930 | Precision: 0.19647 | Recall: 0.92085 | Micro F1: 0.5149 | Illicit F1: 0.3239
+TEST Loss: 0.05575 | Accuracy: 0.8454 | Precision: 0.14787 | Recall: 0.60295 | Micro F1: 0.3391 | Illicit F1: 0.2375
+Epoch: 47
+TRAIN Loss: 0.02408 | Accuracy: 0.8941 | Precision: 0.18976 | Recall: 0.92374 | Micro F1: 0.5180 | Illicit F1: 0.3148
+TEST Loss: 0.05240 | Accuracy: 0.8461 | Precision: 0.10297 | Recall: 0.68144 | Micro F1: 0.3436 | Illicit F1: 0.1789
+Epoch: 48
+TRAIN Loss: 0.02407 | Accuracy: 0.8932 | Precision: 0.18899 | Recall: 0.92519 | Micro F1: 0.5099 | Illicit F1: 0.3139
+TEST Loss: 0.05379 | Accuracy: 0.8498 | Precision: 0.13202 | Recall: 0.65559 | Micro F1: 0.3585 | Illicit F1: 0.2198
+Epoch: 49
+TRAIN Loss: 0.02397 | Accuracy: 0.8938 | Precision: 0.19656 | Recall: 0.92490 | Micro F1: 0.5081 | Illicit F1: 0.3242
+TEST Loss: 0.05346 | Accuracy: 0.8462 | Precision: 0.12396 | Recall: 0.66297 | Micro F1: 0.3637 | Illicit F1: 0.2089
+Epoch: 50
+TRAIN Loss: 0.02369 | Accuracy: 0.8943 | Precision: 0.20017 | Recall: 0.92634 | Micro F1: 0.5185 | Illicit F1: 0.3292
+TEST Loss: 0.05412 | Accuracy: 0.8471 | Precision: 0.13613 | Recall: 0.64358 | Micro F1: 0.3443 | Illicit F1: 0.2247
+Epoch: 51
+TRAIN Loss: 0.02360 | Accuracy: 0.8970 | Precision: 0.19849 | Recall: 0.93328 | Micro F1: 0.5003 | Illicit F1: 0.3274
+TEST Loss: 0.05491 | Accuracy: 0.8478 | Precision: 0.14775 | Recall: 0.62973 | Micro F1: 0.3557 | Illicit F1: 0.2393
+Epoch: 52
+TRAIN Loss: 0.02387 | Accuracy: 0.8943 | Precision: 0.19874 | Recall: 0.92577 | Micro F1: 0.5230 | Illicit F1: 0.3272
+TEST Loss: 0.05569 | Accuracy: 0.8410 | Precision: 0.14978 | Recall: 0.63066 | Micro F1: 0.3774 | Illicit F1: 0.2421
+Epoch: 53
+TRAIN Loss: 0.02353 | Accuracy: 0.8955 | Precision: 0.19707 | Recall: 0.92894 | Micro F1: 0.5227 | Illicit F1: 0.3252
+TEST Loss: 0.05365 | Accuracy: 0.8516 | Precision: 0.13482 | Recall: 0.65928 | Micro F1: 0.3564 | Illicit F1: 0.2239
+Epoch: 54
+TRAIN Loss: 0.02355 | Accuracy: 0.8950 | Precision: 0.19608 | Recall: 0.92721 | Micro F1: 0.5089 | Illicit F1: 0.3237
+TEST Loss: 0.05572 | Accuracy: 0.8379 | Precision: 0.15678 | Recall: 0.59557 | Micro F1: 0.3661 | Illicit F1: 0.2482
+Epoch: 55
+TRAIN Loss: 0.02344 | Accuracy: 0.8967 | Precision: 0.19838 | Recall: 0.93154 | Micro F1: 0.5197 | Illicit F1: 0.3271
+TEST Loss: 0.05446 | Accuracy: 0.8501 | Precision: 0.14274 | Recall: 0.65651 | Micro F1: 0.3587 | Illicit F1: 0.2345
+Epoch: 56
+TRAIN Loss: 0.02347 | Accuracy: 0.8969 | Precision: 0.19571 | Recall: 0.93068 | Micro F1: 0.5205 | Illicit F1: 0.3234
+TEST Loss: 0.05853 | Accuracy: 0.8423 | Precision: 0.16676 | Recall: 0.56971 | Micro F1: 0.3457 | Illicit F1: 0.2580
+Epoch: 57
+TRAIN Loss: 0.02336 | Accuracy: 0.8978 | Precision: 0.20142 | Recall: 0.92750 | Micro F1: 0.5141 | Illicit F1: 0.3310
+TEST Loss: 0.05593 | Accuracy: 0.8480 | Precision: 0.15289 | Recall: 0.63897 | Micro F1: 0.3677 | Illicit F1: 0.2467
+Epoch: 58
+TRAIN Loss: 0.02328 | Accuracy: 0.8963 | Precision: 0.20283 | Recall: 0.92837 | Micro F1: 0.5347 | Illicit F1: 0.3329
+TEST Loss: 0.05620 | Accuracy: 0.8455 | Precision: 0.15991 | Recall: 0.62604 | Micro F1: 0.3684 | Illicit F1: 0.2547
+Epoch: 59
+TRAIN Loss: 0.02315 | Accuracy: 0.8964 | Precision: 0.19989 | Recall: 0.92894 | Micro F1: 0.5230 | Illicit F1: 0.3290
+TEST Loss: 0.05822 | Accuracy: 0.8382 | Precision: 0.16427 | Recall: 0.57895 | Micro F1: 0.3486 | Illicit F1: 0.2559
+Epoch: 60
+TRAIN Loss: 0.02308 | Accuracy: 0.8988 | Precision: 0.20557 | Recall: 0.93241 | Micro F1: 0.5042 | Illicit F1: 0.3369
+TEST Loss: 0.05681 | Accuracy: 0.8464 | Precision: 0.16662 | Recall: 0.60572 | Micro F1: 0.3453 | Illicit F1: 0.2614
+Epoch: 61
+TRAIN Loss: 0.02321 | Accuracy: 0.8971 | Precision: 0.20180 | Recall: 0.93270 | Micro F1: 0.5333 | Illicit F1: 0.3318
+TEST Loss: 0.05653 | Accuracy: 0.8465 | Precision: 0.15323 | Recall: 0.63527 | Micro F1: 0.3623 | Illicit F1: 0.2469
+Epoch: 62
+TRAIN Loss: 0.02272 | Accuracy: 0.8996 | Precision: 0.21358 | Recall: 0.93472 | Micro F1: 0.5208 | Illicit F1: 0.3477
+TEST Loss: 0.05867 | Accuracy: 0.8477 | Precision: 0.18050 | Recall: 0.62050 | Micro F1: 0.3569 | Illicit F1: 0.2797
+Epoch: 63
+TRAIN Loss: 0.02277 | Accuracy: 0.8992 | Precision: 0.20926 | Recall: 0.93241 | Micro F1: 0.5288 | Illicit F1: 0.3418
+TEST Loss: 0.05726 | Accuracy: 0.8459 | Precision: 0.15457 | Recall: 0.65097 | Micro F1: 0.3648 | Illicit F1: 0.2498
+Epoch: 64
+TRAIN Loss: 0.02276 | Accuracy: 0.8993 | Precision: 0.20789 | Recall: 0.93732 | Micro F1: 0.5269 | Illicit F1: 0.3403
+TEST Loss: 0.05703 | Accuracy: 0.8478 | Precision: 0.16924 | Recall: 0.61681 | Micro F1: 0.3590 | Illicit F1: 0.2656
+Epoch: 65
+TRAIN Loss: 0.02273 | Accuracy: 0.8983 | Precision: 0.20620 | Recall: 0.93588 | Micro F1: 0.5328 | Illicit F1: 0.3379
+TEST Loss: 0.05757 | Accuracy: 0.8489 | Precision: 0.17216 | Recall: 0.63712 | Micro F1: 0.3743 | Illicit F1: 0.2711
+Epoch: 66
+TRAIN Loss: 0.02271 | Accuracy: 0.8985 | Precision: 0.20987 | Recall: 0.93212 | Micro F1: 0.5259 | Illicit F1: 0.3426
+TEST Loss: 0.05722 | Accuracy: 0.8419 | Precision: 0.16068 | Recall: 0.61958 | Micro F1: 0.3745 | Illicit F1: 0.2552
+Epoch: 67
+TRAIN Loss: 0.02273 | Accuracy: 0.8976 | Precision: 0.20691 | Recall: 0.93443 | Micro F1: 0.5123 | Illicit F1: 0.3388
+TEST Loss: 0.05971 | Accuracy: 0.8451 | Precision: 0.18166 | Recall: 0.59649 | Micro F1: 0.3441 | Illicit F1: 0.2785
+Epoch: 68
+TRAIN Loss: 0.02254 | Accuracy: 0.9000 | Precision: 0.21047 | Recall: 0.93501 | Micro F1: 0.5396 | Illicit F1: 0.3436
+TEST Loss: 0.05938 | Accuracy: 0.8410 | Precision: 0.16401 | Recall: 0.61681 | Micro F1: 0.3609 | Illicit F1: 0.2591
+Epoch: 69
+TRAIN Loss: 0.02233 | Accuracy: 0.9008 | Precision: 0.20667 | Recall: 0.94021 | Micro F1: 0.5215 | Illicit F1: 0.3389
+TEST Loss: 0.05925 | Accuracy: 0.8448 | Precision: 0.17904 | Recall: 0.62142 | Micro F1: 0.3820 | Illicit F1: 0.2780
+Epoch: 70
+TRAIN Loss: 0.02258 | Accuracy: 0.8999 | Precision: 0.21831 | Recall: 0.93241 | Micro F1: 0.5348 | Illicit F1: 0.3538
+TEST Loss: 0.05902 | Accuracy: 0.8399 | Precision: 0.17723 | Recall: 0.60942 | Micro F1: 0.3857 | Illicit F1: 0.2746
+Epoch: 71
+TRAIN Loss: 0.02251 | Accuracy: 0.9001 | Precision: 0.20741 | Recall: 0.93588 | Micro F1: 0.5173 | Illicit F1: 0.3396
+TEST Loss: 0.05927 | Accuracy: 0.8463 | Precision: 0.17085 | Recall: 0.62235 | Micro F1: 0.3637 | Illicit F1: 0.2681
+Epoch: 72
+TRAIN Loss: 0.02228 | Accuracy: 0.8996 | Precision: 0.21418 | Recall: 0.93183 | Micro F1: 0.5325 | Illicit F1: 0.3483
+TEST Loss: 0.05645 | Accuracy: 0.8466 | Precision: 0.15332 | Recall: 0.64728 | Micro F1: 0.3625 | Illicit F1: 0.2479
+Epoch: 73
+TRAIN Loss: 0.02225 | Accuracy: 0.9016 | Precision: 0.20807 | Recall: 0.93876 | Micro F1: 0.5384 | Illicit F1: 0.3406
+TEST Loss: 0.05904 | Accuracy: 0.8486 | Precision: 0.17672 | Recall: 0.62512 | Micro F1: 0.3630 | Illicit F1: 0.2755
+Epoch: 74
+TRAIN Loss: 0.02220 | Accuracy: 0.9009 | Precision: 0.21184 | Recall: 0.93992 | Micro F1: 0.5292 | Illicit F1: 0.3457
+TEST Loss: 0.06000 | Accuracy: 0.8429 | Precision: 0.18420 | Recall: 0.59649 | Micro F1: 0.3608 | Illicit F1: 0.2815
+Epoch: 75
+TRAIN Loss: 0.02215 | Accuracy: 0.9017 | Precision: 0.21171 | Recall: 0.93443 | Micro F1: 0.5343 | Illicit F1: 0.3452
+TEST Loss: 0.05971 | Accuracy: 0.8455 | Precision: 0.18402 | Recall: 0.60203 | Micro F1: 0.3783 | Illicit F1: 0.2819
+Epoch: 76
+TRAIN Loss: 0.02221 | Accuracy: 0.9004 | Precision: 0.21664 | Recall: 0.93703 | Micro F1: 0.5379 | Illicit F1: 0.3519
+TEST Loss: 0.06156 | Accuracy: 0.8422 | Precision: 0.17714 | Recall: 0.62235 | Micro F1: 0.3622 | Illicit F1: 0.2758
+Epoch: 77
+TRAIN Loss: 0.02210 | Accuracy: 0.9010 | Precision: 0.21677 | Recall: 0.94165 | Micro F1: 0.5317 | Illicit F1: 0.3524
+TEST Loss: 0.05875 | Accuracy: 0.8427 | Precision: 0.16465 | Recall: 0.62696 | Micro F1: 0.3776 | Illicit F1: 0.2608
+Epoch: 78
+TRAIN Loss: 0.02223 | Accuracy: 0.9008 | Precision: 0.21141 | Recall: 0.93732 | Micro F1: 0.5301 | Illicit F1: 0.3450
+TEST Loss: 0.05766 | Accuracy: 0.8428 | Precision: 0.15221 | Recall: 0.62881 | Micro F1: 0.3638 | Illicit F1: 0.2451
+Epoch: 79
+TRAIN Loss: 0.02207 | Accuracy: 0.9023 | Precision: 0.21584 | Recall: 0.93616 | Micro F1: 0.5338 | Illicit F1: 0.3508
+TEST Loss: 0.05862 | Accuracy: 0.8470 | Precision: 0.15832 | Recall: 0.64543 | Micro F1: 0.3638 | Illicit F1: 0.2543
+Epoch: 80
+TRAIN Loss: 0.02211 | Accuracy: 0.9011 | Precision: 0.21210 | Recall: 0.93645 | Micro F1: 0.5285 | Illicit F1: 0.3459
+TEST Loss: 0.05939 | Accuracy: 0.8437 | Precision: 0.15955 | Recall: 0.62142 | Micro F1: 0.3691 | Illicit F1: 0.2539
+Epoch: 81
+TRAIN Loss: 0.02202 | Accuracy: 0.9017 | Precision: 0.21234 | Recall: 0.94021 | Micro F1: 0.5423 | Illicit F1: 0.3464
+TEST Loss: 0.06017 | Accuracy: 0.8393 | Precision: 0.16359 | Recall: 0.63804 | Micro F1: 0.3923 | Illicit F1: 0.2604
+Epoch: 82
+TRAIN Loss: 0.02198 | Accuracy: 0.9022 | Precision: 0.21595 | Recall: 0.93876 | Micro F1: 0.5342 | Illicit F1: 0.3511
+TEST Loss: 0.06033 | Accuracy: 0.8437 | Precision: 0.16874 | Recall: 0.62604 | Micro F1: 0.3693 | Illicit F1: 0.2658
+Epoch: 83
+TRAIN Loss: 0.02176 | Accuracy: 0.9031 | Precision: 0.22086 | Recall: 0.93992 | Micro F1: 0.5340 | Illicit F1: 0.3577
+TEST Loss: 0.06158 | Accuracy: 0.8480 | Precision: 0.20552 | Recall: 0.60480 | Micro F1: 0.3656 | Illicit F1: 0.3068
+Epoch: 84
+TRAIN Loss: 0.02186 | Accuracy: 0.9036 | Precision: 0.21649 | Recall: 0.94021 | Micro F1: 0.5400 | Illicit F1: 0.3519
+TEST Loss: 0.06472 | Accuracy: 0.8407 | Precision: 0.19760 | Recall: 0.59187 | Micro F1: 0.3676 | Illicit F1: 0.2963
+Epoch: 85
+TRAIN Loss: 0.02173 | Accuracy: 0.9036 | Precision: 0.21657 | Recall: 0.94079 | Micro F1: 0.5401 | Illicit F1: 0.3521
+TEST Loss: 0.06270 | Accuracy: 0.8443 | Precision: 0.18745 | Recall: 0.61219 | Micro F1: 0.3629 | Illicit F1: 0.2870
+Epoch: 86
+TRAIN Loss: 0.02178 | Accuracy: 0.9040 | Precision: 0.21910 | Recall: 0.94252 | Micro F1: 0.5400 | Illicit F1: 0.3555
+TEST Loss: 0.06425 | Accuracy: 0.8431 | Precision: 0.21091 | Recall: 0.58541 | Micro F1: 0.3786 | Illicit F1: 0.3101
+Epoch: 87
+TRAIN Loss: 0.02182 | Accuracy: 0.9025 | Precision: 0.22219 | Recall: 0.94050 | Micro F1: 0.5447 | Illicit F1: 0.3595
+TEST Loss: 0.06418 | Accuracy: 0.8452 | Precision: 0.19579 | Recall: 0.61034 | Micro F1: 0.3493 | Illicit F1: 0.2965
+Epoch: 88
+TRAIN Loss: 0.02163 | Accuracy: 0.9036 | Precision: 0.22584 | Recall: 0.93674 | Micro F1: 0.5392 | Illicit F1: 0.3639
+TEST Loss: 0.06339 | Accuracy: 0.8449 | Precision: 0.20365 | Recall: 0.59834 | Micro F1: 0.3629 | Illicit F1: 0.3039
+Epoch: 89
+TRAIN Loss: 0.02166 | Accuracy: 0.9020 | Precision: 0.21461 | Recall: 0.94107 | Micro F1: 0.5425 | Illicit F1: 0.3495
+TEST Loss: 0.06187 | Accuracy: 0.8415 | Precision: 0.17252 | Recall: 0.62604 | Micro F1: 0.3647 | Illicit F1: 0.2705
+Epoch: 90
+TRAIN Loss: 0.02161 | Accuracy: 0.9037 | Precision: 0.22005 | Recall: 0.94136 | Micro F1: 0.5300 | Illicit F1: 0.3567
+TEST Loss: 0.06215 | Accuracy: 0.8375 | Precision: 0.17836 | Recall: 0.61958 | Micro F1: 0.3900 | Illicit F1: 0.2770
+Epoch: 91
+TRAIN Loss: 0.02148 | Accuracy: 0.9034 | Precision: 0.22257 | Recall: 0.93934 | Micro F1: 0.5541 | Illicit F1: 0.3599
+TEST Loss: 0.06216 | Accuracy: 0.8472 | Precision: 0.18399 | Recall: 0.63250 | Micro F1: 0.3604 | Illicit F1: 0.2851
+Epoch: 92
+TRAIN Loss: 0.02160 | Accuracy: 0.9037 | Precision: 0.21652 | Recall: 0.94136 | Micro F1: 0.5342 | Illicit F1: 0.3521
+TEST Loss: 0.06322 | Accuracy: 0.8412 | Precision: 0.19982 | Recall: 0.61588 | Micro F1: 0.3854 | Illicit F1: 0.3017
+Epoch: 93
+TRAIN Loss: 0.02137 | Accuracy: 0.9050 | Precision: 0.22684 | Recall: 0.93992 | Micro F1: 0.5389 | Illicit F1: 0.3655
+TEST Loss: 0.06495 | Accuracy: 0.8463 | Precision: 0.22291 | Recall: 0.59649 | Micro F1: 0.3524 | Illicit F1: 0.3245
+Epoch: 94
+TRAIN Loss: 0.02117 | Accuracy: 0.9039 | Precision: 0.22170 | Recall: 0.93905 | Micro F1: 0.5447 | Illicit F1: 0.3587
+TEST Loss: 0.06339 | Accuracy: 0.8368 | Precision: 0.17094 | Recall: 0.63989 | Micro F1: 0.4005 | Illicit F1: 0.2698
+Epoch: 95
+TRAIN Loss: 0.02123 | Accuracy: 0.9057 | Precision: 0.22495 | Recall: 0.94743 | Micro F1: 0.5480 | Illicit F1: 0.3636
+TEST Loss: 0.06474 | Accuracy: 0.8413 | Precision: 0.22238 | Recall: 0.57987 | Micro F1: 0.3736 | Illicit F1: 0.3215
+Epoch: 96
+TRAIN Loss: 0.02136 | Accuracy: 0.9048 | Precision: 0.22881 | Recall: 0.94425 | Micro F1: 0.5546 | Illicit F1: 0.3684
+TEST Loss: 0.06641 | Accuracy: 0.8384 | Precision: 0.22528 | Recall: 0.57433 | Micro F1: 0.3748 | Illicit F1: 0.3236
+Epoch: 97
+TRAIN Loss: 0.02139 | Accuracy: 0.9039 | Precision: 0.22209 | Recall: 0.94050 | Micro F1: 0.5433 | Illicit F1: 0.3593
+TEST Loss: 0.06392 | Accuracy: 0.8417 | Precision: 0.19963 | Recall: 0.59926 | Micro F1: 0.3713 | Illicit F1: 0.2995
+Epoch: 98
+TRAIN Loss: 0.02114 | Accuracy: 0.9058 | Precision: 0.22689 | Recall: 0.94714 | Micro F1: 0.5500 | Illicit F1: 0.3661
+TEST Loss: 0.06667 | Accuracy: 0.8463 | Precision: 0.20697 | Recall: 0.61958 | Micro F1: 0.3762 | Illicit F1: 0.3103
+Epoch: 99
+TRAIN Loss: 0.02125 | Accuracy: 0.9040 | Precision: 0.22443 | Recall: 0.93674 | Micro F1: 0.5437 | Illicit F1: 0.3621
+TEST Loss: 0.06814 | Accuracy: 0.8445 | Precision: 0.23365 | Recall: 0.59372 | Micro F1: 0.3715 | Illicit F1: 0.3353
+Epoch: 100
+TRAIN Loss: 0.02116 | Accuracy: 0.9057 | Precision: 0.23137 | Recall: 0.94714 | Micro F1: 0.5462 | Illicit F1: 0.3719
+TEST Loss: 0.06501 | Accuracy: 0.8438 | Precision: 0.20575 | Recall: 0.61496 | Micro F1: 0.3682 | Illicit F1: 0.3083
+Epoch: 101
+TRAIN Loss: 0.02093 | Accuracy: 0.9065 | Precision: 0.22665 | Recall: 0.94627 | Micro F1: 0.5564 | Illicit F1: 0.3657
+TEST Loss: 0.06570 | Accuracy: 0.8384 | Precision: 0.20704 | Recall: 0.61404 | Micro F1: 0.3882 | Illicit F1: 0.3097
+Epoch: 102
+TRAIN Loss: 0.02107 | Accuracy: 0.9056 | Precision: 0.22728 | Recall: 0.94194 | Micro F1: 0.5474 | Illicit F1: 0.3662
+TEST Loss: 0.06574 | Accuracy: 0.8396 | Precision: 0.19029 | Recall: 0.61865 | Micro F1: 0.3808 | Illicit F1: 0.2911
+Epoch: 103
+TRAIN Loss: 0.02098 | Accuracy: 0.9062 | Precision: 0.22696 | Recall: 0.94541 | Micro F1: 0.5493 | Illicit F1: 0.3660
+TEST Loss: 0.06647 | Accuracy: 0.8390 | Precision: 0.21612 | Recall: 0.60665 | Micro F1: 0.3894 | Illicit F1: 0.3187
+Epoch: 104
+TRAIN Loss: 0.02103 | Accuracy: 0.9056 | Precision: 0.22979 | Recall: 0.94772 | Micro F1: 0.5505 | Illicit F1: 0.3699
+TEST Loss: 0.06721 | Accuracy: 0.8390 | Precision: 0.22899 | Recall: 0.58356 | Micro F1: 0.3724 | Illicit F1: 0.3289
+Epoch: 105
+TRAIN Loss: 0.02120 | Accuracy: 0.9049 | Precision: 0.22538 | Recall: 0.94483 | Micro F1: 0.5434 | Illicit F1: 0.3639
+TEST Loss: 0.07234 | Accuracy: 0.8322 | Precision: 0.26625 | Recall: 0.46907 | Micro F1: 0.3535 | Illicit F1: 0.3397
+Epoch: 106
+TRAIN Loss: 0.02116 | Accuracy: 0.9059 | Precision: 0.22909 | Recall: 0.94252 | Micro F1: 0.5500 | Illicit F1: 0.3686
+TEST Loss: 0.06808 | Accuracy: 0.8374 | Precision: 0.20923 | Recall: 0.61958 | Micro F1: 0.3916 | Illicit F1: 0.3128
+Epoch: 107
+TRAIN Loss: 0.02078 | Accuracy: 0.9078 | Precision: 0.23076 | Recall: 0.94570 | Micro F1: 0.5426 | Illicit F1: 0.3710
+TEST Loss: 0.06918 | Accuracy: 0.8412 | Precision: 0.24416 | Recall: 0.57895 | Micro F1: 0.3856 | Illicit F1: 0.3435
+Epoch: 108
+TRAIN Loss: 0.02093 | Accuracy: 0.9062 | Precision: 0.22557 | Recall: 0.94685 | Micro F1: 0.5458 | Illicit F1: 0.3643
+TEST Loss: 0.06751 | Accuracy: 0.8355 | Precision: 0.22992 | Recall: 0.55771 | Micro F1: 0.3866 | Illicit F1: 0.3256
+Epoch: 109
+TRAIN Loss: 0.02073 | Accuracy: 0.9075 | Precision: 0.23094 | Recall: 0.94772 | Micro F1: 0.5561 | Illicit F1: 0.3714
+TEST Loss: 0.06824 | Accuracy: 0.8330 | Precision: 0.21442 | Recall: 0.61219 | Micro F1: 0.4238 | Illicit F1: 0.3176
+Epoch: 110
+TRAIN Loss: 0.02086 | Accuracy: 0.9076 | Precision: 0.23172 | Recall: 0.94570 | Micro F1: 0.5571 | Illicit F1: 0.3722
+TEST Loss: 0.07335 | Accuracy: 0.8313 | Precision: 0.25156 | Recall: 0.52078 | Micro F1: 0.3858 | Illicit F1: 0.3392
+Epoch: 111
+TRAIN Loss: 0.02085 | Accuracy: 0.9075 | Precision: 0.22899 | Recall: 0.94830 | Micro F1: 0.5418 | Illicit F1: 0.3689
+TEST Loss: 0.07435 | Accuracy: 0.8281 | Precision: 0.26476 | Recall: 0.49677 | Micro F1: 0.3810 | Illicit F1: 0.3454
+Epoch: 112
+TRAIN Loss: 0.02062 | Accuracy: 0.9087 | Precision: 0.23019 | Recall: 0.95061 | Micro F1: 0.5567 | Illicit F1: 0.3706
+TEST Loss: 0.07211 | Accuracy: 0.8360 | Precision: 0.25835 | Recall: 0.55679 | Micro F1: 0.3747 | Illicit F1: 0.3529
+Epoch: 113
+TRAIN Loss: 0.02078 | Accuracy: 0.9076 | Precision: 0.23353 | Recall: 0.94512 | Micro F1: 0.5631 | Illicit F1: 0.3745
+TEST Loss: 0.06833 | Accuracy: 0.8413 | Precision: 0.21244 | Recall: 0.62142 | Micro F1: 0.3824 | Illicit F1: 0.3166
+Epoch: 114
+TRAIN Loss: 0.02086 | Accuracy: 0.9082 | Precision: 0.22650 | Recall: 0.95147 | Micro F1: 0.5441 | Illicit F1: 0.3659
+TEST Loss: 0.07063 | Accuracy: 0.8384 | Precision: 0.21455 | Recall: 0.59926 | Micro F1: 0.3626 | Illicit F1: 0.3160
+Epoch: 115
+TRAIN Loss: 0.02067 | Accuracy: 0.9078 | Precision: 0.22457 | Recall: 0.95003 | Micro F1: 0.5518 | Illicit F1: 0.3633
+TEST Loss: 0.06952 | Accuracy: 0.8370 | Precision: 0.21556 | Recall: 0.61404 | Micro F1: 0.3993 | Illicit F1: 0.3191
+Epoch: 116
+TRAIN Loss: 0.02083 | Accuracy: 0.9070 | Precision: 0.23420 | Recall: 0.95032 | Micro F1: 0.5595 | Illicit F1: 0.3758
+TEST Loss: 0.07001 | Accuracy: 0.8328 | Precision: 0.23119 | Recall: 0.58172 | Micro F1: 0.4049 | Illicit F1: 0.3309
+Epoch: 117
+TRAIN Loss: 0.02052 | Accuracy: 0.9092 | Precision: 0.22945 | Recall: 0.95003 | Micro F1: 0.5525 | Illicit F1: 0.3696
+TEST Loss: 0.07013 | Accuracy: 0.8377 | Precision: 0.19720 | Recall: 0.61127 | Micro F1: 0.3840 | Illicit F1: 0.2982
+Epoch: 118
+TRAIN Loss: 0.02065 | Accuracy: 0.9074 | Precision: 0.23693 | Recall: 0.94656 | Micro F1: 0.5570 | Illicit F1: 0.3790
+TEST Loss: 0.07022 | Accuracy: 0.8403 | Precision: 0.22513 | Recall: 0.58079 | Micro F1: 0.3690 | Illicit F1: 0.3245
+Epoch: 119
+TRAIN Loss: 0.02067 | Accuracy: 0.9079 | Precision: 0.23178 | Recall: 0.95003 | Micro F1: 0.5509 | Illicit F1: 0.3726
+TEST Loss: 0.07102 | Accuracy: 0.8413 | Precision: 0.21696 | Recall: 0.60942 | Micro F1: 0.3985 | Illicit F1: 0.3200
+Epoch: 120
+TRAIN Loss: 0.02056 | Accuracy: 0.9087 | Precision: 0.23358 | Recall: 0.94714 | Micro F1: 0.5580 | Illicit F1: 0.3747
+TEST Loss: 0.07055 | Accuracy: 0.8435 | Precision: 0.21429 | Recall: 0.60942 | Micro F1: 0.3775 | Illicit F1: 0.3171
+Epoch: 121
+TRAIN Loss: 0.02057 | Accuracy: 0.9069 | Precision: 0.23303 | Recall: 0.94714 | Micro F1: 0.5608 | Illicit F1: 0.3740
+TEST Loss: 0.07212 | Accuracy: 0.8339 | Precision: 0.23449 | Recall: 0.58633 | Micro F1: 0.4145 | Illicit F1: 0.3350
+Epoch: 122
+TRAIN Loss: 0.02062 | Accuracy: 0.9073 | Precision: 0.23363 | Recall: 0.95032 | Micro F1: 0.5554 | Illicit F1: 0.3751
+TEST Loss: 0.07384 | Accuracy: 0.8336 | Precision: 0.23320 | Recall: 0.54478 | Micro F1: 0.3571 | Illicit F1: 0.3266
+Epoch: 123
+TRAIN Loss: 0.02052 | Accuracy: 0.9094 | Precision: 0.23344 | Recall: 0.94772 | Micro F1: 0.5497 | Illicit F1: 0.3746
+TEST Loss: 0.07422 | Accuracy: 0.8328 | Precision: 0.24331 | Recall: 0.55402 | Micro F1: 0.3934 | Illicit F1: 0.3381
+Epoch: 124
+TRAIN Loss: 0.02050 | Accuracy: 0.9073 | Precision: 0.23761 | Recall: 0.94830 | Micro F1: 0.5661 | Illicit F1: 0.3800
+TEST Loss: 0.07525 | Accuracy: 0.8319 | Precision: 0.25000 | Recall: 0.52262 | Micro F1: 0.3562 | Illicit F1: 0.3382
+Epoch: 125
+TRAIN Loss: 0.02054 | Accuracy: 0.9073 | Precision: 0.23351 | Recall: 0.94570 | Micro F1: 0.5594 | Illicit F1: 0.3745
+TEST Loss: 0.07210 | Accuracy: 0.8355 | Precision: 0.21697 | Recall: 0.60665 | Micro F1: 0.4078 | Illicit F1: 0.3196
+Epoch: 126
+TRAIN Loss: 0.02036 | Accuracy: 0.9084 | Precision: 0.22886 | Recall: 0.95234 | Micro F1: 0.5434 | Illicit F1: 0.3690
+TEST Loss: 0.07471 | Accuracy: 0.8344 | Precision: 0.22935 | Recall: 0.59741 | Micro F1: 0.4127 | Illicit F1: 0.3315
+Epoch: 127
+TRAIN Loss: 0.02025 | Accuracy: 0.9096 | Precision: 0.23844 | Recall: 0.95436 | Micro F1: 0.5660 | Illicit F1: 0.3815
+TEST Loss: 0.07145 | Accuracy: 0.8334 | Precision: 0.22017 | Recall: 0.60665 | Micro F1: 0.4284 | Illicit F1: 0.3231
+Epoch: 128
+TRAIN Loss: 0.02040 | Accuracy: 0.9076 | Precision: 0.23407 | Recall: 0.94743 | Micro F1: 0.5617 | Illicit F1: 0.3754
+TEST Loss: 0.07421 | Accuracy: 0.8367 | Precision: 0.24175 | Recall: 0.56140 | Micro F1: 0.3716 | Illicit F1: 0.3380
+Epoch: 129
+TRAIN Loss: 0.02018 | Accuracy: 0.9097 | Precision: 0.23637 | Recall: 0.95061 | Micro F1: 0.5473 | Illicit F1: 0.3786
+TEST Loss: 0.07238 | Accuracy: 0.8361 | Precision: 0.19754 | Recall: 0.62235 | Micro F1: 0.3942 | Illicit F1: 0.2999
+Epoch: 130
+TRAIN Loss: 0.02027 | Accuracy: 0.9101 | Precision: 0.23498 | Recall: 0.95263 | Micro F1: 0.5559 | Illicit F1: 0.3770
+TEST Loss: 0.07524 | Accuracy: 0.8338 | Precision: 0.23233 | Recall: 0.57064 | Micro F1: 0.3904 | Illicit F1: 0.3302
+Epoch: 131
+TRAIN Loss: 0.02034 | Accuracy: 0.9083 | Precision: 0.24259 | Recall: 0.94858 | Micro F1: 0.5677 | Illicit F1: 0.3864
+TEST Loss: 0.07539 | Accuracy: 0.8380 | Precision: 0.23149 | Recall: 0.59464 | Micro F1: 0.3752 | Illicit F1: 0.3332
+Epoch: 132
+TRAIN Loss: 0.02033 | Accuracy: 0.9094 | Precision: 0.23012 | Recall: 0.95147 | Micro F1: 0.5515 | Illicit F1: 0.3706
+TEST Loss: 0.07468 | Accuracy: 0.8354 | Precision: 0.22278 | Recall: 0.61034 | Micro F1: 0.3881 | Illicit F1: 0.3264
+Epoch: 133
+TRAIN Loss: 0.02039 | Accuracy: 0.9096 | Precision: 0.23809 | Recall: 0.95263 | Micro F1: 0.5643 | Illicit F1: 0.3810
+TEST Loss: 0.07889 | Accuracy: 0.8313 | Precision: 0.27104 | Recall: 0.51154 | Micro F1: 0.3609 | Illicit F1: 0.3543
+Epoch: 134
+TRAIN Loss: 0.02039 | Accuracy: 0.9097 | Precision: 0.23989 | Recall: 0.95090 | Micro F1: 0.5696 | Illicit F1: 0.3831
+TEST Loss: 0.07684 | Accuracy: 0.8353 | Precision: 0.24849 | Recall: 0.56971 | Micro F1: 0.3857 | Illicit F1: 0.3460
+Epoch: 135
+TRAIN Loss: 0.02009 | Accuracy: 0.9087 | Precision: 0.23784 | Recall: 0.94945 | Micro F1: 0.5504 | Illicit F1: 0.3804
+TEST Loss: 0.07458 | Accuracy: 0.8353 | Precision: 0.22735 | Recall: 0.60018 | Micro F1: 0.3984 | Illicit F1: 0.3298
+Epoch: 136
+TRAIN Loss: 0.01997 | Accuracy: 0.9105 | Precision: 0.23921 | Recall: 0.95378 | Micro F1: 0.5533 | Illicit F1: 0.3825
+TEST Loss: 0.07741 | Accuracy: 0.8294 | Precision: 0.24942 | Recall: 0.59557 | Micro F1: 0.4279 | Illicit F1: 0.3516
+Epoch: 137
+TRAIN Loss: 0.02007 | Accuracy: 0.9085 | Precision: 0.24108 | Recall: 0.95061 | Micro F1: 0.5698 | Illicit F1: 0.3846
+TEST Loss: 0.07886 | Accuracy: 0.8291 | Precision: 0.27195 | Recall: 0.52632 | Micro F1: 0.3866 | Illicit F1: 0.3586
+Epoch: 138
+TRAIN Loss: 0.01993 | Accuracy: 0.9117 | Precision: 0.24344 | Recall: 0.95061 | Micro F1: 0.5539 | Illicit F1: 0.3876
+TEST Loss: 0.07651 | Accuracy: 0.8294 | Precision: 0.23436 | Recall: 0.60203 | Micro F1: 0.4356 | Illicit F1: 0.3374
+Epoch: 139
+TRAIN Loss: 0.02021 | Accuracy: 0.9088 | Precision: 0.23422 | Recall: 0.95061 | Micro F1: 0.5677 | Illicit F1: 0.3758
+TEST Loss: 0.07871 | Accuracy: 0.8331 | Precision: 0.24857 | Recall: 0.56325 | Micro F1: 0.3857 | Illicit F1: 0.3449
+Epoch: 140
+TRAIN Loss: 0.02013 | Accuracy: 0.9088 | Precision: 0.23838 | Recall: 0.94685 | Micro F1: 0.5595 | Illicit F1: 0.3809
+TEST Loss: 0.07812 | Accuracy: 0.8317 | Precision: 0.25532 | Recall: 0.53186 | Micro F1: 0.3767 | Illicit F1: 0.3450
+Epoch: 141
+TRAIN Loss: 0.01988 | Accuracy: 0.9117 | Precision: 0.23986 | Recall: 0.95465 | Micro F1: 0.5602 | Illicit F1: 0.3834
+TEST Loss: 0.07743 | Accuracy: 0.8329 | Precision: 0.24577 | Recall: 0.59003 | Micro F1: 0.3969 | Illicit F1: 0.3470
+Epoch: 142
+TRAIN Loss: 0.02019 | Accuracy: 0.9098 | Precision: 0.24069 | Recall: 0.94858 | Micro F1: 0.5584 | Illicit F1: 0.3840
+TEST Loss: 0.07742 | Accuracy: 0.8307 | Precision: 0.24628 | Recall: 0.58079 | Micro F1: 0.4314 | Illicit F1: 0.3459
+Epoch: 143
+TRAIN Loss: 0.02008 | Accuracy: 0.9113 | Precision: 0.24458 | Recall: 0.95523 | Micro F1: 0.5710 | Illicit F1: 0.3894
+TEST Loss: 0.07618 | Accuracy: 0.8366 | Precision: 0.22801 | Recall: 0.59834 | Micro F1: 0.3778 | Illicit F1: 0.3302
+Epoch: 144
+TRAIN Loss: 0.02001 | Accuracy: 0.9108 | Precision: 0.24025 | Recall: 0.95147 | Micro F1: 0.5539 | Illicit F1: 0.3836
+TEST Loss: 0.07983 | Accuracy: 0.8309 | Precision: 0.25452 | Recall: 0.57248 | Micro F1: 0.4127 | Illicit F1: 0.3524
+Epoch: 145
+TRAIN Loss: 0.02013 | Accuracy: 0.9098 | Precision: 0.24355 | Recall: 0.94570 | Micro F1: 0.5730 | Illicit F1: 0.3873
+TEST Loss: 0.07792 | Accuracy: 0.8348 | Precision: 0.24142 | Recall: 0.57802 | Micro F1: 0.3917 | Illicit F1: 0.3406
+Epoch: 146
+TRAIN Loss: 0.02003 | Accuracy: 0.9100 | Precision: 0.23241 | Recall: 0.95321 | Micro F1: 0.5553 | Illicit F1: 0.3737
+TEST Loss: 0.07569 | Accuracy: 0.8260 | Precision: 0.20471 | Recall: 0.60942 | Micro F1: 0.4396 | Illicit F1: 0.3065
+Epoch: 147
+TRAIN Loss: 0.02000 | Accuracy: 0.9091 | Precision: 0.23860 | Recall: 0.95176 | Micro F1: 0.5667 | Illicit F1: 0.3815
+TEST Loss: 0.08136 | Accuracy: 0.8320 | Precision: 0.25808 | Recall: 0.53093 | Micro F1: 0.3691 | Illicit F1: 0.3473
+Epoch: 148
+TRAIN Loss: 0.02000 | Accuracy: 0.9097 | Precision: 0.24044 | Recall: 0.94598 | Micro F1: 0.5634 | Illicit F1: 0.3834
+TEST Loss: 0.07951 | Accuracy: 0.8295 | Precision: 0.24877 | Recall: 0.56233 | Micro F1: 0.4245 | Illicit F1: 0.3449
+Epoch: 149
+TRAIN Loss: 0.01978 | Accuracy: 0.9120 | Precision: 0.24360 | Recall: 0.95869 | Micro F1: 0.5575 | Illicit F1: 0.3885
+TEST Loss: 0.08098 | Accuracy: 0.8283 | Precision: 0.26526 | Recall: 0.52170 | Micro F1: 0.3856 | Illicit F1: 0.3517
+Epoch: 150
+TRAIN Loss: 0.01976 | Accuracy: 0.9104 | Precision: 0.24006 | Recall: 0.95263 | Micro F1: 0.5725 | Illicit F1: 0.3835
+TEST Loss: 0.07905 | Accuracy: 0.8229 | Precision: 0.22023 | Recall: 0.58910 | Micro F1: 0.4195 | Illicit F1: 0.3206
+Epoch: 151
+TRAIN Loss: 0.02002 | Accuracy: 0.9114 | Precision: 0.24207 | Recall: 0.95176 | Micro F1: 0.5525 | Illicit F1: 0.3860
+TEST Loss: 0.07786 | Accuracy: 0.8278 | Precision: 0.24471 | Recall: 0.56602 | Micro F1: 0.4071 | Illicit F1: 0.3417
+Epoch: 152
+TRAIN Loss: 0.01979 | Accuracy: 0.9103 | Precision: 0.24499 | Recall: 0.95350 | Micro F1: 0.5732 | Illicit F1: 0.3898
+TEST Loss: 0.07882 | Accuracy: 0.8174 | Precision: 0.22883 | Recall: 0.59649 | Micro F1: 0.4497 | Illicit F1: 0.3308
+Epoch: 153
+TRAIN Loss: 0.01999 | Accuracy: 0.9095 | Precision: 0.23997 | Recall: 0.95032 | Micro F1: 0.5646 | Illicit F1: 0.3832
+TEST Loss: 0.08156 | Accuracy: 0.8245 | Precision: 0.26026 | Recall: 0.54478 | Micro F1: 0.4282 | Illicit F1: 0.3522
+Epoch: 154
+TRAIN Loss: 0.01962 | Accuracy: 0.9120 | Precision: 0.24908 | Recall: 0.95638 | Micro F1: 0.5759 | Illicit F1: 0.3952
+TEST Loss: 0.08140 | Accuracy: 0.8315 | Precision: 0.26297 | Recall: 0.53370 | Micro F1: 0.3763 | Illicit F1: 0.3523
+Epoch: 155
+TRAIN Loss: 0.01975 | Accuracy: 0.9115 | Precision: 0.24431 | Recall: 0.95147 | Micro F1: 0.5439 | Illicit F1: 0.3888
+TEST Loss: 0.08231 | Accuracy: 0.8282 | Precision: 0.28444 | Recall: 0.50139 | Micro F1: 0.3917 | Illicit F1: 0.3630
+Epoch: 156
+TRAIN Loss: 0.01979 | Accuracy: 0.9118 | Precision: 0.24495 | Recall: 0.96014 | Micro F1: 0.5695 | Illicit F1: 0.3903
+TEST Loss: 0.08067 | Accuracy: 0.8286 | Precision: 0.26274 | Recall: 0.54755 | Micro F1: 0.4345 | Illicit F1: 0.3551
+Epoch: 157
+TRAIN Loss: 0.01974 | Accuracy: 0.9107 | Precision: 0.24587 | Recall: 0.95494 | Micro F1: 0.5699 | Illicit F1: 0.3911
+TEST Loss: 0.07850 | Accuracy: 0.8345 | Precision: 0.22581 | Recall: 0.61404 | Micro F1: 0.4313 | Illicit F1: 0.3302
+Epoch: 158
+TRAIN Loss: 0.02003 | Accuracy: 0.9098 | Precision: 0.23938 | Recall: 0.94916 | Micro F1: 0.5644 | Illicit F1: 0.3823
+TEST Loss: 0.07969 | Accuracy: 0.8354 | Precision: 0.24752 | Recall: 0.55309 | Micro F1: 0.3918 | Illicit F1: 0.3420
+Epoch: 159
+TRAIN Loss: 0.01977 | Accuracy: 0.9117 | Precision: 0.24530 | Recall: 0.95436 | Micro F1: 0.5803 | Illicit F1: 0.3903
+TEST Loss: 0.08186 | Accuracy: 0.8318 | Precision: 0.25187 | Recall: 0.52724 | Micro F1: 0.3842 | Illicit F1: 0.3409
+Epoch: 160
+TRAIN Loss: 0.01970 | Accuracy: 0.9128 | Precision: 0.23999 | Recall: 0.95581 | Micro F1: 0.5554 | Illicit F1: 0.3837
+TEST Loss: 0.08428 | Accuracy: 0.8297 | Precision: 0.25536 | Recall: 0.52816 | Micro F1: 0.3934 | Illicit F1: 0.3443
+Epoch: 161
+TRAIN Loss: 0.01964 | Accuracy: 0.9112 | Precision: 0.25206 | Recall: 0.95494 | Micro F1: 0.5766 | Illicit F1: 0.3988
+TEST Loss: 0.08564 | Accuracy: 0.8294 | Precision: 0.28899 | Recall: 0.51154 | Micro F1: 0.3704 | Illicit F1: 0.3693
+Epoch: 162
+TRAIN Loss: 0.01974 | Accuracy: 0.9120 | Precision: 0.24577 | Recall: 0.95552 | Micro F1: 0.5633 | Illicit F1: 0.3910
+TEST Loss: 0.08266 | Accuracy: 0.8278 | Precision: 0.25376 | Recall: 0.56140 | Micro F1: 0.4254 | Illicit F1: 0.3495
+Epoch: 163
+TRAIN Loss: 0.01974 | Accuracy: 0.9102 | Precision: 0.24858 | Recall: 0.95032 | Micro F1: 0.5719 | Illicit F1: 0.3941
+TEST Loss: 0.08188 | Accuracy: 0.8323 | Precision: 0.24040 | Recall: 0.58356 | Micro F1: 0.4038 | Illicit F1: 0.3405
+Epoch: 164
+TRAIN Loss: 0.01958 | Accuracy: 0.9123 | Precision: 0.24166 | Recall: 0.95667 | Micro F1: 0.5587 | Illicit F1: 0.3859
+TEST Loss: 0.08744 | Accuracy: 0.8316 | Precision: 0.29365 | Recall: 0.51708 | Micro F1: 0.3927 | Illicit F1: 0.3746
+Epoch: 165
+TRAIN Loss: 0.01960 | Accuracy: 0.9113 | Precision: 0.25403 | Recall: 0.95147 | Micro F1: 0.5680 | Illicit F1: 0.4010
+TEST Loss: 0.08557 | Accuracy: 0.8244 | Precision: 0.28186 | Recall: 0.52078 | Micro F1: 0.3755 | Illicit F1: 0.3658
+Epoch: 166
+TRAIN Loss: 0.01945 | Accuracy: 0.9126 | Precision: 0.25040 | Recall: 0.95321 | Micro F1: 0.5812 | Illicit F1: 0.3966
+TEST Loss: 0.08158 | Accuracy: 0.8290 | Precision: 0.24732 | Recall: 0.57618 | Micro F1: 0.4376 | Illicit F1: 0.3461
+Epoch: 167
+TRAIN Loss: 0.01981 | Accuracy: 0.9111 | Precision: 0.23921 | Recall: 0.95234 | Micro F1: 0.5652 | Illicit F1: 0.3824
+TEST Loss: 0.08450 | Accuracy: 0.8254 | Precision: 0.26772 | Recall: 0.56140 | Micro F1: 0.4243 | Illicit F1: 0.3626
+Epoch: 168
+TRAIN Loss: 0.01960 | Accuracy: 0.9132 | Precision: 0.24325 | Recall: 0.95436 | Micro F1: 0.5726 | Illicit F1: 0.3877
+TEST Loss: 0.08179 | Accuracy: 0.8308 | Precision: 0.24440 | Recall: 0.59464 | Micro F1: 0.4167 | Illicit F1: 0.3464
+Epoch: 169
+TRAIN Loss: 0.01948 | Accuracy: 0.9119 | Precision: 0.24377 | Recall: 0.95494 | Micro F1: 0.5722 | Illicit F1: 0.3884
+TEST Loss: 0.08563 | Accuracy: 0.8227 | Precision: 0.27581 | Recall: 0.51062 | Micro F1: 0.4122 | Illicit F1: 0.3582
+Epoch: 170
+TRAIN Loss: 0.01952 | Accuracy: 0.9130 | Precision: 0.25171 | Recall: 0.95436 | Micro F1: 0.5707 | Illicit F1: 0.3984
+TEST Loss: 0.08414 | Accuracy: 0.8270 | Precision: 0.25779 | Recall: 0.55032 | Micro F1: 0.4240 | Illicit F1: 0.3511
+Epoch: 171
+TRAIN Loss: 0.01937 | Accuracy: 0.9140 | Precision: 0.24243 | Recall: 0.95956 | Micro F1: 0.5686 | Illicit F1: 0.3871
+TEST Loss: 0.08595 | Accuracy: 0.8266 | Precision: 0.27905 | Recall: 0.51893 | Micro F1: 0.3920 | Illicit F1: 0.3629
+Epoch: 172
+TRAIN Loss: 0.01937 | Accuracy: 0.9125 | Precision: 0.25072 | Recall: 0.95754 | Micro F1: 0.5664 | Illicit F1: 0.3974
+TEST Loss: 0.08558 | Accuracy: 0.8217 | Precision: 0.25353 | Recall: 0.56325 | Micro F1: 0.4278 | Illicit F1: 0.3497
+Epoch: 173
+TRAIN Loss: 0.01971 | Accuracy: 0.9119 | Precision: 0.24045 | Recall: 0.95494 | Micro F1: 0.5752 | Illicit F1: 0.3842
+TEST Loss: 0.08439 | Accuracy: 0.8253 | Precision: 0.24335 | Recall: 0.58264 | Micro F1: 0.4289 | Illicit F1: 0.3433
+Epoch: 174
+TRAIN Loss: 0.01951 | Accuracy: 0.9121 | Precision: 0.24930 | Recall: 0.95321 | Micro F1: 0.5694 | Illicit F1: 0.3952
+TEST Loss: 0.08547 | Accuracy: 0.8306 | Precision: 0.26111 | Recall: 0.55863 | Micro F1: 0.3935 | Illicit F1: 0.3559
+Epoch: 175
+TRAIN Loss: 0.01926 | Accuracy: 0.9139 | Precision: 0.24590 | Recall: 0.95696 | Micro F1: 0.5716 | Illicit F1: 0.3913
+TEST Loss: 0.08628 | Accuracy: 0.8239 | Precision: 0.26905 | Recall: 0.53463 | Micro F1: 0.4329 | Illicit F1: 0.3580
+Epoch: 176
+TRAIN Loss: 0.01922 | Accuracy: 0.9137 | Precision: 0.24712 | Recall: 0.95494 | Micro F1: 0.5788 | Illicit F1: 0.3926
+TEST Loss: 0.08480 | Accuracy: 0.8207 | Precision: 0.24590 | Recall: 0.55402 | Micro F1: 0.4219 | Illicit F1: 0.3406
+Epoch: 177
+TRAIN Loss: 0.01950 | Accuracy: 0.9121 | Precision: 0.25053 | Recall: 0.95667 | Micro F1: 0.5594 | Illicit F1: 0.3971
+TEST Loss: 0.08857 | Accuracy: 0.8254 | Precision: 0.28301 | Recall: 0.49677 | Micro F1: 0.4018 | Illicit F1: 0.3606
+Epoch: 178
+TRAIN Loss: 0.01961 | Accuracy: 0.9123 | Precision: 0.24412 | Recall: 0.95321 | Micro F1: 0.5797 | Illicit F1: 0.3887
+TEST Loss: 0.08426 | Accuracy: 0.8313 | Precision: 0.23273 | Recall: 0.59095 | Micro F1: 0.4078 | Illicit F1: 0.3339
+Epoch: 179
+TRAIN Loss: 0.01958 | Accuracy: 0.9131 | Precision: 0.24453 | Recall: 0.95609 | Micro F1: 0.5629 | Illicit F1: 0.3895
+TEST Loss: 0.09091 | Accuracy: 0.8311 | Precision: 0.28106 | Recall: 0.51801 | Micro F1: 0.3860 | Illicit F1: 0.3644
+Epoch: 180
+TRAIN Loss: 0.01926 | Accuracy: 0.9151 | Precision: 0.25345 | Recall: 0.96072 | Micro F1: 0.5820 | Illicit F1: 0.4011
+TEST Loss: 0.08712 | Accuracy: 0.8291 | Precision: 0.25590 | Recall: 0.55032 | Micro F1: 0.4073 | Illicit F1: 0.3494
+Epoch: 181
+TRAIN Loss: 0.01938 | Accuracy: 0.9131 | Precision: 0.24831 | Recall: 0.95465 | Micro F1: 0.5700 | Illicit F1: 0.3941
+TEST Loss: 0.09086 | Accuracy: 0.8162 | Precision: 0.26493 | Recall: 0.50785 | Micro F1: 0.4259 | Illicit F1: 0.3482
+Epoch: 182
+TRAIN Loss: 0.01919 | Accuracy: 0.9143 | Precision: 0.25169 | Recall: 0.95696 | Micro F1: 0.5732 | Illicit F1: 0.3986
+TEST Loss: 0.08619 | Accuracy: 0.8293 | Precision: 0.25269 | Recall: 0.54294 | Micro F1: 0.3740 | Illicit F1: 0.3449
+Epoch: 183
+TRAIN Loss: 0.01940 | Accuracy: 0.9128 | Precision: 0.25108 | Recall: 0.95552 | Micro F1: 0.5710 | Illicit F1: 0.3977
+TEST Loss: 0.08993 | Accuracy: 0.8258 | Precision: 0.26877 | Recall: 0.51893 | Micro F1: 0.4066 | Illicit F1: 0.3541
+Epoch: 184
+TRAIN Loss: 0.01915 | Accuracy: 0.9146 | Precision: 0.24912 | Recall: 0.95638 | Micro F1: 0.5737 | Illicit F1: 0.3953
+TEST Loss: 0.08779 | Accuracy: 0.8232 | Precision: 0.25456 | Recall: 0.51524 | Micro F1: 0.3947 | Illicit F1: 0.3408
+Epoch: 185
+TRAIN Loss: 0.01943 | Accuracy: 0.9130 | Precision: 0.25038 | Recall: 0.95783 | Micro F1: 0.5769 | Illicit F1: 0.3970
+TEST Loss: 0.09090 | Accuracy: 0.8123 | Precision: 0.27099 | Recall: 0.50970 | Micro F1: 0.4236 | Illicit F1: 0.3538
+Epoch: 186
+TRAIN Loss: 0.01937 | Accuracy: 0.9136 | Precision: 0.24755 | Recall: 0.95609 | Micro F1: 0.5629 | Illicit F1: 0.3933
+TEST Loss: 0.08915 | Accuracy: 0.8262 | Precision: 0.24889 | Recall: 0.56879 | Micro F1: 0.4194 | Illicit F1: 0.3463
+Epoch: 187
+TRAIN Loss: 0.01907 | Accuracy: 0.9159 | Precision: 0.25729 | Recall: 0.96043 | Micro F1: 0.5768 | Illicit F1: 0.4059
+TEST Loss: 0.09198 | Accuracy: 0.8228 | Precision: 0.29039 | Recall: 0.53278 | Micro F1: 0.4365 | Illicit F1: 0.3759
+Epoch: 188
+TRAIN Loss: 0.01911 | Accuracy: 0.9128 | Precision: 0.25542 | Recall: 0.95956 | Micro F1: 0.5831 | Illicit F1: 0.4034
+TEST Loss: 0.09229 | Accuracy: 0.8193 | Precision: 0.29301 | Recall: 0.48753 | Micro F1: 0.3963 | Illicit F1: 0.3660
+Epoch: 189
+TRAIN Loss: 0.01935 | Accuracy: 0.9139 | Precision: 0.25171 | Recall: 0.95696 | Micro F1: 0.5655 | Illicit F1: 0.3986
+TEST Loss: 0.08882 | Accuracy: 0.8394 | Precision: 0.21619 | Recall: 0.59926 | Micro F1: 0.3690 | Illicit F1: 0.3177
+Epoch: 190
+TRAIN Loss: 0.01917 | Accuracy: 0.9133 | Precision: 0.24640 | Recall: 0.95523 | Micro F1: 0.5780 | Illicit F1: 0.3918
+TEST Loss: 0.08729 | Accuracy: 0.8257 | Precision: 0.26244 | Recall: 0.55032 | Micro F1: 0.4187 | Illicit F1: 0.3554
+Epoch: 191
+TRAIN Loss: 0.01913 | Accuracy: 0.9138 | Precision: 0.24979 | Recall: 0.96014 | Micro F1: 0.5598 | Illicit F1: 0.3964
+TEST Loss: 0.09253 | Accuracy: 0.8214 | Precision: 0.29838 | Recall: 0.49400 | Micro F1: 0.4158 | Illicit F1: 0.3720
+Epoch: 192
+TRAIN Loss: 0.01920 | Accuracy: 0.9149 | Precision: 0.25459 | Recall: 0.95754 | Micro F1: 0.5783 | Illicit F1: 0.4022
+TEST Loss: 0.09082 | Accuracy: 0.8255 | Precision: 0.27013 | Recall: 0.53278 | Micro F1: 0.4108 | Illicit F1: 0.3585
+Epoch: 193
+TRAIN Loss: 0.01919 | Accuracy: 0.9142 | Precision: 0.25255 | Recall: 0.95725 | Micro F1: 0.5764 | Illicit F1: 0.3997
+TEST Loss: 0.09001 | Accuracy: 0.8168 | Precision: 0.25209 | Recall: 0.55679 | Micro F1: 0.4239 | Illicit F1: 0.3471
+Epoch: 194
+TRAIN Loss: 0.01913 | Accuracy: 0.9140 | Precision: 0.25106 | Recall: 0.95667 | Micro F1: 0.5721 | Illicit F1: 0.3977
+TEST Loss: 0.09259 | Accuracy: 0.8286 | Precision: 0.27770 | Recall: 0.52539 | Micro F1: 0.3930 | Illicit F1: 0.3633
+Epoch: 195
+TRAIN Loss: 0.01919 | Accuracy: 0.9136 | Precision: 0.25070 | Recall: 0.95552 | Micro F1: 0.5743 | Illicit F1: 0.3972
+TEST Loss: 0.09093 | Accuracy: 0.8287 | Precision: 0.27418 | Recall: 0.53924 | Micro F1: 0.3861 | Illicit F1: 0.3635
+Epoch: 196
+TRAIN Loss: 0.01920 | Accuracy: 0.9125 | Precision: 0.24491 | Recall: 0.95638 | Micro F1: 0.5745 | Illicit F1: 0.3900
+TEST Loss: 0.09822 | Accuracy: 0.8124 | Precision: 0.30365 | Recall: 0.49123 | Micro F1: 0.4114 | Illicit F1: 0.3753
+Epoch: 197
+TRAIN Loss: 0.01898 | Accuracy: 0.9141 | Precision: 0.25592 | Recall: 0.95494 | Micro F1: 0.5761 | Illicit F1: 0.4037
+TEST Loss: 0.09196 | Accuracy: 0.8244 | Precision: 0.25172 | Recall: 0.57433 | Micro F1: 0.4112 | Illicit F1: 0.3500
+Epoch: 198
+TRAIN Loss: 0.01916 | Accuracy: 0.9143 | Precision: 0.25116 | Recall: 0.95754 | Micro F1: 0.5767 | Illicit F1: 0.3979
+TEST Loss: 0.09132 | Accuracy: 0.8244 | Precision: 0.26437 | Recall: 0.53924 | Micro F1: 0.4007 | Illicit F1: 0.3548
+Epoch: 199
+TRAIN Loss: 0.01908 | Accuracy: 0.9143 | Precision: 0.25102 | Recall: 0.96158 | Micro F1: 0.5738 | Illicit F1: 0.3981
+TEST Loss: 0.09870 | Accuracy: 0.8203 | Precision: 0.29896 | Recall: 0.47922 | Micro F1: 0.3897 | Illicit F1: 0.3682
+Epoch: 200
+TRAIN Loss: 0.01914 | Accuracy: 0.9133 | Precision: 0.24768 | Recall: 0.95667 | Micro F1: 0.5796 | Illicit F1: 0.3935
+TEST Loss: 0.09461 | Accuracy: 0.8218 | Precision: 0.28189 | Recall: 0.50600 | Micro F1: 0.4240 | Illicit F1: 0.3621
+Epoch: 201
+TRAIN Loss: 0.01895 | Accuracy: 0.9161 | Precision: 0.25197 | Recall: 0.96187 | Micro F1: 0.5647 | Illicit F1: 0.3993
+TEST Loss: 0.09563 | Accuracy: 0.8206 | Precision: 0.25888 | Recall: 0.51154 | Micro F1: 0.3867 | Illicit F1: 0.3438
+Epoch: 202
+TRAIN Loss: 0.01906 | Accuracy: 0.9133 | Precision: 0.25225 | Recall: 0.95523 | Micro F1: 0.5840 | Illicit F1: 0.3991
+TEST Loss: 0.09466 | Accuracy: 0.8159 | Precision: 0.25115 | Recall: 0.50508 | Micro F1: 0.4020 | Illicit F1: 0.3355
+Epoch: 203
+TRAIN Loss: 0.01914 | Accuracy: 0.9134 | Precision: 0.25113 | Recall: 0.95985 | Micro F1: 0.5659 | Illicit F1: 0.3981
+TEST Loss: 0.10216 | Accuracy: 0.8139 | Precision: 0.32337 | Recall: 0.44968 | Micro F1: 0.3894 | Illicit F1: 0.3762
+Epoch: 204
+TRAIN Loss: 0.01899 | Accuracy: 0.9150 | Precision: 0.25157 | Recall: 0.95812 | Micro F1: 0.5701 | Illicit F1: 0.3985
+TEST Loss: 0.09717 | Accuracy: 0.8151 | Precision: 0.28523 | Recall: 0.53832 | Micro F1: 0.4686 | Illicit F1: 0.3729
+Epoch: 205
+TRAIN Loss: 0.01895 | Accuracy: 0.9158 | Precision: 0.26146 | Recall: 0.96072 | Micro F1: 0.5888 | Illicit F1: 0.4110
+TEST Loss: 0.09460 | Accuracy: 0.8249 | Precision: 0.27197 | Recall: 0.51154 | Micro F1: 0.4055 | Illicit F1: 0.3551
+Epoch: 206
+TRAIN Loss: 0.01895 | Accuracy: 0.9147 | Precision: 0.25607 | Recall: 0.95956 | Micro F1: 0.5781 | Illicit F1: 0.4043
+TEST Loss: 0.09745 | Accuracy: 0.8094 | Precision: 0.28418 | Recall: 0.48753 | Micro F1: 0.4055 | Illicit F1: 0.3591
+Epoch: 207
+TRAIN Loss: 0.01906 | Accuracy: 0.9144 | Precision: 0.25586 | Recall: 0.95841 | Micro F1: 0.5708 | Illicit F1: 0.4039
+TEST Loss: 0.09465 | Accuracy: 0.8210 | Precision: 0.26236 | Recall: 0.50970 | Micro F1: 0.3723 | Illicit F1: 0.3464
+Epoch: 208
+TRAIN Loss: 0.01892 | Accuracy: 0.9155 | Precision: 0.25210 | Recall: 0.96187 | Micro F1: 0.5641 | Illicit F1: 0.3995
+TEST Loss: 0.09744 | Accuracy: 0.8210 | Precision: 0.27590 | Recall: 0.50416 | Micro F1: 0.3876 | Illicit F1: 0.3566
+Epoch: 209
+TRAIN Loss: 0.01904 | Accuracy: 0.9151 | Precision: 0.26193 | Recall: 0.96101 | Micro F1: 0.5880 | Illicit F1: 0.4117
+TEST Loss: 0.09889 | Accuracy: 0.8192 | Precision: 0.29846 | Recall: 0.48199 | Micro F1: 0.3839 | Illicit F1: 0.3686
+Epoch: 210
+TRAIN Loss: 0.01913 | Accuracy: 0.9137 | Precision: 0.24643 | Recall: 0.96216 | Micro F1: 0.5881 | Illicit F1: 0.3924
+TEST Loss: 0.09248 | Accuracy: 0.8268 | Precision: 0.27247 | Recall: 0.53186 | Micro F1: 0.3887 | Illicit F1: 0.3603
+Epoch: 211
+TRAIN Loss: 0.01917 | Accuracy: 0.9135 | Precision: 0.25490 | Recall: 0.95494 | Micro F1: 0.5654 | Illicit F1: 0.4024
+TEST Loss: 0.09674 | Accuracy: 0.8073 | Precision: 0.28217 | Recall: 0.51431 | Micro F1: 0.4396 | Illicit F1: 0.3644
+Epoch: 212
+TRAIN Loss: 0.01886 | Accuracy: 0.9154 | Precision: 0.25230 | Recall: 0.96014 | Micro F1: 0.5706 | Illicit F1: 0.3996
+TEST Loss: 0.09881 | Accuracy: 0.8148 | Precision: 0.29305 | Recall: 0.49030 | Micro F1: 0.4132 | Illicit F1: 0.3668
+Epoch: 213
+TRAIN Loss: 0.01890 | Accuracy: 0.9157 | Precision: 0.25835 | Recall: 0.95841 | Micro F1: 0.5894 | Illicit F1: 0.4070
+TEST Loss: 0.09949 | Accuracy: 0.8109 | Precision: 0.27251 | Recall: 0.52262 | Micro F1: 0.4234 | Illicit F1: 0.3582
+Epoch: 214
+TRAIN Loss: 0.01890 | Accuracy: 0.9152 | Precision: 0.25431 | Recall: 0.96216 | Micro F1: 0.5774 | Illicit F1: 0.4023
+TEST Loss: 0.09670 | Accuracy: 0.8240 | Precision: 0.27455 | Recall: 0.51893 | Micro F1: 0.3953 | Illicit F1: 0.3591
+Epoch: 215
+TRAIN Loss: 0.01874 | Accuracy: 0.9157 | Precision: 0.25686 | Recall: 0.96245 | Micro F1: 0.5659 | Illicit F1: 0.4055
+TEST Loss: 0.09725 | Accuracy: 0.8089 | Precision: 0.26880 | Recall: 0.50508 | Micro F1: 0.4288 | Illicit F1: 0.3509
+Epoch: 216
+TRAIN Loss: 0.01880 | Accuracy: 0.9166 | Precision: 0.25522 | Recall: 0.96447 | Micro F1: 0.5769 | Illicit F1: 0.4036
+TEST Loss: 0.10051 | Accuracy: 0.8096 | Precision: 0.28890 | Recall: 0.50231 | Micro F1: 0.4252 | Illicit F1: 0.3668
+Epoch: 217
+TRAIN Loss: 0.01895 | Accuracy: 0.9139 | Precision: 0.26007 | Recall: 0.95696 | Micro F1: 0.5781 | Illicit F1: 0.4090
+TEST Loss: 0.09799 | Accuracy: 0.8205 | Precision: 0.26350 | Recall: 0.52724 | Micro F1: 0.3957 | Illicit F1: 0.3514
+Epoch: 218
+TRAIN Loss: 0.01889 | Accuracy: 0.9146 | Precision: 0.24773 | Recall: 0.96274 | Micro F1: 0.5764 | Illicit F1: 0.3941
+TEST Loss: 0.09858 | Accuracy: 0.8225 | Precision: 0.25888 | Recall: 0.53832 | Micro F1: 0.3750 | Illicit F1: 0.3496
+Epoch: 219
+TRAIN Loss: 0.01879 | Accuracy: 0.9153 | Precision: 0.25902 | Recall: 0.96014 | Micro F1: 0.5833 | Illicit F1: 0.4080
+TEST Loss: 0.09937 | Accuracy: 0.8155 | Precision: 0.27761 | Recall: 0.51985 | Micro F1: 0.4096 | Illicit F1: 0.3619
+Epoch: 220
+TRAIN Loss: 0.01879 | Accuracy: 0.9160 | Precision: 0.25752 | Recall: 0.96245 | Micro F1: 0.5762 | Illicit F1: 0.4063
+TEST Loss: 0.10021 | Accuracy: 0.8185 | Precision: 0.27165 | Recall: 0.53001 | Micro F1: 0.4081 | Illicit F1: 0.3592
+Epoch: 221
+TRAIN Loss: 0.01857 | Accuracy: 0.9176 | Precision: 0.25754 | Recall: 0.96216 | Micro F1: 0.5817 | Illicit F1: 0.4063
+TEST Loss: 0.09834 | Accuracy: 0.8165 | Precision: 0.25890 | Recall: 0.51062 | Micro F1: 0.4005 | Illicit F1: 0.3436
+Epoch: 222
+TRAIN Loss: 0.01882 | Accuracy: 0.9158 | Precision: 0.25378 | Recall: 0.96014 | Micro F1: 0.5785 | Illicit F1: 0.4014
+TEST Loss: 0.10410 | Accuracy: 0.8152 | Precision: 0.29761 | Recall: 0.47184 | Micro F1: 0.3791 | Illicit F1: 0.3650
+Epoch: 223
+TRAIN Loss: 0.01891 | Accuracy: 0.9144 | Precision: 0.25963 | Recall: 0.95985 | Micro F1: 0.5868 | Illicit F1: 0.4087
+TEST Loss: 0.09884 | Accuracy: 0.8156 | Precision: 0.26966 | Recall: 0.50970 | Micro F1: 0.3885 | Illicit F1: 0.3527
+Epoch: 224
+TRAIN Loss: 0.01873 | Accuracy: 0.9172 | Precision: 0.25856 | Recall: 0.96447 | Micro F1: 0.5733 | Illicit F1: 0.4078
+TEST Loss: 0.10433 | Accuracy: 0.8137 | Precision: 0.30560 | Recall: 0.48846 | Micro F1: 0.4160 | Illicit F1: 0.3760
+Epoch: 225
+TRAIN Loss: 0.01859 | Accuracy: 0.9170 | Precision: 0.26052 | Recall: 0.96014 | Micro F1: 0.5804 | Illicit F1: 0.4098
+TEST Loss: 0.10228 | Accuracy: 0.8116 | Precision: 0.28725 | Recall: 0.46814 | Micro F1: 0.4135 | Illicit F1: 0.3560
+Epoch: 226
+TRAIN Loss: 0.01882 | Accuracy: 0.9148 | Precision: 0.25431 | Recall: 0.96360 | Micro F1: 0.5798 | Illicit F1: 0.4024
+TEST Loss: 0.10191 | Accuracy: 0.8152 | Precision: 0.27981 | Recall: 0.48753 | Micro F1: 0.3775 | Illicit F1: 0.3556
+Epoch: 227
+TRAIN Loss: 0.01898 | Accuracy: 0.9164 | Precision: 0.25402 | Recall: 0.95898 | Micro F1: 0.5752 | Illicit F1: 0.4016
+TEST Loss: 0.09854 | Accuracy: 0.8159 | Precision: 0.26520 | Recall: 0.52355 | Micro F1: 0.4186 | Illicit F1: 0.3521
+Epoch: 228
+TRAIN Loss: 0.01873 | Accuracy: 0.9165 | Precision: 0.25707 | Recall: 0.96620 | Micro F1: 0.5767 | Illicit F1: 0.4061
+TEST Loss: 0.10400 | Accuracy: 0.8040 | Precision: 0.29989 | Recall: 0.48846 | Micro F1: 0.4514 | Illicit F1: 0.3716
+Epoch: 229
+TRAIN Loss: 0.01878 | Accuracy: 0.9162 | Precision: 0.26283 | Recall: 0.96129 | Micro F1: 0.5851 | Illicit F1: 0.4128
+TEST Loss: 0.09821 | Accuracy: 0.8163 | Precision: 0.25756 | Recall: 0.51893 | Micro F1: 0.4106 | Illicit F1: 0.3443
+Epoch: 230
+TRAIN Loss: 0.01878 | Accuracy: 0.9163 | Precision: 0.25712 | Recall: 0.95985 | Micro F1: 0.5737 | Illicit F1: 0.4056
+TEST Loss: 0.09736 | Accuracy: 0.8191 | Precision: 0.26858 | Recall: 0.48384 | Micro F1: 0.3843 | Illicit F1: 0.3454
+Epoch: 231
+TRAIN Loss: 0.01857 | Accuracy: 0.9171 | Precision: 0.25724 | Recall: 0.96187 | Micro F1: 0.5887 | Illicit F1: 0.4059
+TEST Loss: 0.10194 | Accuracy: 0.8178 | Precision: 0.28325 | Recall: 0.48569 | Micro F1: 0.4007 | Illicit F1: 0.3578
+Epoch: 232
+TRAIN Loss: 0.01862 | Accuracy: 0.9161 | Precision: 0.25764 | Recall: 0.96216 | Micro F1: 0.5833 | Illicit F1: 0.4064
+TEST Loss: 0.10385 | Accuracy: 0.8207 | Precision: 0.28697 | Recall: 0.45152 | Micro F1: 0.3537 | Illicit F1: 0.3509
+Epoch: 233
+TRAIN Loss: 0.01851 | Accuracy: 0.9172 | Precision: 0.26267 | Recall: 0.96129 | Micro F1: 0.5741 | Illicit F1: 0.4126
+TEST Loss: 0.09690 | Accuracy: 0.8068 | Precision: 0.26650 | Recall: 0.50323 | Micro F1: 0.4634 | Illicit F1: 0.3485
+Epoch: 234
+TRAIN Loss: 0.01862 | Accuracy: 0.9156 | Precision: 0.25164 | Recall: 0.96592 | Micro F1: 0.5788 | Illicit F1: 0.3993
+TEST Loss: 0.10156 | Accuracy: 0.8139 | Precision: 0.27909 | Recall: 0.51154 | Micro F1: 0.4072 | Illicit F1: 0.3611
+Epoch: 235
+TRAIN Loss: 0.01866 | Accuracy: 0.9171 | Precision: 0.25827 | Recall: 0.96101 | Micro F1: 0.5831 | Illicit F1: 0.4071
+TEST Loss: 0.10093 | Accuracy: 0.8147 | Precision: 0.26888 | Recall: 0.52262 | Micro F1: 0.4346 | Illicit F1: 0.3551
+Epoch: 236
+TRAIN Loss: 0.01865 | Accuracy: 0.9159 | Precision: 0.26327 | Recall: 0.95985 | Micro F1: 0.5772 | Illicit F1: 0.4132
+TEST Loss: 0.09970 | Accuracy: 0.8166 | Precision: 0.25608 | Recall: 0.53463 | Micro F1: 0.4237 | Illicit F1: 0.3463
+Epoch: 237
+TRAIN Loss: 0.01869 | Accuracy: 0.9163 | Precision: 0.25799 | Recall: 0.95869 | Micro F1: 0.5744 | Illicit F1: 0.4066
+TEST Loss: 0.09698 | Accuracy: 0.8143 | Precision: 0.23571 | Recall: 0.52539 | Micro F1: 0.3996 | Illicit F1: 0.3254
+Epoch: 238
+TRAIN Loss: 0.01874 | Accuracy: 0.9156 | Precision: 0.25708 | Recall: 0.96187 | Micro F1: 0.5858 | Illicit F1: 0.4057
+TEST Loss: 0.10099 | Accuracy: 0.8226 | Precision: 0.26699 | Recall: 0.50416 | Micro F1: 0.3934 | Illicit F1: 0.3491
+Epoch: 239
+TRAIN Loss: 0.01867 | Accuracy: 0.9155 | Precision: 0.25881 | Recall: 0.96072 | Micro F1: 0.5878 | Illicit F1: 0.4078
+TEST Loss: 0.10208 | Accuracy: 0.8189 | Precision: 0.27020 | Recall: 0.51247 | Micro F1: 0.4251 | Illicit F1: 0.3538
+Epoch: 240
+TRAIN Loss: 0.01868 | Accuracy: 0.9160 | Precision: 0.25746 | Recall: 0.96707 | Micro F1: 0.5800 | Illicit F1: 0.4067
+TEST Loss: 0.10173 | Accuracy: 0.8193 | Precision: 0.27374 | Recall: 0.50046 | Micro F1: 0.3965 | Illicit F1: 0.3539
+Epoch: 241
+TRAIN Loss: 0.01857 | Accuracy: 0.9164 | Precision: 0.26412 | Recall: 0.96158 | Micro F1: 0.5777 | Illicit F1: 0.4144
+TEST Loss: 0.10461 | Accuracy: 0.8101 | Precision: 0.28865 | Recall: 0.45337 | Micro F1: 0.4025 | Illicit F1: 0.3527
+Epoch: 242
+TRAIN Loss: 0.01858 | Accuracy: 0.9173 | Precision: 0.26337 | Recall: 0.96418 | Micro F1: 0.5828 | Illicit F1: 0.4137
+TEST Loss: 0.10628 | Accuracy: 0.8143 | Precision: 0.28791 | Recall: 0.46630 | Micro F1: 0.4059 | Illicit F1: 0.3560
+Epoch: 243
+TRAIN Loss: 0.01856 | Accuracy: 0.9166 | Precision: 0.25688 | Recall: 0.96187 | Micro F1: 0.5891 | Illicit F1: 0.4055
+TEST Loss: 0.10301 | Accuracy: 0.8100 | Precision: 0.26976 | Recall: 0.48846 | Micro F1: 0.4304 | Illicit F1: 0.3476
+Epoch: 244
+TRAIN Loss: 0.01859 | Accuracy: 0.9164 | Precision: 0.26458 | Recall: 0.96418 | Micro F1: 0.5830 | Illicit F1: 0.4152
+TEST Loss: 0.10608 | Accuracy: 0.8057 | Precision: 0.28107 | Recall: 0.48661 | Micro F1: 0.4231 | Illicit F1: 0.3563
+Epoch: 245
+TRAIN Loss: 0.01856 | Accuracy: 0.9171 | Precision: 0.25952 | Recall: 0.96101 | Micro F1: 0.5748 | Illicit F1: 0.4087
+TEST Loss: 0.10256 | Accuracy: 0.8166 | Precision: 0.25850 | Recall: 0.49861 | Micro F1: 0.3817 | Illicit F1: 0.3405
+Epoch: 246
+TRAIN Loss: 0.01844 | Accuracy: 0.9174 | Precision: 0.26531 | Recall: 0.96360 | Micro F1: 0.5925 | Illicit F1: 0.4161
+TEST Loss: 0.10130 | Accuracy: 0.8194 | Precision: 0.25572 | Recall: 0.54663 | Micro F1: 0.4145 | Illicit F1: 0.3484
+Epoch: 247
+TRAIN Loss: 0.01868 | Accuracy: 0.9146 | Precision: 0.25997 | Recall: 0.96245 | Micro F1: 0.5716 | Illicit F1: 0.4094
+TEST Loss: 0.10100 | Accuracy: 0.8083 | Precision: 0.23382 | Recall: 0.56048 | Micro F1: 0.4451 | Illicit F1: 0.3300
+Epoch: 248
+TRAIN Loss: 0.01855 | Accuracy: 0.9164 | Precision: 0.25914 | Recall: 0.96418 | Micro F1: 0.5874 | Illicit F1: 0.4085
+TEST Loss: 0.09936 | Accuracy: 0.8170 | Precision: 0.25465 | Recall: 0.50600 | Micro F1: 0.3702 | Illicit F1: 0.3388
+Epoch: 249
+TRAIN Loss: 0.01856 | Accuracy: 0.9165 | Precision: 0.26466 | Recall: 0.96447 | Micro F1: 0.5845 | Illicit F1: 0.4154
+TEST Loss: 0.09924 | Accuracy: 0.8119 | Precision: 0.24205 | Recall: 0.52724 | Micro F1: 0.4119 | Illicit F1: 0.3318
+Epoch: 250
+TRAIN Loss: 0.01868 | Accuracy: 0.9160 | Precision: 0.26412 | Recall: 0.96418 | Micro F1: 0.5816 | Illicit F1: 0.4147
+TEST Loss: 0.10499 | Accuracy: 0.8131 | Precision: 0.28153 | Recall: 0.46999 | Micro F1: 0.3778 | Illicit F1: 0.3521
+Epoch: 251
+TRAIN Loss: 0.01858 | Accuracy: 0.9162 | Precision: 0.26154 | Recall: 0.95927 | Micro F1: 0.5812 | Illicit F1: 0.4110
+TEST Loss: 0.10540 | Accuracy: 0.8072 | Precision: 0.27254 | Recall: 0.48569 | Micro F1: 0.4279 | Illicit F1: 0.3492
+Epoch: 252
+TRAIN Loss: 0.01846 | Accuracy: 0.9159 | Precision: 0.26751 | Recall: 0.96187 | Micro F1: 0.5872 | Illicit F1: 0.4186
+TEST Loss: 0.11216 | Accuracy: 0.7999 | Precision: 0.31663 | Recall: 0.43767 | Micro F1: 0.4172 | Illicit F1: 0.3674
+Epoch: 253
+TRAIN Loss: 0.01835 | Accuracy: 0.9184 | Precision: 0.25622 | Recall: 0.96332 | Micro F1: 0.5740 | Illicit F1: 0.4048
+TEST Loss: 0.10191 | Accuracy: 0.8111 | Precision: 0.24729 | Recall: 0.56879 | Micro F1: 0.4551 | Illicit F1: 0.3447
+Epoch: 254
+TRAIN Loss: 0.01860 | Accuracy: 0.9157 | Precision: 0.26238 | Recall: 0.96101 | Micro F1: 0.5885 | Illicit F1: 0.4122
+TEST Loss: 0.10704 | Accuracy: 0.8100 | Precision: 0.29705 | Recall: 0.47368 | Micro F1: 0.4328 | Illicit F1: 0.3651
+Epoch: 255
+TRAIN Loss: 0.01846 | Accuracy: 0.9170 | Precision: 0.26209 | Recall: 0.96447 | Micro F1: 0.5905 | Illicit F1: 0.4122
+TEST Loss: 0.10522 | Accuracy: 0.8106 | Precision: 0.27135 | Recall: 0.48107 | Micro F1: 0.3994 | Illicit F1: 0.3470
+Epoch: 256
+TRAIN Loss: 0.01856 | Accuracy: 0.9169 | Precision: 0.26401 | Recall: 0.96216 | Micro F1: 0.5844 | Illicit F1: 0.4143
+TEST Loss: 0.10827 | Accuracy: 0.8114 | Precision: 0.27963 | Recall: 0.44229 | Micro F1: 0.4026 | Illicit F1: 0.3426
+Epoch: 257
+TRAIN Loss: 0.01844 | Accuracy: 0.9164 | Precision: 0.25883 | Recall: 0.96303 | Micro F1: 0.5712 | Illicit F1: 0.4080
+TEST Loss: 0.10559 | Accuracy: 0.8096 | Precision: 0.27396 | Recall: 0.40905 | Micro F1: 0.3821 | Illicit F1: 0.3281
+Epoch: 258
+TRAIN Loss: 0.01850 | Accuracy: 0.9164 | Precision: 0.26961 | Recall: 0.96216 | Micro F1: 0.6081 | Illicit F1: 0.4212
+TEST Loss: 0.10528 | Accuracy: 0.8133 | Precision: 0.27264 | Recall: 0.49769 | Micro F1: 0.4203 | Illicit F1: 0.3523
+Epoch: 259
+TRAIN Loss: 0.01864 | Accuracy: 0.9166 | Precision: 0.25843 | Recall: 0.96707 | Micro F1: 0.5631 | Illicit F1: 0.4079
+TEST Loss: 0.10704 | Accuracy: 0.8079 | Precision: 0.28973 | Recall: 0.44783 | Micro F1: 0.4080 | Illicit F1: 0.3518
+Epoch: 260
+TRAIN Loss: 0.01831 | Accuracy: 0.9174 | Precision: 0.26963 | Recall: 0.96216 | Micro F1: 0.5914 | Illicit F1: 0.4212
+TEST Loss: 0.10624 | Accuracy: 0.8187 | Precision: 0.28069 | Recall: 0.47922 | Micro F1: 0.3939 | Illicit F1: 0.3540
+Epoch: 261
+TRAIN Loss: 0.01831 | Accuracy: 0.9174 | Precision: 0.26007 | Recall: 0.96592 | Micro F1: 0.5889 | Illicit F1: 0.4098
+TEST Loss: 0.10917 | Accuracy: 0.8077 | Precision: 0.28902 | Recall: 0.48384 | Micro F1: 0.4239 | Illicit F1: 0.3619
+Epoch: 262
+TRAIN Loss: 0.01836 | Accuracy: 0.9174 | Precision: 0.26835 | Recall: 0.96303 | Micro F1: 0.5837 | Illicit F1: 0.4197
+TEST Loss: 0.10601 | Accuracy: 0.8136 | Precision: 0.26250 | Recall: 0.50416 | Micro F1: 0.3883 | Illicit F1: 0.3452
+Epoch: 263
+TRAIN Loss: 0.01865 | Accuracy: 0.9165 | Precision: 0.25832 | Recall: 0.96216 | Micro F1: 0.5805 | Illicit F1: 0.4073
+TEST Loss: 0.10764 | Accuracy: 0.8144 | Precision: 0.26872 | Recall: 0.48384 | Micro F1: 0.3993 | Illicit F1: 0.3455
+Epoch: 264
+TRAIN Loss: 0.01860 | Accuracy: 0.9172 | Precision: 0.25738 | Recall: 0.96418 | Micro F1: 0.5852 | Illicit F1: 0.4063
+TEST Loss: 0.10641 | Accuracy: 0.8111 | Precision: 0.27372 | Recall: 0.48476 | Micro F1: 0.4162 | Illicit F1: 0.3499
+Epoch: 265
+TRAIN Loss: 0.01842 | Accuracy: 0.9180 | Precision: 0.26625 | Recall: 0.96303 | Micro F1: 0.5871 | Illicit F1: 0.4172
+TEST Loss: 0.10655 | Accuracy: 0.8135 | Precision: 0.26349 | Recall: 0.49584 | Micro F1: 0.4063 | Illicit F1: 0.3441
+Epoch: 266
+TRAIN Loss: 0.01816 | Accuracy: 0.9181 | Precision: 0.26832 | Recall: 0.96332 | Micro F1: 0.5938 | Illicit F1: 0.4197
+TEST Loss: 0.10481 | Accuracy: 0.8084 | Precision: 0.24141 | Recall: 0.55125 | Micro F1: 0.4192 | Illicit F1: 0.3358
+Epoch: 267
+TRAIN Loss: 0.01830 | Accuracy: 0.9174 | Precision: 0.26756 | Recall: 0.96620 | Micro F1: 0.5791 | Illicit F1: 0.4191
+TEST Loss: 0.11225 | Accuracy: 0.8143 | Precision: 0.28531 | Recall: 0.46445 | Micro F1: 0.3796 | Illicit F1: 0.3535
+Epoch: 268
+TRAIN Loss: 0.01823 | Accuracy: 0.9191 | Precision: 0.26878 | Recall: 0.96332 | Micro F1: 0.5923 | Illicit F1: 0.4203
+TEST Loss: 0.10630 | Accuracy: 0.8092 | Precision: 0.26946 | Recall: 0.49215 | Micro F1: 0.4152 | Illicit F1: 0.3483
+Epoch: 269
+TRAIN Loss: 0.01849 | Accuracy: 0.9159 | Precision: 0.26041 | Recall: 0.96476 | Micro F1: 0.5804 | Illicit F1: 0.4101
+TEST Loss: 0.11152 | Accuracy: 0.8169 | Precision: 0.28023 | Recall: 0.44506 | Micro F1: 0.3723 | Illicit F1: 0.3439
+Epoch: 270
+TRAIN Loss: 0.01822 | Accuracy: 0.9186 | Precision: 0.26613 | Recall: 0.96505 | Micro F1: 0.5911 | Illicit F1: 0.4172
+TEST Loss: 0.11449 | Accuracy: 0.8103 | Precision: 0.29822 | Recall: 0.44968 | Micro F1: 0.4159 | Illicit F1: 0.3586
+Epoch: 271
+TRAIN Loss: 0.01811 | Accuracy: 0.9177 | Precision: 0.26187 | Recall: 0.96418 | Micro F1: 0.5849 | Illicit F1: 0.4119
+TEST Loss: 0.11472 | Accuracy: 0.8053 | Precision: 0.29635 | Recall: 0.41182 | Micro F1: 0.4100 | Illicit F1: 0.3447
+Epoch: 272
+TRAIN Loss: 0.01814 | Accuracy: 0.9194 | Precision: 0.26573 | Recall: 0.96736 | Micro F1: 0.5821 | Illicit F1: 0.4169
+TEST Loss: 0.11891 | Accuracy: 0.7914 | Precision: 0.31268 | Recall: 0.40997 | Micro F1: 0.4226 | Illicit F1: 0.3548
+Epoch: 273
+TRAIN Loss: 0.01839 | Accuracy: 0.9154 | Precision: 0.26561 | Recall: 0.96101 | Micro F1: 0.5991 | Illicit F1: 0.4162
+TEST Loss: 0.11365 | Accuracy: 0.8046 | Precision: 0.28130 | Recall: 0.48753 | Micro F1: 0.4274 | Illicit F1: 0.3568
+Epoch: 274
+TRAIN Loss: 0.01826 | Accuracy: 0.9195 | Precision: 0.26523 | Recall: 0.96823 | Micro F1: 0.5760 | Illicit F1: 0.4164
+TEST Loss: 0.11088 | Accuracy: 0.8077 | Precision: 0.28042 | Recall: 0.44044 | Micro F1: 0.3994 | Illicit F1: 0.3427
+Epoch: 275
+TRAIN Loss: 0.01820 | Accuracy: 0.9191 | Precision: 0.27253 | Recall: 0.96678 | Micro F1: 0.5992 | Illicit F1: 0.4252
+TEST Loss: 0.11503 | Accuracy: 0.8006 | Precision: 0.29745 | Recall: 0.44137 | Micro F1: 0.4361 | Illicit F1: 0.3554
+Epoch: 276
+TRAIN Loss: 0.01820 | Accuracy: 0.9191 | Precision: 0.26511 | Recall: 0.96418 | Micro F1: 0.5744 | Illicit F1: 0.4159
+TEST Loss: 0.11000 | Accuracy: 0.8149 | Precision: 0.25641 | Recall: 0.49861 | Micro F1: 0.3971 | Illicit F1: 0.3387
+Epoch: 277
+TRAIN Loss: 0.01811 | Accuracy: 0.9181 | Precision: 0.26025 | Recall: 0.96447 | Micro F1: 0.6038 | Illicit F1: 0.4099
+TEST Loss: 0.11188 | Accuracy: 0.8060 | Precision: 0.26150 | Recall: 0.46722 | Micro F1: 0.4014 | Illicit F1: 0.3353
+Epoch: 278
+TRAIN Loss: 0.01835 | Accuracy: 0.9181 | Precision: 0.25966 | Recall: 0.96274 | Micro F1: 0.5801 | Illicit F1: 0.4090
+TEST Loss: 0.11205 | Accuracy: 0.8124 | Precision: 0.25941 | Recall: 0.47738 | Micro F1: 0.4115 | Illicit F1: 0.3362
+Epoch: 279
+TRAIN Loss: 0.01820 | Accuracy: 0.9190 | Precision: 0.26097 | Recall: 0.96389 | Micro F1: 0.5868 | Illicit F1: 0.4107
+TEST Loss: 0.11281 | Accuracy: 0.8066 | Precision: 0.26020 | Recall: 0.48292 | Micro F1: 0.4236 | Illicit F1: 0.3382
+Epoch: 280
+TRAIN Loss: 0.01832 | Accuracy: 0.9170 | Precision: 0.26584 | Recall: 0.96129 | Micro F1: 0.5939 | Illicit F1: 0.4165
+TEST Loss: 0.11478 | Accuracy: 0.8026 | Precision: 0.25889 | Recall: 0.48384 | Micro F1: 0.4424 | Illicit F1: 0.3373
+Epoch: 281
+TRAIN Loss: 0.01816 | Accuracy: 0.9186 | Precision: 0.26750 | Recall: 0.96360 | Micro F1: 0.5949 | Illicit F1: 0.4188
+TEST Loss: 0.11278 | Accuracy: 0.8095 | Precision: 0.26703 | Recall: 0.44875 | Micro F1: 0.3984 | Illicit F1: 0.3348
+Epoch: 282
+TRAIN Loss: 0.01818 | Accuracy: 0.9186 | Precision: 0.26430 | Recall: 0.96332 | Micro F1: 0.5912 | Illicit F1: 0.4148
+TEST Loss: 0.11595 | Accuracy: 0.8059 | Precision: 0.25946 | Recall: 0.48107 | Micro F1: 0.4362 | Illicit F1: 0.3371
+Epoch: 283
+TRAIN Loss: 0.01813 | Accuracy: 0.9190 | Precision: 0.26586 | Recall: 0.96592 | Micro F1: 0.5788 | Illicit F1: 0.4170
+TEST Loss: 0.11337 | Accuracy: 0.8122 | Precision: 0.25362 | Recall: 0.50139 | Micro F1: 0.4199 | Illicit F1: 0.3368
+Epoch: 284
+TRAIN Loss: 0.01794 | Accuracy: 0.9183 | Precision: 0.27191 | Recall: 0.96447 | Micro F1: 0.5924 | Illicit F1: 0.4242
+TEST Loss: 0.11502 | Accuracy: 0.8057 | Precision: 0.25814 | Recall: 0.50508 | Micro F1: 0.4351 | Illicit F1: 0.3417
+Epoch: 285
+TRAIN Loss: 0.01806 | Accuracy: 0.9192 | Precision: 0.26377 | Recall: 0.96534 | Micro F1: 0.5849 | Illicit F1: 0.4143
+TEST Loss: 0.11759 | Accuracy: 0.8065 | Precision: 0.27663 | Recall: 0.45799 | Micro F1: 0.4082 | Illicit F1: 0.3449
+Epoch: 286
+TRAIN Loss: 0.01806 | Accuracy: 0.9198 | Precision: 0.26277 | Recall: 0.96563 | Micro F1: 0.5914 | Illicit F1: 0.4131
+TEST Loss: 0.11148 | Accuracy: 0.8138 | Precision: 0.26418 | Recall: 0.47738 | Micro F1: 0.4157 | Illicit F1: 0.3401
+Epoch: 287
+TRAIN Loss: 0.01810 | Accuracy: 0.9174 | Precision: 0.27055 | Recall: 0.96303 | Micro F1: 0.5917 | Illicit F1: 0.4224
+TEST Loss: 0.11197 | Accuracy: 0.8183 | Precision: 0.27380 | Recall: 0.47276 | Micro F1: 0.3778 | Illicit F1: 0.3468
+Epoch: 288
+TRAIN Loss: 0.01833 | Accuracy: 0.9185 | Precision: 0.26488 | Recall: 0.96158 | Micro F1: 0.5867 | Illicit F1: 0.4153
+TEST Loss: 0.11763 | Accuracy: 0.8033 | Precision: 0.28683 | Recall: 0.47461 | Micro F1: 0.4388 | Illicit F1: 0.3576
+Epoch: 289
+TRAIN Loss: 0.01805 | Accuracy: 0.9200 | Precision: 0.26285 | Recall: 0.97198 | Micro F1: 0.5985 | Illicit F1: 0.4138
+TEST Loss: 0.11734 | Accuracy: 0.7982 | Precision: 0.27303 | Recall: 0.45429 | Micro F1: 0.4340 | Illicit F1: 0.3411
+Epoch: 290
+TRAIN Loss: 0.01802 | Accuracy: 0.9193 | Precision: 0.27169 | Recall: 0.96678 | Micro F1: 0.5871 | Illicit F1: 0.4242
+TEST Loss: 0.11513 | Accuracy: 0.8125 | Precision: 0.26306 | Recall: 0.50231 | Micro F1: 0.4173 | Illicit F1: 0.3453
+Epoch: 291
+TRAIN Loss: 0.01819 | Accuracy: 0.9174 | Precision: 0.27434 | Recall: 0.96274 | Micro F1: 0.5957 | Illicit F1: 0.4270
+TEST Loss: 0.11775 | Accuracy: 0.7999 | Precision: 0.27323 | Recall: 0.45614 | Micro F1: 0.4418 | Illicit F1: 0.3418
+Epoch: 292
+TRAIN Loss: 0.01794 | Accuracy: 0.9208 | Precision: 0.26563 | Recall: 0.96678 | Micro F1: 0.5913 | Illicit F1: 0.4168
+TEST Loss: 0.12115 | Accuracy: 0.8022 | Precision: 0.31015 | Recall: 0.40351 | Micro F1: 0.3863 | Illicit F1: 0.3507
+Epoch: 293
+TRAIN Loss: 0.01795 | Accuracy: 0.9188 | Precision: 0.27236 | Recall: 0.96649 | Micro F1: 0.6024 | Illicit F1: 0.4250
+TEST Loss: 0.11529 | Accuracy: 0.7949 | Precision: 0.25742 | Recall: 0.46445 | Micro F1: 0.4558 | Illicit F1: 0.3312
+Epoch: 294
+TRAIN Loss: 0.01816 | Accuracy: 0.9177 | Precision: 0.27187 | Recall: 0.96245 | Micro F1: 0.5812 | Illicit F1: 0.4240
+TEST Loss: 0.11533 | Accuracy: 0.8053 | Precision: 0.25586 | Recall: 0.51431 | Micro F1: 0.4257 | Illicit F1: 0.3417
+Epoch: 295
+TRAIN Loss: 0.01812 | Accuracy: 0.9195 | Precision: 0.27087 | Recall: 0.96736 | Micro F1: 0.5935 | Illicit F1: 0.4232
+TEST Loss: 0.11716 | Accuracy: 0.8029 | Precision: 0.26401 | Recall: 0.46537 | Micro F1: 0.3993 | Illicit F1: 0.3369
+Epoch: 296
+TRAIN Loss: 0.01823 | Accuracy: 0.9177 | Precision: 0.26769 | Recall: 0.96360 | Micro F1: 0.5835 | Illicit F1: 0.4190
+TEST Loss: 0.12436 | Accuracy: 0.8007 | Precision: 0.31250 | Recall: 0.41090 | Micro F1: 0.3853 | Illicit F1: 0.3550
+Epoch: 297
+TRAIN Loss: 0.01805 | Accuracy: 0.9200 | Precision: 0.26734 | Recall: 0.96765 | Micro F1: 0.5958 | Illicit F1: 0.4189
+TEST Loss: 0.11034 | Accuracy: 0.8076 | Precision: 0.25864 | Recall: 0.51801 | Micro F1: 0.4498 | Illicit F1: 0.3450
+Epoch: 298
+TRAIN Loss: 0.01802 | Accuracy: 0.9192 | Precision: 0.26849 | Recall: 0.96794 | Micro F1: 0.6023 | Illicit F1: 0.4204
+TEST Loss: 0.11535 | Accuracy: 0.8013 | Precision: 0.27431 | Recall: 0.45060 | Micro F1: 0.4068 | Illicit F1: 0.3410
+Epoch: 299
+TRAIN Loss: 0.01836 | Accuracy: 0.9188 | Precision: 0.26352 | Recall: 0.96418 | Micro F1: 0.5731 | Illicit F1: 0.4139
+TEST Loss: 0.11289 | Accuracy: 0.8063 | Precision: 0.28222 | Recall: 0.44691 | Micro F1: 0.4099 | Illicit F1: 0.3460
+Epoch: 300
+TRAIN Loss: 0.01799 | Accuracy: 0.9172 | Precision: 0.27483 | Recall: 0.96707 | Micro F1: 0.5986 | Illicit F1: 0.4280
+TEST Loss: 0.11190 | Accuracy: 0.8012 | Precision: 0.25415 | Recall: 0.49492 | Micro F1: 0.4518 | Illicit F1: 0.3358
+Epoch: 301
+TRAIN Loss: 0.01798 | Accuracy: 0.9203 | Precision: 0.26723 | Recall: 0.96765 | Micro F1: 0.5857 | Illicit F1: 0.4188
+TEST Loss: 0.11800 | Accuracy: 0.8010 | Precision: 0.26842 | Recall: 0.44414 | Micro F1: 0.3982 | Illicit F1: 0.3346
+Epoch: 302
+TRAIN Loss: 0.01803 | Accuracy: 0.9193 | Precision: 0.26747 | Recall: 0.97054 | Micro F1: 0.6005 | Illicit F1: 0.4194
+TEST Loss: 0.11442 | Accuracy: 0.8117 | Precision: 0.26199 | Recall: 0.52447 | Micro F1: 0.4131 | Illicit F1: 0.3494
+Epoch: 303
+TRAIN Loss: 0.01803 | Accuracy: 0.9188 | Precision: 0.27115 | Recall: 0.96649 | Micro F1: 0.5964 | Illicit F1: 0.4235
+TEST Loss: 0.11537 | Accuracy: 0.8045 | Precision: 0.26812 | Recall: 0.48846 | Micro F1: 0.4228 | Illicit F1: 0.3462
+Epoch: 304
+TRAIN Loss: 0.01804 | Accuracy: 0.9190 | Precision: 0.27505 | Recall: 0.96505 | Micro F1: 0.5866 | Illicit F1: 0.4281
+TEST Loss: 0.11889 | Accuracy: 0.8070 | Precision: 0.28142 | Recall: 0.44044 | Micro F1: 0.3933 | Illicit F1: 0.3434
+Epoch: 305
+TRAIN Loss: 0.01798 | Accuracy: 0.9197 | Precision: 0.26272 | Recall: 0.96765 | Micro F1: 0.5797 | Illicit F1: 0.4132
+TEST Loss: 0.11963 | Accuracy: 0.8085 | Precision: 0.29108 | Recall: 0.45799 | Micro F1: 0.4312 | Illicit F1: 0.3559
+Epoch: 306
+TRAIN Loss: 0.01794 | Accuracy: 0.9206 | Precision: 0.27688 | Recall: 0.96909 | Micro F1: 0.6038 | Illicit F1: 0.4307
+TEST Loss: 0.12029 | Accuracy: 0.8031 | Precision: 0.29690 | Recall: 0.45152 | Micro F1: 0.4217 | Illicit F1: 0.3582
+Epoch: 307
+TRAIN Loss: 0.01791 | Accuracy: 0.9191 | Precision: 0.27130 | Recall: 0.96389 | Micro F1: 0.5840 | Illicit F1: 0.4234
+TEST Loss: 0.11634 | Accuracy: 0.7969 | Precision: 0.26380 | Recall: 0.45891 | Micro F1: 0.4271 | Illicit F1: 0.3350
+Epoch: 308
+TRAIN Loss: 0.01804 | Accuracy: 0.9186 | Precision: 0.27085 | Recall: 0.96823 | Micro F1: 0.5965 | Illicit F1: 0.4233
+TEST Loss: 0.11796 | Accuracy: 0.8096 | Precision: 0.27620 | Recall: 0.46722 | Micro F1: 0.3901 | Illicit F1: 0.3472
+Epoch: 309
+TRAIN Loss: 0.01805 | Accuracy: 0.9190 | Precision: 0.27116 | Recall: 0.96534 | Micro F1: 0.5970 | Illicit F1: 0.4234
+TEST Loss: 0.11755 | Accuracy: 0.8087 | Precision: 0.26251 | Recall: 0.45522 | Micro F1: 0.3931 | Illicit F1: 0.3330
+Epoch: 310
+TRAIN Loss: 0.01789 | Accuracy: 0.9194 | Precision: 0.27211 | Recall: 0.96880 | Micro F1: 0.5864 | Illicit F1: 0.4249
+TEST Loss: 0.12339 | Accuracy: 0.8133 | Precision: 0.30607 | Recall: 0.42844 | Micro F1: 0.3925 | Illicit F1: 0.3571
+Epoch: 311
+TRAIN Loss: 0.01794 | Accuracy: 0.9190 | Precision: 0.27320 | Recall: 0.96678 | Micro F1: 0.5826 | Illicit F1: 0.4260
+TEST Loss: 0.12659 | Accuracy: 0.7933 | Precision: 0.31250 | Recall: 0.39705 | Micro F1: 0.4068 | Illicit F1: 0.3497
+Epoch: 312
+TRAIN Loss: 0.01806 | Accuracy: 0.9196 | Precision: 0.26864 | Recall: 0.96563 | Micro F1: 0.5918 | Illicit F1: 0.4203
+TEST Loss: 0.12248 | Accuracy: 0.8010 | Precision: 0.28773 | Recall: 0.45245 | Micro F1: 0.4455 | Illicit F1: 0.3518
+Epoch: 313
+TRAIN Loss: 0.01823 | Accuracy: 0.9176 | Precision: 0.27111 | Recall: 0.96447 | Micro F1: 0.5928 | Illicit F1: 0.4232
+TEST Loss: 0.12273 | Accuracy: 0.8033 | Precision: 0.28251 | Recall: 0.44137 | Micro F1: 0.4105 | Illicit F1: 0.3445
+Epoch: 314
+TRAIN Loss: 0.01822 | Accuracy: 0.9196 | Precision: 0.26188 | Recall: 0.96765 | Micro F1: 0.5884 | Illicit F1: 0.4122
+TEST Loss: 0.12598 | Accuracy: 0.8000 | Precision: 0.28884 | Recall: 0.45152 | Micro F1: 0.4344 | Illicit F1: 0.3523
+Epoch: 315
+TRAIN Loss: 0.01799 | Accuracy: 0.9191 | Precision: 0.27204 | Recall: 0.96620 | Micro F1: 0.5932 | Illicit F1: 0.4245
+TEST Loss: 0.12206 | Accuracy: 0.7978 | Precision: 0.29350 | Recall: 0.43767 | Micro F1: 0.4116 | Illicit F1: 0.3514
+Epoch: 316
+TRAIN Loss: 0.01793 | Accuracy: 0.9193 | Precision: 0.27558 | Recall: 0.96534 | Micro F1: 0.5851 | Illicit F1: 0.4288
+TEST Loss: 0.12008 | Accuracy: 0.8002 | Precision: 0.28941 | Recall: 0.46445 | Micro F1: 0.4498 | Illicit F1: 0.3566
+Epoch: 317
+TRAIN Loss: 0.01802 | Accuracy: 0.9183 | Precision: 0.27316 | Recall: 0.96678 | Micro F1: 0.5917 | Illicit F1: 0.4260
+TEST Loss: 0.12618 | Accuracy: 0.8099 | Precision: 0.31023 | Recall: 0.43398 | Micro F1: 0.3947 | Illicit F1: 0.3618
+Epoch: 318
+TRAIN Loss: 0.01792 | Accuracy: 0.9201 | Precision: 0.27232 | Recall: 0.96909 | Micro F1: 0.6003 | Illicit F1: 0.4252
+TEST Loss: 0.12047 | Accuracy: 0.8045 | Precision: 0.28563 | Recall: 0.45152 | Micro F1: 0.4228 | Illicit F1: 0.3499
+Epoch: 319
+TRAIN Loss: 0.01808 | Accuracy: 0.9195 | Precision: 0.27033 | Recall: 0.96967 | Micro F1: 0.5847 | Illicit F1: 0.4228
+TEST Loss: 0.11608 | Accuracy: 0.8090 | Precision: 0.27580 | Recall: 0.45891 | Micro F1: 0.3992 | Illicit F1: 0.3445
+Epoch: 320
+TRAIN Loss: 0.01802 | Accuracy: 0.9195 | Precision: 0.26885 | Recall: 0.96505 | Micro F1: 0.5911 | Illicit F1: 0.4205
+TEST Loss: 0.11927 | Accuracy: 0.8057 | Precision: 0.29591 | Recall: 0.44783 | Micro F1: 0.4316 | Illicit F1: 0.3564
+Epoch: 321
+TRAIN Loss: 0.01797 | Accuracy: 0.9195 | Precision: 0.26486 | Recall: 0.96938 | Micro F1: 0.5899 | Illicit F1: 0.4160
+TEST Loss: 0.11803 | Accuracy: 0.7971 | Precision: 0.26663 | Recall: 0.45891 | Micro F1: 0.4173 | Illicit F1: 0.3373
+Epoch: 322
+TRAIN Loss: 0.01780 | Accuracy: 0.9211 | Precision: 0.27407 | Recall: 0.96707 | Micro F1: 0.5935 | Illicit F1: 0.4271
+TEST Loss: 0.12146 | Accuracy: 0.7936 | Precision: 0.27161 | Recall: 0.44968 | Micro F1: 0.4459 | Illicit F1: 0.3387
+Epoch: 323
+TRAIN Loss: 0.01787 | Accuracy: 0.9193 | Precision: 0.27131 | Recall: 0.96996 | Micro F1: 0.6052 | Illicit F1: 0.4240
+TEST Loss: 0.11615 | Accuracy: 0.8106 | Precision: 0.26527 | Recall: 0.44506 | Micro F1: 0.3765 | Illicit F1: 0.3324
+Epoch: 324
+TRAIN Loss: 0.01798 | Accuracy: 0.9194 | Precision: 0.26631 | Recall: 0.96678 | Micro F1: 0.5797 | Illicit F1: 0.4176
+TEST Loss: 0.11713 | Accuracy: 0.8010 | Precision: 0.25977 | Recall: 0.45429 | Micro F1: 0.4418 | Illicit F1: 0.3305
+Epoch: 325
+TRAIN Loss: 0.01793 | Accuracy: 0.9204 | Precision: 0.27343 | Recall: 0.96823 | Micro F1: 0.5935 | Illicit F1: 0.4264
+TEST Loss: 0.11910 | Accuracy: 0.8024 | Precision: 0.26851 | Recall: 0.47553 | Micro F1: 0.4455 | Illicit F1: 0.3432
+Epoch: 326
+TRAIN Loss: 0.01782 | Accuracy: 0.9197 | Precision: 0.27420 | Recall: 0.96534 | Micro F1: 0.6025 | Illicit F1: 0.4271
+TEST Loss: 0.11992 | Accuracy: 0.7991 | Precision: 0.26441 | Recall: 0.46168 | Micro F1: 0.4292 | Illicit F1: 0.3362
+Epoch: 327
+TRAIN Loss: 0.01778 | Accuracy: 0.9195 | Precision: 0.27245 | Recall: 0.96823 | Micro F1: 0.5925 | Illicit F1: 0.4252
+TEST Loss: 0.12144 | Accuracy: 0.8125 | Precision: 0.27938 | Recall: 0.46537 | Micro F1: 0.3690 | Illicit F1: 0.3492
+Epoch: 328
+TRAIN Loss: 0.01788 | Accuracy: 0.9201 | Precision: 0.27211 | Recall: 0.96880 | Micro F1: 0.5904 | Illicit F1: 0.4249
+TEST Loss: 0.11965 | Accuracy: 0.8079 | Precision: 0.27086 | Recall: 0.50046 | Micro F1: 0.4160 | Illicit F1: 0.3515
+Epoch: 329
+TRAIN Loss: 0.01795 | Accuracy: 0.9213 | Precision: 0.27025 | Recall: 0.96476 | Micro F1: 0.5879 | Illicit F1: 0.4222
+TEST Loss: 0.12100 | Accuracy: 0.8036 | Precision: 0.27163 | Recall: 0.49861 | Micro F1: 0.4457 | Illicit F1: 0.3517
+Epoch: 330
+TRAIN Loss: 0.01796 | Accuracy: 0.9191 | Precision: 0.27132 | Recall: 0.96592 | Micro F1: 0.5948 | Illicit F1: 0.4236
+TEST Loss: 0.12235 | Accuracy: 0.7946 | Precision: 0.27229 | Recall: 0.46814 | Micro F1: 0.4346 | Illicit F1: 0.3443
+Epoch: 331
+TRAIN Loss: 0.01781 | Accuracy: 0.9198 | Precision: 0.27568 | Recall: 0.96505 | Micro F1: 0.6029 | Illicit F1: 0.4289
+TEST Loss: 0.12619 | Accuracy: 0.8150 | Precision: 0.30421 | Recall: 0.43398 | Micro F1: 0.3571 | Illicit F1: 0.3577
+Epoch: 332
+TRAIN Loss: 0.01779 | Accuracy: 0.9203 | Precision: 0.27327 | Recall: 0.97025 | Micro F1: 0.5996 | Illicit F1: 0.4264
+TEST Loss: 0.13136 | Accuracy: 0.7989 | Precision: 0.32621 | Recall: 0.42290 | Micro F1: 0.4064 | Illicit F1: 0.3683
+Epoch: 333
+TRAIN Loss: 0.01797 | Accuracy: 0.9194 | Precision: 0.27683 | Recall: 0.96476 | Micro F1: 0.5913 | Illicit F1: 0.4302
+TEST Loss: 0.12542 | Accuracy: 0.8086 | Precision: 0.30057 | Recall: 0.44044 | Micro F1: 0.3814 | Illicit F1: 0.3573
+Epoch: 334
+TRAIN Loss: 0.01782 | Accuracy: 0.9210 | Precision: 0.27163 | Recall: 0.96592 | Micro F1: 0.5908 | Illicit F1: 0.4240
+TEST Loss: 0.12095 | Accuracy: 0.8101 | Precision: 0.29213 | Recall: 0.45614 | Micro F1: 0.4085 | Illicit F1: 0.3562
+Epoch: 335
+TRAIN Loss: 0.01808 | Accuracy: 0.9176 | Precision: 0.26572 | Recall: 0.96447 | Micro F1: 0.6039 | Illicit F1: 0.4166
+TEST Loss: 0.12737 | Accuracy: 0.7866 | Precision: 0.29975 | Recall: 0.44506 | Micro F1: 0.4675 | Illicit F1: 0.3582
+Epoch: 336
+TRAIN Loss: 0.01782 | Accuracy: 0.9203 | Precision: 0.27164 | Recall: 0.96909 | Micro F1: 0.5855 | Illicit F1: 0.4243
+TEST Loss: 0.12817 | Accuracy: 0.8032 | Precision: 0.30115 | Recall: 0.43490 | Micro F1: 0.3848 | Illicit F1: 0.3559
+Epoch: 337
+TRAIN Loss: 0.01772 | Accuracy: 0.9197 | Precision: 0.27259 | Recall: 0.96649 | Micro F1: 0.5956 | Illicit F1: 0.4252
+TEST Loss: 0.12095 | Accuracy: 0.8028 | Precision: 0.26352 | Recall: 0.46353 | Micro F1: 0.4177 | Illicit F1: 0.3360
+Epoch: 338
+TRAIN Loss: 0.01766 | Accuracy: 0.9219 | Precision: 0.28240 | Recall: 0.96794 | Micro F1: 0.6008 | Illicit F1: 0.4372
+TEST Loss: 0.12349 | Accuracy: 0.8049 | Precision: 0.28548 | Recall: 0.47553 | Micro F1: 0.4208 | Illicit F1: 0.3568
+Epoch: 339
+TRAIN Loss: 0.01789 | Accuracy: 0.9204 | Precision: 0.27005 | Recall: 0.96505 | Micro F1: 0.5891 | Illicit F1: 0.4220
+TEST Loss: 0.12453 | Accuracy: 0.8089 | Precision: 0.26501 | Recall: 0.45245 | Micro F1: 0.3839 | Illicit F1: 0.3342
+Epoch: 340
+TRAIN Loss: 0.01771 | Accuracy: 0.9206 | Precision: 0.27376 | Recall: 0.96938 | Micro F1: 0.5929 | Illicit F1: 0.4269
+TEST Loss: 0.12314 | Accuracy: 0.8071 | Precision: 0.27864 | Recall: 0.46260 | Micro F1: 0.4249 | Illicit F1: 0.3478
+Epoch: 341
+TRAIN Loss: 0.01762 | Accuracy: 0.9208 | Precision: 0.27477 | Recall: 0.96852 | Micro F1: 0.5933 | Illicit F1: 0.4281
+TEST Loss: 0.12251 | Accuracy: 0.8011 | Precision: 0.28435 | Recall: 0.43952 | Micro F1: 0.4333 | Illicit F1: 0.3453
+Epoch: 342
+TRAIN Loss: 0.01781 | Accuracy: 0.9193 | Precision: 0.26890 | Recall: 0.96678 | Micro F1: 0.6064 | Illicit F1: 0.4208
+TEST Loss: 0.12544 | Accuracy: 0.8023 | Precision: 0.27138 | Recall: 0.45706 | Micro F1: 0.4178 | Illicit F1: 0.3406
+Epoch: 343
+TRAIN Loss: 0.01772 | Accuracy: 0.9204 | Precision: 0.27308 | Recall: 0.97140 | Micro F1: 0.5870 | Illicit F1: 0.4263
+TEST Loss: 0.12489 | Accuracy: 0.8043 | Precision: 0.26427 | Recall: 0.49584 | Micro F1: 0.4399 | Illicit F1: 0.3448
+Epoch: 344
+TRAIN Loss: 0.01768 | Accuracy: 0.9209 | Precision: 0.27807 | Recall: 0.96938 | Micro F1: 0.5942 | Illicit F1: 0.4322
+TEST Loss: 0.12870 | Accuracy: 0.8057 | Precision: 0.28695 | Recall: 0.43029 | Micro F1: 0.4095 | Illicit F1: 0.3443
+Epoch: 345
+TRAIN Loss: 0.01768 | Accuracy: 0.9198 | Precision: 0.27414 | Recall: 0.96620 | Micro F1: 0.6057 | Illicit F1: 0.4271
+TEST Loss: 0.12775 | Accuracy: 0.8001 | Precision: 0.29782 | Recall: 0.42844 | Micro F1: 0.3965 | Illicit F1: 0.3514
+Epoch: 346
+TRAIN Loss: 0.01785 | Accuracy: 0.9203 | Precision: 0.27588 | Recall: 0.96678 | Micro F1: 0.5906 | Illicit F1: 0.4293
+TEST Loss: 0.12851 | Accuracy: 0.7914 | Precision: 0.29764 | Recall: 0.45429 | Micro F1: 0.4517 | Illicit F1: 0.3596
+Epoch: 347
+TRAIN Loss: 0.01796 | Accuracy: 0.9181 | Precision: 0.26979 | Recall: 0.96678 | Micro F1: 0.5903 | Illicit F1: 0.4219
+TEST Loss: 0.12475 | Accuracy: 0.8050 | Precision: 0.27754 | Recall: 0.47461 | Micro F1: 0.4472 | Illicit F1: 0.3503
+Epoch: 348
+TRAIN Loss: 0.01770 | Accuracy: 0.9217 | Precision: 0.27387 | Recall: 0.96938 | Micro F1: 0.5952 | Illicit F1: 0.4271
+TEST Loss: 0.12798 | Accuracy: 0.8060 | Precision: 0.29252 | Recall: 0.43675 | Micro F1: 0.3967 | Illicit F1: 0.3504
+Epoch: 349
+TRAIN Loss: 0.01770 | Accuracy: 0.9200 | Precision: 0.28073 | Recall: 0.96967 | Micro F1: 0.6094 | Illicit F1: 0.4354
+TEST Loss: 0.12833 | Accuracy: 0.8021 | Precision: 0.29364 | Recall: 0.46445 | Micro F1: 0.3975 | Illicit F1: 0.3598
+Epoch: 350
+TRAIN Loss: 0.01785 | Accuracy: 0.9196 | Precision: 0.27863 | Recall: 0.96620 | Micro F1: 0.5990 | Illicit F1: 0.4325
+TEST Loss: 0.12369 | Accuracy: 0.8095 | Precision: 0.26805 | Recall: 0.49030 | Micro F1: 0.4197 | Illicit F1: 0.3466
+Epoch: 351
+TRAIN Loss: 0.01767 | Accuracy: 0.9189 | Precision: 0.27193 | Recall: 0.96794 | Micro F1: 0.5911 | Illicit F1: 0.4246
+TEST Loss: 0.12669 | Accuracy: 0.8046 | Precision: 0.28241 | Recall: 0.46260 | Micro F1: 0.4090 | Illicit F1: 0.3507
+Epoch: 352
+TRAIN Loss: 0.01784 | Accuracy: 0.9197 | Precision: 0.26666 | Recall: 0.96534 | Micro F1: 0.5834 | Illicit F1: 0.4179
+TEST Loss: 0.12523 | Accuracy: 0.8130 | Precision: 0.28138 | Recall: 0.48846 | Micro F1: 0.4139 | Illicit F1: 0.3571
+Epoch: 353
+TRAIN Loss: 0.01769 | Accuracy: 0.9212 | Precision: 0.27560 | Recall: 0.96880 | Micro F1: 0.5933 | Illicit F1: 0.4291
+TEST Loss: 0.12655 | Accuracy: 0.7975 | Precision: 0.26217 | Recall: 0.46260 | Micro F1: 0.4341 | Illicit F1: 0.3347
+Epoch: 354
+TRAIN Loss: 0.01757 | Accuracy: 0.9213 | Precision: 0.28141 | Recall: 0.97054 | Micro F1: 0.6045 | Illicit F1: 0.4363
+TEST Loss: 0.12529 | Accuracy: 0.8004 | Precision: 0.27691 | Recall: 0.47276 | Micro F1: 0.4292 | Illicit F1: 0.3492
+Epoch: 355
+TRAIN Loss: 0.01773 | Accuracy: 0.9202 | Precision: 0.28114 | Recall: 0.96360 | Micro F1: 0.6051 | Illicit F1: 0.4353
+TEST Loss: 0.13094 | Accuracy: 0.8104 | Precision: 0.31309 | Recall: 0.42844 | Micro F1: 0.3934 | Illicit F1: 0.3618
+Epoch: 356
+TRAIN Loss: 0.01762 | Accuracy: 0.9215 | Precision: 0.27590 | Recall: 0.96678 | Micro F1: 0.5953 | Illicit F1: 0.4293
+TEST Loss: 0.12746 | Accuracy: 0.8037 | Precision: 0.27491 | Recall: 0.44321 | Micro F1: 0.3880 | Illicit F1: 0.3393
+Epoch: 357
+TRAIN Loss: 0.01753 | Accuracy: 0.9212 | Precision: 0.27667 | Recall: 0.97083 | Micro F1: 0.5909 | Illicit F1: 0.4306
+TEST Loss: 0.12662 | Accuracy: 0.8066 | Precision: 0.26876 | Recall: 0.48938 | Micro F1: 0.4418 | Illicit F1: 0.3470
+Epoch: 358
+TRAIN Loss: 0.01743 | Accuracy: 0.9216 | Precision: 0.28831 | Recall: 0.96794 | Micro F1: 0.6101 | Illicit F1: 0.4443
+TEST Loss: 0.13000 | Accuracy: 0.7966 | Precision: 0.31229 | Recall: 0.43398 | Micro F1: 0.4221 | Illicit F1: 0.3632
+Epoch: 359
+TRAIN Loss: 0.01770 | Accuracy: 0.9216 | Precision: 0.27202 | Recall: 0.97140 | Micro F1: 0.5701 | Illicit F1: 0.4250
+TEST Loss: 0.12993 | Accuracy: 0.8048 | Precision: 0.28141 | Recall: 0.45706 | Micro F1: 0.4220 | Illicit F1: 0.3483
+Epoch: 360
+TRAIN Loss: 0.01766 | Accuracy: 0.9192 | Precision: 0.28332 | Recall: 0.96649 | Micro F1: 0.6112 | Illicit F1: 0.4382
+TEST Loss: 0.12680 | Accuracy: 0.8031 | Precision: 0.26232 | Recall: 0.51616 | Micro F1: 0.4090 | Illicit F1: 0.3479
+Epoch: 361
+TRAIN Loss: 0.01743 | Accuracy: 0.9232 | Precision: 0.27241 | Recall: 0.97343 | Micro F1: 0.5911 | Illicit F1: 0.4257
+TEST Loss: 0.13007 | Accuracy: 0.8010 | Precision: 0.26710 | Recall: 0.49030 | Micro F1: 0.4255 | Illicit F1: 0.3458
+Epoch: 362
+TRAIN Loss: 0.01764 | Accuracy: 0.9197 | Precision: 0.28025 | Recall: 0.96736 | Micro F1: 0.6001 | Illicit F1: 0.4346
+TEST Loss: 0.13518 | Accuracy: 0.8016 | Precision: 0.31254 | Recall: 0.42105 | Micro F1: 0.3848 | Illicit F1: 0.3588
+Epoch: 363
+TRAIN Loss: 0.01744 | Accuracy: 0.9222 | Precision: 0.27618 | Recall: 0.97054 | Micro F1: 0.5961 | Illicit F1: 0.4300
+TEST Loss: 0.12419 | Accuracy: 0.8046 | Precision: 0.26748 | Recall: 0.48753 | Micro F1: 0.4306 | Illicit F1: 0.3454
+Epoch: 364
+TRAIN Loss: 0.01775 | Accuracy: 0.9198 | Precision: 0.27393 | Recall: 0.96880 | Micro F1: 0.5966 | Illicit F1: 0.4271
+TEST Loss: 0.13078 | Accuracy: 0.8053 | Precision: 0.29632 | Recall: 0.43860 | Micro F1: 0.3756 | Illicit F1: 0.3537
+Epoch: 365
+TRAIN Loss: 0.01766 | Accuracy: 0.9211 | Precision: 0.28307 | Recall: 0.96736 | Micro F1: 0.6004 | Illicit F1: 0.4380
+TEST Loss: 0.13500 | Accuracy: 0.8041 | Precision: 0.32666 | Recall: 0.42198 | Micro F1: 0.3898 | Illicit F1: 0.3683
+Epoch: 366
+TRAIN Loss: 0.01773 | Accuracy: 0.9206 | Precision: 0.27268 | Recall: 0.96736 | Micro F1: 0.5902 | Illicit F1: 0.4254
+TEST Loss: 0.13113 | Accuracy: 0.7881 | Precision: 0.26327 | Recall: 0.45337 | Micro F1: 0.4513 | Illicit F1: 0.3331
+Epoch: 367
+TRAIN Loss: 0.01773 | Accuracy: 0.9210 | Precision: 0.28046 | Recall: 0.96823 | Micro F1: 0.6015 | Illicit F1: 0.4349
+TEST Loss: 0.13574 | Accuracy: 0.8032 | Precision: 0.29910 | Recall: 0.43029 | Micro F1: 0.3957 | Illicit F1: 0.3529
+Epoch: 368
+TRAIN Loss: 0.01760 | Accuracy: 0.9212 | Precision: 0.27698 | Recall: 0.97343 | Micro F1: 0.5962 | Illicit F1: 0.4312
+TEST Loss: 0.12772 | Accuracy: 0.7998 | Precision: 0.26959 | Recall: 0.47645 | Micro F1: 0.4537 | Illicit F1: 0.3443
+Epoch: 369
+TRAIN Loss: 0.01763 | Accuracy: 0.9212 | Precision: 0.27722 | Recall: 0.96852 | Micro F1: 0.5956 | Illicit F1: 0.4311
+TEST Loss: 0.13592 | Accuracy: 0.8023 | Precision: 0.31939 | Recall: 0.42290 | Micro F1: 0.3993 | Illicit F1: 0.3639
+Epoch: 370
+TRAIN Loss: 0.01770 | Accuracy: 0.9199 | Precision: 0.27339 | Recall: 0.96476 | Micro F1: 0.5886 | Illicit F1: 0.4260
+TEST Loss: 0.13230 | Accuracy: 0.8088 | Precision: 0.30864 | Recall: 0.43860 | Micro F1: 0.4034 | Illicit F1: 0.3623
+Epoch: 371
+TRAIN Loss: 0.01747 | Accuracy: 0.9221 | Precision: 0.27485 | Recall: 0.97111 | Micro F1: 0.6031 | Illicit F1: 0.4284
+TEST Loss: 0.13137 | Accuracy: 0.7898 | Precision: 0.31012 | Recall: 0.43583 | Micro F1: 0.4627 | Illicit F1: 0.3624
+Epoch: 372
+TRAIN Loss: 0.01767 | Accuracy: 0.9194 | Precision: 0.27917 | Recall: 0.96823 | Micro F1: 0.5997 | Illicit F1: 0.4334
+TEST Loss: 0.13136 | Accuracy: 0.7916 | Precision: 0.29317 | Recall: 0.45152 | Micro F1: 0.4374 | Illicit F1: 0.3555
+Epoch: 373
+TRAIN Loss: 0.01774 | Accuracy: 0.9188 | Precision: 0.27755 | Recall: 0.96678 | Micro F1: 0.6016 | Illicit F1: 0.4313
+TEST Loss: 0.12783 | Accuracy: 0.8127 | Precision: 0.28399 | Recall: 0.45706 | Micro F1: 0.4028 | Illicit F1: 0.3503
+Epoch: 374
+TRAIN Loss: 0.01759 | Accuracy: 0.9194 | Precision: 0.27638 | Recall: 0.96765 | Micro F1: 0.5921 | Illicit F1: 0.4300
+TEST Loss: 0.13394 | Accuracy: 0.8070 | Precision: 0.30147 | Recall: 0.45429 | Micro F1: 0.4222 | Illicit F1: 0.3624
+Epoch: 375
+TRAIN Loss: 0.01767 | Accuracy: 0.9193 | Precision: 0.27372 | Recall: 0.96909 | Micro F1: 0.5918 | Illicit F1: 0.4269
+TEST Loss: 0.13088 | Accuracy: 0.7974 | Precision: 0.27614 | Recall: 0.46814 | Micro F1: 0.4537 | Illicit F1: 0.3474
+Epoch: 376
+TRAIN Loss: 0.01741 | Accuracy: 0.9209 | Precision: 0.28443 | Recall: 0.96880 | Micro F1: 0.6066 | Illicit F1: 0.4398
+TEST Loss: 0.12902 | Accuracy: 0.8041 | Precision: 0.29777 | Recall: 0.44321 | Micro F1: 0.4359 | Illicit F1: 0.3562
+Epoch: 377
+TRAIN Loss: 0.01735 | Accuracy: 0.9216 | Precision: 0.27694 | Recall: 0.97025 | Micro F1: 0.5943 | Illicit F1: 0.4309
+TEST Loss: 0.12982 | Accuracy: 0.7981 | Precision: 0.27809 | Recall: 0.45706 | Micro F1: 0.4325 | Illicit F1: 0.3458
+Epoch: 378
+TRAIN Loss: 0.01770 | Accuracy: 0.9203 | Precision: 0.27852 | Recall: 0.96620 | Micro F1: 0.6043 | Illicit F1: 0.4324
+TEST Loss: 0.13435 | Accuracy: 0.7966 | Precision: 0.29634 | Recall: 0.44875 | Micro F1: 0.4419 | Illicit F1: 0.3570
+Epoch: 379
+TRAIN Loss: 0.01744 | Accuracy: 0.9208 | Precision: 0.27831 | Recall: 0.96967 | Micro F1: 0.5956 | Illicit F1: 0.4325
+TEST Loss: 0.13753 | Accuracy: 0.7897 | Precision: 0.30438 | Recall: 0.43675 | Micro F1: 0.4421 | Illicit F1: 0.3587
+Epoch: 380
+TRAIN Loss: 0.01763 | Accuracy: 0.9212 | Precision: 0.27830 | Recall: 0.96852 | Micro F1: 0.5965 | Illicit F1: 0.4324
+TEST Loss: 0.13510 | Accuracy: 0.7956 | Precision: 0.29299 | Recall: 0.45152 | Micro F1: 0.4053 | Illicit F1: 0.3554
+Epoch: 381
+TRAIN Loss: 0.01752 | Accuracy: 0.9208 | Precision: 0.27454 | Recall: 0.97111 | Micro F1: 0.5939 | Illicit F1: 0.4281
+TEST Loss: 0.13195 | Accuracy: 0.8029 | Precision: 0.31845 | Recall: 0.44783 | Micro F1: 0.4490 | Illicit F1: 0.3722
+Epoch: 382
+TRAIN Loss: 0.01744 | Accuracy: 0.9208 | Precision: 0.28242 | Recall: 0.96620 | Micro F1: 0.6047 | Illicit F1: 0.4371
+TEST Loss: 0.13591 | Accuracy: 0.8019 | Precision: 0.30488 | Recall: 0.43860 | Micro F1: 0.4128 | Illicit F1: 0.3597
+Epoch: 383
+TRAIN Loss: 0.01767 | Accuracy: 0.9200 | Precision: 0.27158 | Recall: 0.96620 | Micro F1: 0.5951 | Illicit F1: 0.4240
+TEST Loss: 0.12885 | Accuracy: 0.8053 | Precision: 0.29201 | Recall: 0.45891 | Micro F1: 0.4236 | Illicit F1: 0.3569
+Epoch: 384
+TRAIN Loss: 0.01750 | Accuracy: 0.9218 | Precision: 0.28320 | Recall: 0.96649 | Micro F1: 0.6028 | Illicit F1: 0.4380
+TEST Loss: 0.12530 | Accuracy: 0.8065 | Precision: 0.26205 | Recall: 0.49215 | Micro F1: 0.4228 | Illicit F1: 0.3420
+Epoch: 385
+TRAIN Loss: 0.01755 | Accuracy: 0.9209 | Precision: 0.27777 | Recall: 0.97140 | Micro F1: 0.6008 | Illicit F1: 0.4320
+TEST Loss: 0.13572 | Accuracy: 0.7998 | Precision: 0.33087 | Recall: 0.41274 | Micro F1: 0.4131 | Illicit F1: 0.3673
+Epoch: 386
+TRAIN Loss: 0.01733 | Accuracy: 0.9225 | Precision: 0.27989 | Recall: 0.97227 | Micro F1: 0.6038 | Illicit F1: 0.4347
+TEST Loss: 0.13364 | Accuracy: 0.8111 | Precision: 0.29008 | Recall: 0.45614 | Micro F1: 0.3797 | Illicit F1: 0.3546
+Epoch: 387
+TRAIN Loss: 0.01756 | Accuracy: 0.9214 | Precision: 0.27779 | Recall: 0.96880 | Micro F1: 0.6004 | Illicit F1: 0.4318
+TEST Loss: 0.14015 | Accuracy: 0.7968 | Precision: 0.30388 | Recall: 0.44137 | Micro F1: 0.4061 | Illicit F1: 0.3599
+Epoch: 388
+TRAIN Loss: 0.01733 | Accuracy: 0.9216 | Precision: 0.27838 | Recall: 0.96823 | Micro F1: 0.5893 | Illicit F1: 0.4324
+TEST Loss: 0.13763 | Accuracy: 0.8039 | Precision: 0.29470 | Recall: 0.44137 | Micro F1: 0.4033 | Illicit F1: 0.3534
+Epoch: 389
+TRAIN Loss: 0.01761 | Accuracy: 0.9205 | Precision: 0.27517 | Recall: 0.96534 | Micro F1: 0.6062 | Illicit F1: 0.4283
+TEST Loss: 0.13635 | Accuracy: 0.8001 | Precision: 0.30214 | Recall: 0.44414 | Micro F1: 0.4458 | Illicit F1: 0.3596
+Epoch: 390
+TRAIN Loss: 0.01713 | Accuracy: 0.9231 | Precision: 0.29140 | Recall: 0.97429 | Micro F1: 0.6075 | Illicit F1: 0.4486
+TEST Loss: 0.13512 | Accuracy: 0.7959 | Precision: 0.30396 | Recall: 0.43952 | Micro F1: 0.4594 | Illicit F1: 0.3594
+Epoch: 391
+TRAIN Loss: 0.01749 | Accuracy: 0.9206 | Precision: 0.28278 | Recall: 0.96880 | Micro F1: 0.5896 | Illicit F1: 0.4378
+TEST Loss: 0.14107 | Accuracy: 0.8059 | Precision: 0.31812 | Recall: 0.41828 | Micro F1: 0.3878 | Illicit F1: 0.3614
+Epoch: 392
+TRAIN Loss: 0.01740 | Accuracy: 0.9218 | Precision: 0.28360 | Recall: 0.97025 | Micro F1: 0.6059 | Illicit F1: 0.4389
+TEST Loss: 0.13482 | Accuracy: 0.8009 | Precision: 0.26977 | Recall: 0.47553 | Micro F1: 0.4176 | Illicit F1: 0.3443
+Epoch: 393
+TRAIN Loss: 0.01741 | Accuracy: 0.9222 | Precision: 0.27983 | Recall: 0.96996 | Micro F1: 0.6049 | Illicit F1: 0.4344
+TEST Loss: 0.13510 | Accuracy: 0.8102 | Precision: 0.29740 | Recall: 0.45337 | Micro F1: 0.4119 | Illicit F1: 0.3592
+Epoch: 394
+TRAIN Loss: 0.01763 | Accuracy: 0.9213 | Precision: 0.27908 | Recall: 0.97169 | Micro F1: 0.6076 | Illicit F1: 0.4336
+TEST Loss: 0.14361 | Accuracy: 0.8090 | Precision: 0.35041 | Recall: 0.39151 | Micro F1: 0.3882 | Illicit F1: 0.3698
+Epoch: 395
+TRAIN Loss: 0.01767 | Accuracy: 0.9192 | Precision: 0.27523 | Recall: 0.97198 | Micro F1: 0.5883 | Illicit F1: 0.4290
+TEST Loss: 0.13332 | Accuracy: 0.8140 | Precision: 0.28050 | Recall: 0.47553 | Micro F1: 0.3825 | Illicit F1: 0.3529
+Epoch: 396
+TRAIN Loss: 0.01764 | Accuracy: 0.9203 | Precision: 0.28410 | Recall: 0.96447 | Micro F1: 0.6048 | Illicit F1: 0.4389
+TEST Loss: 0.14184 | Accuracy: 0.7966 | Precision: 0.33696 | Recall: 0.40074 | Micro F1: 0.4168 | Illicit F1: 0.3661
+Epoch: 397
+TRAIN Loss: 0.01757 | Accuracy: 0.9216 | Precision: 0.27451 | Recall: 0.97054 | Micro F1: 0.6022 | Illicit F1: 0.4280
+TEST Loss: 0.13429 | Accuracy: 0.8060 | Precision: 0.28664 | Recall: 0.44968 | Micro F1: 0.4027 | Illicit F1: 0.3501
+Epoch: 398
+TRAIN Loss: 0.01738 | Accuracy: 0.9208 | Precision: 0.27416 | Recall: 0.97025 | Micro F1: 0.6031 | Illicit F1: 0.4275
+TEST Loss: 0.13785 | Accuracy: 0.7909 | Precision: 0.32318 | Recall: 0.43121 | Micro F1: 0.4521 | Illicit F1: 0.3695
+Epoch: 399
+TRAIN Loss: 0.01739 | Accuracy: 0.9214 | Precision: 0.28574 | Recall: 0.96880 | Micro F1: 0.5961 | Illicit F1: 0.4413
+TEST Loss: 0.13612 | Accuracy: 0.8046 | Precision: 0.29544 | Recall: 0.48476 | Micro F1: 0.4013 | Illicit F1: 0.3671
+Epoch: 400
+TRAIN Loss: 0.01723 | Accuracy: 0.9226 | Precision: 0.27945 | Recall: 0.97025 | Micro F1: 0.5951 | Illicit F1: 0.4339
+TEST Loss: 0.13639 | Accuracy: 0.8047 | Precision: 0.31135 | Recall: 0.45337 | Micro F1: 0.4189 | Illicit F1: 0.3692
+Epoch: 401
+TRAIN Loss: 0.01748 | Accuracy: 0.9209 | Precision: 0.27835 | Recall: 0.96794 | Micro F1: 0.6041 | Illicit F1: 0.4324
+TEST Loss: 0.13637 | Accuracy: 0.8018 | Precision: 0.30476 | Recall: 0.44968 | Micro F1: 0.4262 | Illicit F1: 0.3633
+Epoch: 402
+TRAIN Loss: 0.01735 | Accuracy: 0.9222 | Precision: 0.28571 | Recall: 0.96996 | Micro F1: 0.5931 | Illicit F1: 0.4414
+TEST Loss: 0.14142 | Accuracy: 0.8018 | Precision: 0.31670 | Recall: 0.43952 | Micro F1: 0.4138 | Illicit F1: 0.3681
+Epoch: 403
+TRAIN Loss: 0.01762 | Accuracy: 0.9215 | Precision: 0.27715 | Recall: 0.96938 | Micro F1: 0.6076 | Illicit F1: 0.4311
+TEST Loss: 0.14020 | Accuracy: 0.8043 | Precision: 0.30006 | Recall: 0.44691 | Micro F1: 0.3941 | Illicit F1: 0.3591
+Epoch: 404
+TRAIN Loss: 0.01748 | Accuracy: 0.9229 | Precision: 0.27898 | Recall: 0.97256 | Micro F1: 0.5968 | Illicit F1: 0.4336
+TEST Loss: 0.13740 | Accuracy: 0.8098 | Precision: 0.27162 | Recall: 0.49307 | Micro F1: 0.4393 | Illicit F1: 0.3503
+Epoch: 405
+TRAIN Loss: 0.01748 | Accuracy: 0.9216 | Precision: 0.28033 | Recall: 0.96967 | Micro F1: 0.6022 | Illicit F1: 0.4349
+TEST Loss: 0.14957 | Accuracy: 0.7945 | Precision: 0.34350 | Recall: 0.39520 | Micro F1: 0.4087 | Illicit F1: 0.3675
+Epoch: 406
+TRAIN Loss: 0.01750 | Accuracy: 0.9204 | Precision: 0.27657 | Recall: 0.96880 | Micro F1: 0.6047 | Illicit F1: 0.4303
+TEST Loss: 0.13846 | Accuracy: 0.8039 | Precision: 0.29115 | Recall: 0.43121 | Micro F1: 0.3932 | Illicit F1: 0.3476
+Epoch: 407
+TRAIN Loss: 0.01747 | Accuracy: 0.9223 | Precision: 0.28086 | Recall: 0.96620 | Micro F1: 0.5925 | Illicit F1: 0.4352
+TEST Loss: 0.14336 | Accuracy: 0.7986 | Precision: 0.30962 | Recall: 0.44598 | Micro F1: 0.4544 | Illicit F1: 0.3655
+Epoch: 408
+TRAIN Loss: 0.01748 | Accuracy: 0.9205 | Precision: 0.28303 | Recall: 0.96852 | Micro F1: 0.6092 | Illicit F1: 0.4380
+TEST Loss: 0.13912 | Accuracy: 0.7965 | Precision: 0.31091 | Recall: 0.43952 | Micro F1: 0.4652 | Illicit F1: 0.3642
+Epoch: 409
+TRAIN Loss: 0.01730 | Accuracy: 0.9228 | Precision: 0.28214 | Recall: 0.97054 | Micro F1: 0.5957 | Illicit F1: 0.4372
+TEST Loss: 0.14153 | Accuracy: 0.8025 | Precision: 0.31523 | Recall: 0.41274 | Micro F1: 0.3883 | Illicit F1: 0.3575
+Epoch: 410
+TRAIN Loss: 0.01740 | Accuracy: 0.9211 | Precision: 0.28908 | Recall: 0.97111 | Micro F1: 0.6093 | Illicit F1: 0.4455
+TEST Loss: 0.13854 | Accuracy: 0.8033 | Precision: 0.29663 | Recall: 0.42290 | Micro F1: 0.3921 | Illicit F1: 0.3487
+Epoch: 411
+TRAIN Loss: 0.01745 | Accuracy: 0.9212 | Precision: 0.27898 | Recall: 0.97111 | Micro F1: 0.6046 | Illicit F1: 0.4334
+TEST Loss: 0.13721 | Accuracy: 0.7936 | Precision: 0.28555 | Recall: 0.45799 | Micro F1: 0.4549 | Illicit F1: 0.3518
+Epoch: 412
+TRAIN Loss: 0.01724 | Accuracy: 0.9222 | Precision: 0.28212 | Recall: 0.96794 | Micro F1: 0.5909 | Illicit F1: 0.4369
+TEST Loss: 0.14321 | Accuracy: 0.8020 | Precision: 0.30784 | Recall: 0.44598 | Micro F1: 0.3981 | Illicit F1: 0.3643
+Epoch: 413
+TRAIN Loss: 0.01747 | Accuracy: 0.9205 | Precision: 0.28492 | Recall: 0.96794 | Micro F1: 0.6112 | Illicit F1: 0.4403
+TEST Loss: 0.14134 | Accuracy: 0.8080 | Precision: 0.31761 | Recall: 0.44137 | Micro F1: 0.3947 | Illicit F1: 0.3694
+Epoch: 414
+TRAIN Loss: 0.01741 | Accuracy: 0.9223 | Precision: 0.27740 | Recall: 0.97371 | Micro F1: 0.6028 | Illicit F1: 0.4318
+TEST Loss: 0.13902 | Accuracy: 0.8097 | Precision: 0.29975 | Recall: 0.44229 | Micro F1: 0.4017 | Illicit F1: 0.3573
+Epoch: 415
+TRAIN Loss: 0.01739 | Accuracy: 0.9216 | Precision: 0.28119 | Recall: 0.96794 | Micro F1: 0.5907 | Illicit F1: 0.4358
+TEST Loss: 0.14096 | Accuracy: 0.7956 | Precision: 0.29167 | Recall: 0.45245 | Micro F1: 0.4522 | Illicit F1: 0.3547
+Epoch: 416
+TRAIN Loss: 0.01726 | Accuracy: 0.9214 | Precision: 0.28868 | Recall: 0.97169 | Micro F1: 0.5983 | Illicit F1: 0.4451
+TEST Loss: 0.14195 | Accuracy: 0.8055 | Precision: 0.33160 | Recall: 0.41274 | Micro F1: 0.4009 | Illicit F1: 0.3677
+Epoch: 417
+TRAIN Loss: 0.01747 | Accuracy: 0.9206 | Precision: 0.28314 | Recall: 0.96938 | Micro F1: 0.6084 | Illicit F1: 0.4383
+TEST Loss: 0.13585 | Accuracy: 0.8078 | Precision: 0.30241 | Recall: 0.45152 | Micro F1: 0.4045 | Illicit F1: 0.3622
+Epoch: 418
+TRAIN Loss: 0.01732 | Accuracy: 0.9226 | Precision: 0.28242 | Recall: 0.97314 | Micro F1: 0.6043 | Illicit F1: 0.4378
+TEST Loss: 0.14023 | Accuracy: 0.8074 | Precision: 0.30896 | Recall: 0.44875 | Micro F1: 0.3989 | Illicit F1: 0.3660
+Epoch: 419
+TRAIN Loss: 0.01747 | Accuracy: 0.9213 | Precision: 0.28259 | Recall: 0.97169 | Micro F1: 0.5959 | Illicit F1: 0.4378
+TEST Loss: 0.14276 | Accuracy: 0.7952 | Precision: 0.30208 | Recall: 0.45522 | Micro F1: 0.4034 | Illicit F1: 0.3632
+Epoch: 420
+TRAIN Loss: 0.01738 | Accuracy: 0.9223 | Precision: 0.28111 | Recall: 0.96909 | Micro F1: 0.6079 | Illicit F1: 0.4358
+TEST Loss: 0.14716 | Accuracy: 0.7898 | Precision: 0.33357 | Recall: 0.42752 | Micro F1: 0.4498 | Illicit F1: 0.3747
+Epoch: 421
+TRAIN Loss: 0.01741 | Accuracy: 0.9224 | Precision: 0.28072 | Recall: 0.96678 | Micro F1: 0.5958 | Illicit F1: 0.4351
+TEST Loss: 0.14516 | Accuracy: 0.8038 | Precision: 0.33026 | Recall: 0.42936 | Micro F1: 0.4338 | Illicit F1: 0.3733
+Epoch: 422
+TRAIN Loss: 0.01723 | Accuracy: 0.9219 | Precision: 0.27974 | Recall: 0.97256 | Micro F1: 0.5954 | Illicit F1: 0.4345
+TEST Loss: 0.14483 | Accuracy: 0.8030 | Precision: 0.32972 | Recall: 0.42105 | Micro F1: 0.4063 | Illicit F1: 0.3698
+Epoch: 423
+TRAIN Loss: 0.01737 | Accuracy: 0.9220 | Precision: 0.27968 | Recall: 0.97371 | Micro F1: 0.6057 | Illicit F1: 0.4345
+TEST Loss: 0.14607 | Accuracy: 0.8011 | Precision: 0.33451 | Recall: 0.43860 | Micro F1: 0.4380 | Illicit F1: 0.3795
+Epoch: 424
+TRAIN Loss: 0.01724 | Accuracy: 0.9223 | Precision: 0.28534 | Recall: 0.97198 | Micro F1: 0.5966 | Illicit F1: 0.4412
+TEST Loss: 0.14426 | Accuracy: 0.8055 | Precision: 0.33123 | Recall: 0.43675 | Micro F1: 0.4492 | Illicit F1: 0.3767
+Epoch: 425
+TRAIN Loss: 0.01765 | Accuracy: 0.9216 | Precision: 0.27844 | Recall: 0.96996 | Micro F1: 0.6032 | Illicit F1: 0.4327
+TEST Loss: 0.14187 | Accuracy: 0.8060 | Precision: 0.31521 | Recall: 0.42290 | Micro F1: 0.4032 | Illicit F1: 0.3612
+Epoch: 426
+TRAIN Loss: 0.01744 | Accuracy: 0.9224 | Precision: 0.28197 | Recall: 0.96996 | Micro F1: 0.5958 | Illicit F1: 0.4369
+TEST Loss: 0.14563 | Accuracy: 0.8058 | Precision: 0.34241 | Recall: 0.40628 | Micro F1: 0.4031 | Illicit F1: 0.3716
+Epoch: 427
+TRAIN Loss: 0.01724 | Accuracy: 0.9223 | Precision: 0.28063 | Recall: 0.97314 | Micro F1: 0.6021 | Illicit F1: 0.4356
+TEST Loss: 0.15142 | Accuracy: 0.8004 | Precision: 0.34488 | Recall: 0.40443 | Micro F1: 0.3923 | Illicit F1: 0.3723
+Epoch: 428
+TRAIN Loss: 0.01746 | Accuracy: 0.9219 | Precision: 0.28532 | Recall: 0.97314 | Micro F1: 0.6010 | Illicit F1: 0.4413
+TEST Loss: 0.14333 | Accuracy: 0.8144 | Precision: 0.30616 | Recall: 0.44044 | Micro F1: 0.3699 | Illicit F1: 0.3612
+Epoch: 429
+TRAIN Loss: 0.01728 | Accuracy: 0.9231 | Precision: 0.27957 | Recall: 0.97025 | Micro F1: 0.6038 | Illicit F1: 0.4341
+TEST Loss: 0.14517 | Accuracy: 0.8011 | Precision: 0.31066 | Recall: 0.43860 | Micro F1: 0.4483 | Illicit F1: 0.3637
+Epoch: 430
+TRAIN Loss: 0.01711 | Accuracy: 0.9240 | Precision: 0.28750 | Recall: 0.97545 | Micro F1: 0.6061 | Illicit F1: 0.4441
+TEST Loss: 0.13913 | Accuracy: 0.8130 | Precision: 0.28895 | Recall: 0.47091 | Micro F1: 0.4070 | Illicit F1: 0.3581
+Epoch: 431
+TRAIN Loss: 0.01738 | Accuracy: 0.9234 | Precision: 0.28978 | Recall: 0.97111 | Micro F1: 0.6047 | Illicit F1: 0.4464
+TEST Loss: 0.14311 | Accuracy: 0.7998 | Precision: 0.32017 | Recall: 0.42659 | Micro F1: 0.4065 | Illicit F1: 0.3658
+Epoch: 432
+TRAIN Loss: 0.01738 | Accuracy: 0.9220 | Precision: 0.27521 | Recall: 0.97111 | Micro F1: 0.6036 | Illicit F1: 0.4289
+TEST Loss: 0.13998 | Accuracy: 0.8078 | Precision: 0.29107 | Recall: 0.46630 | Micro F1: 0.4180 | Illicit F1: 0.3584
+Epoch: 433
+TRAIN Loss: 0.01731 | Accuracy: 0.9223 | Precision: 0.28227 | Recall: 0.96765 | Micro F1: 0.6047 | Illicit F1: 0.4371
+TEST Loss: 0.13879 | Accuracy: 0.8121 | Precision: 0.29909 | Recall: 0.45429 | Micro F1: 0.4184 | Illicit F1: 0.3607
+Epoch: 434
+TRAIN Loss: 0.01756 | Accuracy: 0.9204 | Precision: 0.28155 | Recall: 0.96794 | Micro F1: 0.6050 | Illicit F1: 0.4362
+TEST Loss: 0.14298 | Accuracy: 0.8048 | Precision: 0.31217 | Recall: 0.43583 | Micro F1: 0.3997 | Illicit F1: 0.3638
+Epoch: 435
+TRAIN Loss: 0.01728 | Accuracy: 0.9217 | Precision: 0.28138 | Recall: 0.97314 | Micro F1: 0.6044 | Illicit F1: 0.4365
+TEST Loss: 0.14603 | Accuracy: 0.8052 | Precision: 0.33168 | Recall: 0.43213 | Micro F1: 0.4090 | Illicit F1: 0.3753
+Epoch: 436
+TRAIN Loss: 0.01720 | Accuracy: 0.9242 | Precision: 0.28021 | Recall: 0.97603 | Micro F1: 0.5970 | Illicit F1: 0.4354
+TEST Loss: 0.14626 | Accuracy: 0.8019 | Precision: 0.31639 | Recall: 0.43675 | Micro F1: 0.4267 | Illicit F1: 0.3670
+Epoch: 437
+TRAIN Loss: 0.01737 | Accuracy: 0.9216 | Precision: 0.28326 | Recall: 0.96505 | Micro F1: 0.6086 | Illicit F1: 0.4380
+TEST Loss: 0.14156 | Accuracy: 0.8037 | Precision: 0.30402 | Recall: 0.44044 | Micro F1: 0.3995 | Illicit F1: 0.3597
+Epoch: 438
+TRAIN Loss: 0.01725 | Accuracy: 0.9229 | Precision: 0.28446 | Recall: 0.97227 | Micro F1: 0.6113 | Illicit F1: 0.4401
+TEST Loss: 0.14145 | Accuracy: 0.8010 | Precision: 0.31327 | Recall: 0.44691 | Micro F1: 0.4412 | Illicit F1: 0.3683
+Epoch: 439
+TRAIN Loss: 0.01734 | Accuracy: 0.9223 | Precision: 0.27519 | Recall: 0.97343 | Micro F1: 0.5920 | Illicit F1: 0.4291
+TEST Loss: 0.14742 | Accuracy: 0.7994 | Precision: 0.31709 | Recall: 0.43860 | Micro F1: 0.4591 | Illicit F1: 0.3681
+Epoch: 440
+TRAIN Loss: 0.01736 | Accuracy: 0.9212 | Precision: 0.29035 | Recall: 0.96967 | Micro F1: 0.6119 | Illicit F1: 0.4469
+TEST Loss: 0.14304 | Accuracy: 0.8028 | Precision: 0.30927 | Recall: 0.44691 | Micro F1: 0.4041 | Illicit F1: 0.3656
+Epoch: 441
+TRAIN Loss: 0.01734 | Accuracy: 0.9223 | Precision: 0.28398 | Recall: 0.97111 | Micro F1: 0.6063 | Illicit F1: 0.4394
+TEST Loss: 0.14736 | Accuracy: 0.8003 | Precision: 0.29969 | Recall: 0.44968 | Micro F1: 0.4048 | Illicit F1: 0.3597
+Epoch: 442
+TRAIN Loss: 0.01727 | Accuracy: 0.9225 | Precision: 0.28340 | Recall: 0.97487 | Micro F1: 0.5946 | Illicit F1: 0.4391
+TEST Loss: 0.14908 | Accuracy: 0.8050 | Precision: 0.30673 | Recall: 0.42936 | Micro F1: 0.3902 | Illicit F1: 0.3578
+Epoch: 443
+TRAIN Loss: 0.01736 | Accuracy: 0.9212 | Precision: 0.28246 | Recall: 0.96592 | Micro F1: 0.6009 | Illicit F1: 0.4371
+TEST Loss: 0.14143 | Accuracy: 0.8069 | Precision: 0.28521 | Recall: 0.44875 | Micro F1: 0.4160 | Illicit F1: 0.3488
+Epoch: 444
+TRAIN Loss: 0.01745 | Accuracy: 0.9216 | Precision: 0.27858 | Recall: 0.97054 | Micro F1: 0.6079 | Illicit F1: 0.4329
+TEST Loss: 0.14082 | Accuracy: 0.8078 | Precision: 0.30130 | Recall: 0.44875 | Micro F1: 0.4213 | Illicit F1: 0.3605
+Epoch: 445
+TRAIN Loss: 0.01707 | Accuracy: 0.9226 | Precision: 0.28445 | Recall: 0.97140 | Micro F1: 0.6034 | Illicit F1: 0.4400
+TEST Loss: 0.13924 | Accuracy: 0.8117 | Precision: 0.29623 | Recall: 0.46445 | Micro F1: 0.4065 | Illicit F1: 0.3617
+Epoch: 446
+TRAIN Loss: 0.01705 | Accuracy: 0.9236 | Precision: 0.29096 | Recall: 0.97314 | Micro F1: 0.6061 | Illicit F1: 0.4480
+TEST Loss: 0.14474 | Accuracy: 0.8021 | Precision: 0.31641 | Recall: 0.44321 | Micro F1: 0.4352 | Illicit F1: 0.3692
+Epoch: 447
+TRAIN Loss: 0.01725 | Accuracy: 0.9224 | Precision: 0.28418 | Recall: 0.97083 | Micro F1: 0.6101 | Illicit F1: 0.4397
+TEST Loss: 0.14732 | Accuracy: 0.8023 | Precision: 0.32111 | Recall: 0.43675 | Micro F1: 0.4294 | Illicit F1: 0.3701
+Epoch: 448
+TRAIN Loss: 0.01729 | Accuracy: 0.9227 | Precision: 0.27969 | Recall: 0.96938 | Micro F1: 0.5986 | Illicit F1: 0.4341
+TEST Loss: 0.14648 | Accuracy: 0.8035 | Precision: 0.29593 | Recall: 0.44321 | Micro F1: 0.4131 | Illicit F1: 0.3549
+Epoch: 449
+TRAIN Loss: 0.01712 | Accuracy: 0.9224 | Precision: 0.28671 | Recall: 0.97111 | Micro F1: 0.6140 | Illicit F1: 0.4427
+TEST Loss: 0.15081 | Accuracy: 0.8000 | Precision: 0.32066 | Recall: 0.42844 | Micro F1: 0.4097 | Illicit F1: 0.3668
+Epoch: 450
+TRAIN Loss: 0.01713 | Accuracy: 0.9224 | Precision: 0.28255 | Recall: 0.97169 | Micro F1: 0.6062 | Illicit F1: 0.4378
+TEST Loss: 0.14210 | Accuracy: 0.8166 | Precision: 0.28539 | Recall: 0.46907 | Micro F1: 0.3962 | Illicit F1: 0.3549
+Epoch: 451
+TRAIN Loss: 0.01726 | Accuracy: 0.9231 | Precision: 0.28355 | Recall: 0.97227 | Micro F1: 0.5995 | Illicit F1: 0.4391
+TEST Loss: 0.14801 | Accuracy: 0.8091 | Precision: 0.31870 | Recall: 0.44229 | Micro F1: 0.4330 | Illicit F1: 0.3705
+Epoch: 452
+TRAIN Loss: 0.01708 | Accuracy: 0.9221 | Precision: 0.28523 | Recall: 0.97227 | Micro F1: 0.6110 | Illicit F1: 0.4411
+TEST Loss: 0.14821 | Accuracy: 0.7961 | Precision: 0.32412 | Recall: 0.44414 | Micro F1: 0.4590 | Illicit F1: 0.3748
+Epoch: 453
+TRAIN Loss: 0.01707 | Accuracy: 0.9233 | Precision: 0.28720 | Recall: 0.97516 | Micro F1: 0.5899 | Illicit F1: 0.4437
+TEST Loss: 0.15121 | Accuracy: 0.8086 | Precision: 0.34618 | Recall: 0.43121 | Micro F1: 0.4216 | Illicit F1: 0.3840
+Epoch: 454
+TRAIN Loss: 0.01715 | Accuracy: 0.9222 | Precision: 0.28973 | Recall: 0.96996 | Micro F1: 0.6097 | Illicit F1: 0.4462
+TEST Loss: 0.14797 | Accuracy: 0.8057 | Precision: 0.33674 | Recall: 0.42567 | Micro F1: 0.3960 | Illicit F1: 0.3760
+Epoch: 455
+TRAIN Loss: 0.01726 | Accuracy: 0.9215 | Precision: 0.28735 | Recall: 0.97111 | Micro F1: 0.6091 | Illicit F1: 0.4435
+TEST Loss: 0.14796 | Accuracy: 0.8092 | Precision: 0.32212 | Recall: 0.43306 | Micro F1: 0.3821 | Illicit F1: 0.3694
+Epoch: 456
+TRAIN Loss: 0.01709 | Accuracy: 0.9230 | Precision: 0.28353 | Recall: 0.97285 | Micro F1: 0.6057 | Illicit F1: 0.4391
+TEST Loss: 0.15298 | Accuracy: 0.8072 | Precision: 0.34563 | Recall: 0.42382 | Micro F1: 0.4173 | Illicit F1: 0.3808
+Epoch: 457
+TRAIN Loss: 0.01736 | Accuracy: 0.9229 | Precision: 0.28870 | Recall: 0.97285 | Micro F1: 0.5929 | Illicit F1: 0.4453
+TEST Loss: 0.14458 | Accuracy: 0.8114 | Precision: 0.31131 | Recall: 0.45245 | Micro F1: 0.4371 | Illicit F1: 0.3688
+Epoch: 458
+TRAIN Loss: 0.01727 | Accuracy: 0.9211 | Precision: 0.28760 | Recall: 0.96765 | Micro F1: 0.6097 | Illicit F1: 0.4434
+TEST Loss: 0.14501 | Accuracy: 0.8037 | Precision: 0.30889 | Recall: 0.43952 | Micro F1: 0.3947 | Illicit F1: 0.3628
+Epoch: 459
+TRAIN Loss: 0.01718 | Accuracy: 0.9229 | Precision: 0.28124 | Recall: 0.97371 | Micro F1: 0.6002 | Illicit F1: 0.4364
+TEST Loss: 0.14754 | Accuracy: 0.7972 | Precision: 0.29994 | Recall: 0.46999 | Micro F1: 0.4590 | Illicit F1: 0.3662
+Epoch: 460
+TRAIN Loss: 0.01710 | Accuracy: 0.9237 | Precision: 0.28620 | Recall: 0.97458 | Micro F1: 0.5967 | Illicit F1: 0.4425
+TEST Loss: 0.14621 | Accuracy: 0.8053 | Precision: 0.29621 | Recall: 0.46907 | Micro F1: 0.4362 | Illicit F1: 0.3631
+Epoch: 461
+TRAIN Loss: 0.01732 | Accuracy: 0.9215 | Precision: 0.28982 | Recall: 0.96649 | Micro F1: 0.6125 | Illicit F1: 0.4459
+TEST Loss: 0.14350 | Accuracy: 0.8062 | Precision: 0.29443 | Recall: 0.46814 | Micro F1: 0.4271 | Illicit F1: 0.3615
+Epoch: 462
+TRAIN Loss: 0.01731 | Accuracy: 0.9225 | Precision: 0.28497 | Recall: 0.96620 | Micro F1: 0.6094 | Illicit F1: 0.4401
+TEST Loss: 0.15017 | Accuracy: 0.8069 | Precision: 0.32269 | Recall: 0.45706 | Micro F1: 0.4270 | Illicit F1: 0.3783
+Epoch: 463
+TRAIN Loss: 0.01721 | Accuracy: 0.9227 | Precision: 0.28448 | Recall: 0.97400 | Micro F1: 0.6023 | Illicit F1: 0.4404
+TEST Loss: 0.14952 | Accuracy: 0.8019 | Precision: 0.31451 | Recall: 0.44229 | Micro F1: 0.4496 | Illicit F1: 0.3676
+Epoch: 464
+TRAIN Loss: 0.01700 | Accuracy: 0.9237 | Precision: 0.28807 | Recall: 0.97487 | Micro F1: 0.5994 | Illicit F1: 0.4447
+TEST Loss: 0.15421 | Accuracy: 0.8073 | Precision: 0.32924 | Recall: 0.44598 | Micro F1: 0.4307 | Illicit F1: 0.3788
+Epoch: 465
+TRAIN Loss: 0.01722 | Accuracy: 0.9228 | Precision: 0.28875 | Recall: 0.97285 | Micro F1: 0.6095 | Illicit F1: 0.4453
+TEST Loss: 0.15067 | Accuracy: 0.8053 | Precision: 0.32887 | Recall: 0.43121 | Micro F1: 0.4142 | Illicit F1: 0.3732
+Epoch: 466
+TRAIN Loss: 0.01718 | Accuracy: 0.9217 | Precision: 0.28424 | Recall: 0.97111 | Micro F1: 0.6132 | Illicit F1: 0.4398
+TEST Loss: 0.14892 | Accuracy: 0.8008 | Precision: 0.29422 | Recall: 0.46999 | Micro F1: 0.4283 | Illicit F1: 0.3619
+Epoch: 467
+TRAIN Loss: 0.01715 | Accuracy: 0.9236 | Precision: 0.28667 | Recall: 0.97314 | Micro F1: 0.5881 | Illicit F1: 0.4429
+TEST Loss: 0.15511 | Accuracy: 0.8106 | Precision: 0.33768 | Recall: 0.40628 | Micro F1: 0.3892 | Illicit F1: 0.3688
+Epoch: 468
+TRAIN Loss: 0.01707 | Accuracy: 0.9222 | Precision: 0.28638 | Recall: 0.97140 | Micro F1: 0.6149 | Illicit F1: 0.4424
+TEST Loss: 0.14908 | Accuracy: 0.8039 | Precision: 0.29203 | Recall: 0.46999 | Micro F1: 0.4180 | Illicit F1: 0.3602
+Epoch: 469
+TRAIN Loss: 0.01728 | Accuracy: 0.9229 | Precision: 0.29450 | Recall: 0.97054 | Micro F1: 0.5964 | Illicit F1: 0.4519
+TEST Loss: 0.15214 | Accuracy: 0.8027 | Precision: 0.30677 | Recall: 0.44783 | Micro F1: 0.4052 | Illicit F1: 0.3641
+Epoch: 470
+TRAIN Loss: 0.01723 | Accuracy: 0.9215 | Precision: 0.28615 | Recall: 0.97285 | Micro F1: 0.6120 | Illicit F1: 0.4422
+TEST Loss: 0.15311 | Accuracy: 0.8033 | Precision: 0.32003 | Recall: 0.42936 | Micro F1: 0.4244 | Illicit F1: 0.3667
+Epoch: 471
+TRAIN Loss: 0.01731 | Accuracy: 0.9215 | Precision: 0.28541 | Recall: 0.96909 | Micro F1: 0.5884 | Illicit F1: 0.4410
+TEST Loss: 0.14927 | Accuracy: 0.7976 | Precision: 0.28158 | Recall: 0.46722 | Micro F1: 0.4568 | Illicit F1: 0.3514
+Epoch: 472
+TRAIN Loss: 0.01728 | Accuracy: 0.9227 | Precision: 0.28697 | Recall: 0.97314 | Micro F1: 0.6098 | Illicit F1: 0.4432
+TEST Loss: 0.15631 | Accuracy: 0.8115 | Precision: 0.33683 | Recall: 0.41551 | Micro F1: 0.3679 | Illicit F1: 0.3721
+Epoch: 473
+TRAIN Loss: 0.01717 | Accuracy: 0.9236 | Precision: 0.28209 | Recall: 0.97256 | Micro F1: 0.6064 | Illicit F1: 0.4373
+TEST Loss: 0.14923 | Accuracy: 0.8089 | Precision: 0.30910 | Recall: 0.43583 | Micro F1: 0.4041 | Illicit F1: 0.3617
+Epoch: 474
+TRAIN Loss: 0.01724 | Accuracy: 0.9224 | Precision: 0.29154 | Recall: 0.96852 | Micro F1: 0.6095 | Illicit F1: 0.4482
+TEST Loss: 0.15705 | Accuracy: 0.7919 | Precision: 0.35308 | Recall: 0.42382 | Micro F1: 0.4733 | Illicit F1: 0.3852
+Epoch: 475
+TRAIN Loss: 0.01708 | Accuracy: 0.9233 | Precision: 0.28315 | Recall: 0.97343 | Micro F1: 0.5987 | Illicit F1: 0.4387
+TEST Loss: 0.15636 | Accuracy: 0.7994 | Precision: 0.33096 | Recall: 0.42844 | Micro F1: 0.4297 | Illicit F1: 0.3734
+Epoch: 476
+TRAIN Loss: 0.01702 | Accuracy: 0.9238 | Precision: 0.28785 | Recall: 0.97256 | Micro F1: 0.6066 | Illicit F1: 0.4442
+TEST Loss: 0.15766 | Accuracy: 0.8011 | Precision: 0.33499 | Recall: 0.43583 | Micro F1: 0.4546 | Illicit F1: 0.3788
+Epoch: 477
+TRAIN Loss: 0.01697 | Accuracy: 0.9239 | Precision: 0.28364 | Recall: 0.97660 | Micro F1: 0.6051 | Illicit F1: 0.4396
+TEST Loss: 0.15615 | Accuracy: 0.8008 | Precision: 0.33172 | Recall: 0.44321 | Micro F1: 0.4442 | Illicit F1: 0.3794
+Epoch: 478
+TRAIN Loss: 0.01704 | Accuracy: 0.9230 | Precision: 0.28764 | Recall: 0.97227 | Micro F1: 0.6081 | Illicit F1: 0.4439
+TEST Loss: 0.15557 | Accuracy: 0.8020 | Precision: 0.31534 | Recall: 0.44229 | Micro F1: 0.4046 | Illicit F1: 0.3682
+Epoch: 479
+TRAIN Loss: 0.01709 | Accuracy: 0.9242 | Precision: 0.28851 | Recall: 0.97111 | Micro F1: 0.6149 | Illicit F1: 0.4449
+TEST Loss: 0.15186 | Accuracy: 0.7947 | Precision: 0.28912 | Recall: 0.48107 | Micro F1: 0.4820 | Illicit F1: 0.3612
+Epoch: 480
+TRAIN Loss: 0.01702 | Accuracy: 0.9234 | Precision: 0.28451 | Recall: 0.97631 | Micro F1: 0.6027 | Illicit F1: 0.4406
+TEST Loss: 0.15699 | Accuracy: 0.8033 | Precision: 0.33263 | Recall: 0.43583 | Micro F1: 0.3905 | Illicit F1: 0.3773
+Epoch: 481
+TRAIN Loss: 0.01723 | Accuracy: 0.9214 | Precision: 0.28243 | Recall: 0.97227 | Micro F1: 0.6082 | Illicit F1: 0.4377
+TEST Loss: 0.15117 | Accuracy: 0.8072 | Precision: 0.30774 | Recall: 0.45152 | Micro F1: 0.3969 | Illicit F1: 0.3660
+Epoch: 482
+TRAIN Loss: 0.01715 | Accuracy: 0.9237 | Precision: 0.28403 | Recall: 0.97516 | Micro F1: 0.6016 | Illicit F1: 0.4399
+TEST Loss: 0.16139 | Accuracy: 0.7980 | Precision: 0.34411 | Recall: 0.41274 | Micro F1: 0.4241 | Illicit F1: 0.3753
+Epoch: 483
+TRAIN Loss: 0.01698 | Accuracy: 0.9231 | Precision: 0.28462 | Recall: 0.97314 | Micro F1: 0.6075 | Illicit F1: 0.4404
+TEST Loss: 0.16203 | Accuracy: 0.8089 | Precision: 0.36235 | Recall: 0.40351 | Micro F1: 0.3892 | Illicit F1: 0.3818
+Epoch: 484
+TRAIN Loss: 0.01698 | Accuracy: 0.9239 | Precision: 0.29233 | Recall: 0.97545 | Micro F1: 0.6053 | Illicit F1: 0.4498
+TEST Loss: 0.15548 | Accuracy: 0.7985 | Precision: 0.32239 | Recall: 0.44414 | Micro F1: 0.4447 | Illicit F1: 0.3736
+Epoch: 485
+TRAIN Loss: 0.01691 | Accuracy: 0.9242 | Precision: 0.28701 | Recall: 0.96765 | Micro F1: 0.6052 | Illicit F1: 0.4427
+TEST Loss: 0.15267 | Accuracy: 0.8055 | Precision: 0.30314 | Recall: 0.46353 | Micro F1: 0.4280 | Illicit F1: 0.3666
+Epoch: 486
+TRAIN Loss: 0.01691 | Accuracy: 0.9237 | Precision: 0.29345 | Recall: 0.97689 | Micro F1: 0.6150 | Illicit F1: 0.4513
+TEST Loss: 0.16529 | Accuracy: 0.7997 | Precision: 0.36557 | Recall: 0.41182 | Micro F1: 0.4118 | Illicit F1: 0.3873
+Epoch: 487
+TRAIN Loss: 0.01691 | Accuracy: 0.9239 | Precision: 0.28842 | Recall: 0.97689 | Micro F1: 0.6090 | Illicit F1: 0.4454
+TEST Loss: 0.16212 | Accuracy: 0.7929 | Precision: 0.33717 | Recall: 0.43306 | Micro F1: 0.4542 | Illicit F1: 0.3791
+Epoch: 488
+TRAIN Loss: 0.01698 | Accuracy: 0.9243 | Precision: 0.29068 | Recall: 0.97256 | Micro F1: 0.6064 | Illicit F1: 0.4476
+TEST Loss: 0.15892 | Accuracy: 0.8015 | Precision: 0.32425 | Recall: 0.45060 | Micro F1: 0.4260 | Illicit F1: 0.3771
+Epoch: 489
+TRAIN Loss: 0.01704 | Accuracy: 0.9238 | Precision: 0.29134 | Recall: 0.97054 | Micro F1: 0.6068 | Illicit F1: 0.4481
+TEST Loss: 0.16547 | Accuracy: 0.7903 | Precision: 0.33599 | Recall: 0.42752 | Micro F1: 0.4553 | Illicit F1: 0.3763
+Epoch: 490
+TRAIN Loss: 0.01708 | Accuracy: 0.9231 | Precision: 0.29312 | Recall: 0.97140 | Micro F1: 0.6104 | Illicit F1: 0.4504
+TEST Loss: 0.15911 | Accuracy: 0.7949 | Precision: 0.30989 | Recall: 0.45152 | Micro F1: 0.4176 | Illicit F1: 0.3675
+Epoch: 491
+TRAIN Loss: 0.01700 | Accuracy: 0.9223 | Precision: 0.29077 | Recall: 0.97227 | Micro F1: 0.6116 | Illicit F1: 0.4477
+TEST Loss: 0.16014 | Accuracy: 0.8072 | Precision: 0.32703 | Recall: 0.44691 | Micro F1: 0.3961 | Illicit F1: 0.3777
+Epoch: 492
+TRAIN Loss: 0.01708 | Accuracy: 0.9247 | Precision: 0.28754 | Recall: 0.97631 | Micro F1: 0.5961 | Illicit F1: 0.4442
+TEST Loss: 0.16104 | Accuracy: 0.7913 | Precision: 0.31862 | Recall: 0.45983 | Micro F1: 0.4666 | Illicit F1: 0.3764
+Epoch: 493
+TRAIN Loss: 0.01703 | Accuracy: 0.9231 | Precision: 0.28942 | Recall: 0.96967 | Micro F1: 0.6119 | Illicit F1: 0.4458
+TEST Loss: 0.15535 | Accuracy: 0.8044 | Precision: 0.31995 | Recall: 0.44875 | Micro F1: 0.3967 | Illicit F1: 0.3736
+Epoch: 494
+TRAIN Loss: 0.01725 | Accuracy: 0.9206 | Precision: 0.27717 | Recall: 0.97314 | Micro F1: 0.6009 | Illicit F1: 0.4315
+TEST Loss: 0.15975 | Accuracy: 0.8091 | Precision: 0.31597 | Recall: 0.42567 | Micro F1: 0.3818 | Illicit F1: 0.3627
+Epoch: 495
+TRAIN Loss: 0.01707 | Accuracy: 0.9242 | Precision: 0.29446 | Recall: 0.97371 | Micro F1: 0.6090 | Illicit F1: 0.4522
+TEST Loss: 0.16058 | Accuracy: 0.8031 | Precision: 0.34186 | Recall: 0.43213 | Micro F1: 0.4046 | Illicit F1: 0.3817
+Epoch: 496
+TRAIN Loss: 0.01682 | Accuracy: 0.9243 | Precision: 0.29220 | Recall: 0.97343 | Micro F1: 0.6023 | Illicit F1: 0.4495
+TEST Loss: 0.15902 | Accuracy: 0.7873 | Precision: 0.31478 | Recall: 0.45429 | Micro F1: 0.4614 | Illicit F1: 0.3719
+Epoch: 497
+TRAIN Loss: 0.01708 | Accuracy: 0.9227 | Precision: 0.28820 | Recall: 0.97140 | Micro F1: 0.6021 | Illicit F1: 0.4445
+TEST Loss: 0.15707 | Accuracy: 0.7962 | Precision: 0.31603 | Recall: 0.45522 | Micro F1: 0.4435 | Illicit F1: 0.3731
+Epoch: 498
+TRAIN Loss: 0.01697 | Accuracy: 0.9226 | Precision: 0.29371 | Recall: 0.97054 | Micro F1: 0.6073 | Illicit F1: 0.4509
+TEST Loss: 0.16263 | Accuracy: 0.7969 | Precision: 0.33507 | Recall: 0.41459 | Micro F1: 0.4233 | Illicit F1: 0.3706
+Epoch: 499
+TRAIN Loss: 0.01696 | Accuracy: 0.9237 | Precision: 0.29568 | Recall: 0.97314 | Micro F1: 0.6218 | Illicit F1: 0.4536
+TEST Loss: 0.15536 | Accuracy: 0.8023 | Precision: 0.29771 | Recall: 0.46814 | Micro F1: 0.4284 | Illicit F1: 0.3640

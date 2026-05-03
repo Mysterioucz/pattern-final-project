@@ -1,0 +1,6 @@
+[submodule "reference/GCN-on-EllipticDataSet"]
+	path = reference/GCN-on-EllipticDataSet
+	url = git@github.com:yeungchenwa/GCN-on-EllipticDataSet.git
+[submodule "reference/GCN_Elliptic_dataset"]
+	path = reference/GCN_Elliptic_dataset
+	url = git@github.com:JungWoo-Chae/GCN_Elliptic_dataset.git
