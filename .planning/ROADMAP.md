@@ -27,7 +27,7 @@ Modularizing an existing GCN-based Bitcoin fraud detection notebook into a maint
 
 Plans:
 
-- [ ] 01-01: Set up folder structure and implement data downloader.
+- [x] 01-01: Set up folder structure and implement data downloader.
 - [ ] 01-02: Implement data preprocessing and graph construction modules.
 - [ ] 01-03: Implement PyTorch Geometric data loaders and split logic.
 
@@ -86,7 +86,7 @@ Plans:
 
 | Phase                      | Plans Complete | Status      | Completed |
 | -------------------------- | -------------- | ----------- | --------- |
-| 1. Infrastructure          | 0/3            | Not started | -         |
+| 1. Infrastructure          | 1/3            | In Progress | -         |
 | 2. Model Implementation    | 0/2            | Not started | -         |
 | 3. Training & Distillation | 0/3            | Not started | -         |
 | 4. Evaluation              | 0/1            | Not started | -         |

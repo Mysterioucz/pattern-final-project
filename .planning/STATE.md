@@ -10,30 +10,30 @@ See: .planning/PROJECT.md (updated 2026-05-03)
 ## Current Position
 
 Phase: 1 of 4 (Infrastructure & Modularization)
-Plan: 0 of 3 in current phase
-Status: Context Gathered - Ready to Plan
-Last activity: 2026-05-03 — Phase 1 context gathered; decisions made on modular structure, auth, and data handling.
+Plan: 1 of 3 in current phase
+Status: In Progress
+Last activity: 2026-05-03 — Plan 01-01 complete: directory structure, .env.example, and Kaggle downloader implemented.
 
-Progress: [░░░░░░░░░░] 0%
+Progress: [█░░░░░░░░░] 8%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 0
-- Average duration: 0 min
-- Total execution time: 0.0 hours
+- Total plans completed: 1
+- Average duration: 2 min
+- Total execution time: 0.03 hours
 
 **By Phase:**
 
 | Phase | Plans | Total | Avg/Plan |
 |-------|-------|-------|----------|
-| 1 | 0 | 0 | 0 |
+| 1 | 1 | 2 min | 2 min |
 | 2 | 0 | 0 | 0 |
 | 3 | 0 | 0 | 0 |
 | 4 | 0 | 0 | 0 |
 
 **Recent Trend:**
-- Last 5 plans: []
+- Last 5 plans: [01-01: 2min]
 - Trend: N/A
 
 ## Accumulated Context
@@ -42,6 +42,8 @@ Progress: [░░░░░░░░░░] 0%
 Decisions are logged in PROJECT.md Key Decisions table.
 Recent decisions affecting current work:
 - [Phase 1]: Implement lean modular structure in `projects/src/` as requested.
+- [01-01]: Credentials isolated to projects/.env (not global ~/.kaggle/kaggle.json) per D-03/D-04.
+- [01-01]: Downloader checks for existing files and exits gracefully to avoid redundant API calls.
 
 ### Pending Todos
 None yet.
@@ -51,6 +53,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-05-03 15:25
-Stopped at: Finished project initialization and created ROADMAP.md, REQUIREMENTS.md, and STATE.md.
+Last session: 2026-05-03 08:52
+Stopped at: Completed 01-01-PLAN.md (Structure & Downloader). Ready for 01-02-PLAN.md.
 Resume file: None
