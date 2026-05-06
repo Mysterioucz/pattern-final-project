@@ -25,13 +25,23 @@ By implementing Knowledge Distillation (KD), we can deploy more efficient models
 - [ ] Deploying as a real-time API (initially focus on training and evaluation)
 - [ ] Support for other GNN architectures (e.g., GAT, GraphSAGE) unless needed for distillation comparison
 
+## Current State
+- **v1.0 (Shipped 2026-05-06)**: Modularized GCN framework with Knowledge Distillation (Teacher -> Student). 
+- **Baseline Performance**: Achieved illicit detection parity with notebook implementation.
+- **Model Compression**: Student GCN (8 hidden units) successfully distilled from Teacher (64 units).
+
+## Next Milestone Goals (v1.1/v2.0)
+- Support for temporal GNNs (EvolveGCN) as potential teachers.
+- Implementation of feature-based KD (beyond just logit distillation).
+- Interactive evaluation dashboard for metric visualization.
+
 ## Key Decisions
 
 | Decision | Rationale | Outcome |
 |----------|-----------|---------|
-| Modular Structure | Lean files in `projects/src/` for better maintainability | Pending |
-| Knowledge Distillation | Use KD to compress the GCN model for efficiency | Pending |
-| Dataset Handling | Store raw data in `projects/data/` | Pending |
+| Modular Structure | Lean files in `projects/src/` for better maintainability | Validated (v1.0) |
+| Knowledge Distillation | Use KD to compress the GCN model for efficiency | Validated (v1.0) |
+| Dataset Handling | Store raw data in `projects/data/` | Validated (v1.0) |
 
 ## Evolution
 This document evolves at phase transitions and milestone boundaries.
@@ -50,4 +60,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current state
 
 ---
-*Last updated: 2026-05-03 after initialization*
+*Last updated: 2026-05-06 after v1.0 completion*
