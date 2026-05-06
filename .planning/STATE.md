@@ -37,6 +37,9 @@ Recent decisions affecting current work:
 - [v1.0]: Use static graph for baseline KD (teacher logits as soft labels).
 - [v1.0]: Implement student as a significantly smaller GCN (1 layer, 8 hidden) to test compression limits.
 
+### Roadmap Evolution
+- Phase 7 added: Oversampling for GCN-Skip (ENN, Edge Pruning, Cluster Centroid, NearMiss-1, NearMiss-2)
+
 ### Pending Todos
 - [ ] Run `/gsd-new-milestone` to define requirements for v1.1.
 
@@ -45,6 +48,6 @@ Recent decisions affecting current work:
 
 ## Session Continuity
 
-Last session: 2026-05-06 11:45
-Stopped at: Milestone v1.0 archived.
-Resume file: None
+Last session: 2026-05-06
+Stopped at: Phase 7 context gathered
+Resume file: .planning/phases/07-oversampling-gcn-skip/07-CONTEXT.md
