@@ -22,3 +22,15 @@ Modularizing an existing GCN-based Bitcoin fraud detection notebook into a maint
 |-----------|--------|-----------|
 | v1.0      | Shipped| 2026-05-06|
 | v1.1      | Pending| -         |
+
+### Phase 1: GCN Embedding and classical classifiers (RF/XGBoost) using notebook reference
+
+**Goal:** Working notebook-parity pipeline that extracts GCN embeddings and trains/evaluates RF + XGBoost classifiers with illicit-F1 reporting.
+**Requirements**: [P1-EMB-01, P1-CLF-02, P1-EVAL-03, P1-XGB-04]
+**Depends on:** Phase 0
+**Plans:** 3 plans
+
+Plans:
+- [ ] 01-01-PLAN.md — Add XGBoost dependency and Phase 1 contract tests (Wave 1)
+- [ ] 01-02-PLAN.md — Implement reusable embedding/classifier pipeline utilities (Wave 2)
+- [ ] 01-03-PLAN.md — Implement executable training script + smoke verification (Wave 3)
