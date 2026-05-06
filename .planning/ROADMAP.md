@@ -13,7 +13,7 @@ Modularizing an existing GCN-based Bitcoin fraud detection notebook into a maint
   - **Goal:** Working per-timestep sampling ablation study with GCN(use_skip=True) producing `projects/results/sampling_comparison.csv` with Illicit F1 per method.
   - **Plans:** 3 plans
   - Plans:
-    - [ ] 07-00-PLAN.md — pytest infrastructure, tests/test_sampler.py stubs (Wave 0)
+    - [x] 07-00-PLAN.md — pytest infrastructure, tests/test_sampler.py stubs (Wave 0)
     - [ ] 07-01-PLAN.md — Implement projects/src/data/sampler.py with all 5 methods (Wave 1)
     - [ ] 07-02-PLAN.md — Implement projects/src/train_gcn_skip.py, CSV output, full ablation (Wave 2)
 
